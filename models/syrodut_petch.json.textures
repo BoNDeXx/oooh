@@ -2,12 +2,21 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "syrodut_main",
-        "1": "syrodut_dirka",
+        "0": "syrodut_dirka",
+        "1": "syrodut_main",
         "5": "syrodut_top",
         "missing": "syrodut_main"
       },
       "name": "default"
+    },
+    "kal": {
+      "map": {
+        "0": "syrodut_main",
+        "1": "syrodut_main",
+        "5": "syrodut_top",
+        "missing": "syrodut_main"
+      },
+      "name": "kal"
     }
   }
 }

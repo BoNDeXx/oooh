@@ -16,12 +16,22 @@
       "locked_code": false,
       "registry_name": "krica",
       "path": "~/Items/Materials"
+    },
+    {
+      "name": "Syrodut",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syrodut",
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.zweihander_test.syrodut": "Rennofen",
       "item.zweihander_test.krica": "Krica",
       "itemGroup.tabtest": "Test"
     }

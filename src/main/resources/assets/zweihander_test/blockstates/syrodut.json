@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zweihander_test:block/syrodut"
+    },
+    "facing=east": {
+      "model": "zweihander_test:block/syrodut",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zweihander_test:block/syrodut",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zweihander_test:block/syrodut",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "zweihander_test:block/syrodut",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "zweihander_test:block/syrodut",
+      "x": 90
+    }
+  }
+}

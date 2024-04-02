@@ -1,0 +1,11 @@
+{
+  "parent": "zweihander_test:custom/syrodut_petch",
+  "textures": {
+    "all": "zweihander_test:blocks/syrodut_main",
+    "particle": "zweihander_test:blocks/syrodut_main",
+    "0": "zweihander_test:blocks/syrodut_dirka",
+    "1": "zweihander_test:blocks/syrodut_main",
+    "5": "zweihander_test:blocks/syrodut_top",
+    "missing": "zweihander_test:blocks/syrodut_main"
+  }
+}
