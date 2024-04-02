@@ -7,12 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test"
+    },
+    {
+      "name": "Krica",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica",
+      "path": "~/Items/Materials"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.zweihander_test.krica": "Krica",
       "itemGroup.tabtest": "Test"
     }
   },
@@ -40,6 +50,10 @@
           },
           {
             "name": "Armors",
+            "children": []
+          },
+          {
+            "name": "Materials",
             "children": []
           }
         ]
