@@ -9,8 +9,29 @@
     "name": "~",
     "children": [
       {
-        "name": "Blocks",
-        "children": []
+        "name": "Items",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Armors",
+            "children": []
+          }
+        ]
       }
     ]
   },
