@@ -7,22 +7,29 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "zweihander_test",
     "modName": "zweihander_test",
-    "version": "1.0.0",
-    "author": "User, MCreator",
+    "version": "0.0.1",
+    "description": "FOR ERIKUNI BECOUSE MCREATOR IS SHIT!!",
+    "author": "BoNDeX, FGR_UNN",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
-    "serverSideOnly": false,
+    "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zweihandertest",
     "lockBaseModFiles": false
   },
