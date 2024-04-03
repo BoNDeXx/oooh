@@ -151,11 +151,7 @@
           }
         ]
       },
-<<<<<<< HEAD
       "path": "~/Items/Blocks"
-=======
-      "path": "~/Items/Materials"
->>>>>>> parent of af06a3b (helmet)
     }
   ],
   "variable_elements": [],
@@ -171,26 +167,17 @@
   ],
   "language_map": {
     "ru_ru": {
-<<<<<<< HEAD
-=======
-      "item.zweihander_test.pebble": "Камушек",
-      "subtitles.stone_stone_udar": "",
->>>>>>> parent of af06a3b (helmet)
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Крица",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "block.zweihander_test.land_rock": "Land Rock",
-<<<<<<< HEAD
       "subtitles.carve_pebble_sound": "",
-=======
->>>>>>> parent of af06a3b (helmet)
       "item.zweihander_test.chugunok": "Чугунок",
       "item.zweihander_test.schicht": "Шихта",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
     },
     "en_us": {
-<<<<<<< HEAD
       "block.zweihander_test.syrodut": "Rennofen",
       "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Krica",
@@ -198,16 +185,6 @@
       "block.zweihander_test.land_rock": "Land Rock",
       "subtitles.carve_pebble_sound": "",
       "item.zweihander_test.chugunok": "Chugunok",
-=======
-      "item.zweihander_test.pebble": "Pebble",
-      "subtitles.stone_stone_udar": "",
-      "block.zweihander_test.syrodut": "Rennofen",
-      "itemGroup.tabequipment": "Equipment",
-      "item.zweihander_test.krica": "Сritz",
-      "item.zweihander_test.coal_dust": "Сharcoal Dust",
-      "block.zweihander_test.land_rock": "Land Rock",
-      "item.zweihander_test.chugunok": "Cast iron",
->>>>>>> parent of af06a3b (helmet)
       "item.zweihander_test.schicht": "Schicht",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
     }

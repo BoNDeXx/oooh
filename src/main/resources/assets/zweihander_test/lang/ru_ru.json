@@ -1,10 +1,17 @@
 {
-  "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
-  "itemGroup.tabequipment": "Equipment",
+  "subtitles.helmet_sound1": "",
+  "item.zweihander_test.norman_helmet_helmet": "Norman Helmet ",
   "item.zweihander_test.krica": "Крица",
   "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
   "block.zweihander_test.land_rock": "Land Rock",
+  "item.zweihander_test.norman_helmet_leggings": "Norman Helmet Leggings",
   "item.zweihander_test.chugunok": "Чугунок",
-  "item.zweihander_test.schicht": "Шихта",
-  "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
+  "item.zweihander_test.norman_helmet_chestplate": "Norman Body",
+  "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
+  "item.zweihander_test.pebble": "Камушек",
+  "subtitles.stone_stone_udar": "",
+  "itemGroup.tabequipment": "Equipment",
+  "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+  "item.zweihander_test.norman_helmet_boots": "Norman Helmet Boots",
+  "item.zweihander_test.schicht": "Шихта"
 }
