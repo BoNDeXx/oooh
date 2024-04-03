@@ -26,17 +26,18 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.NonNullList;
+import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
-import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
-import net.minecraft.state.EnumProperty;
+import net.minecraft.state.DirectionProperty;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.loot.LootContext;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
@@ -48,11 +49,13 @@ import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
+import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -97,13 +100,20 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 	}
 
 	public static class CustomBlock extends FallingBlock {
-		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.CLAY).sound(SoundType.NETHER_BRICK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("syrodut");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("ZweihanderRP"));
 		}
 
 		@Override
@@ -119,21 +129,39 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction.Axis) state.get(AXIS)) {
-				case X :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 32, 16, 16), makeCuboidShape(0, 0, 0, 16, 16, 16)
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 16, 0, 32, 0), makeCuboidShape(16, 0, 16, 0, 16, 0)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
-				case Y :
-				default :
+				case NORTH :
 					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 32, 16), makeCuboidShape(0, 0, 0, 16, 16, 16)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
-				case Z :
+				case EAST :
+					return VoxelShapes.or(makeCuboidShape(16, 0, 0, 0, 32, 16), makeCuboidShape(16, 0, 0, 0, 16, 16)
+
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case WEST :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 32, 0), makeCuboidShape(0, 0, 16, 16, 16, 0)
+
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case UP :
+					return VoxelShapes.or(makeCuboidShape(0, 16, 0, 16, 0, 32), makeCuboidShape(0, 16, 0, 16, 0, 16)
+
+					)
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case DOWN :
 					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 16, -16), makeCuboidShape(0, 0, 16, 16, 16, 0)
 
 					)
@@ -144,25 +172,21 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(AXIS);
+			builder.add(FACING);
 		}
 
-		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
-			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
-				if ((Direction.Axis) state.get(AXIS) == Direction.Axis.X) {
-					return state.with(AXIS, Direction.Axis.Z);
-				} else if ((Direction.Axis) state.get(AXIS) == Direction.Axis.Z) {
-					return state.with(AXIS, Direction.Axis.X);
-				}
-			}
-			return state;
+			return state.with(FACING, rot.rotate(state.get(FACING)));
+		}
+
+		public BlockState mirror(BlockState state, Mirror mirrorIn) {
+			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			Direction.Axis axis = context.getFace().getAxis();;
-			return this.getDefaultState().with(AXIS, axis);
+			Direction facing = context.getFace();;
+			return this.getDefaultState().with(FACING, facing);
 		}
 
 		@Override
@@ -170,7 +194,7 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Items.CLAY_BALL, (int) (3)));
 		}
 
 		@Override

@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "syrodut_petch_new:default",
-    "rotationMode": 5,
+    "rotationMode": 4,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -42,7 +42,9 @@
       }
     ],
     "name": "Rennofen",
-    "specialInfo": [],
+    "specialInfo": [
+      "ZweihanderRP"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": true,
@@ -52,9 +54,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Items.CLAY_BALL"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
