@@ -1,5 +1,5 @@
 {
-  "parent": "zweihander_test:custom/syrodut_petch_novachka",
+  "parent": "zweihander_test:custom/syrodut_petch_pisunchik",
   "textures": {
     "all": "zweihander_test:blocks/syrodut_main",
     "particle": "zweihander_test:blocks/syrodut_main",

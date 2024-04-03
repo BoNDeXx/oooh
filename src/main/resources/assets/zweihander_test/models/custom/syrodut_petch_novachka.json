@@ -1,0 +1,1126 @@
+{
+  "credit": "Designed by Sixfootblue with Cubik Studio - https://cubik.studio",
+  "elements": [
+    {
+      "name": "verkh",
+      "from": [
+        1,
+        16,
+        1
+      ],
+      "to": [
+        15,
+        28,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          14,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#9"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            2.5,
+            6,
+            4.75
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "name": "puzo",
+      "from": [
+        0,
+        5,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#8"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "niz_bok_levo",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        3,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10,
+            3,
+            16
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            12,
+            0,
+            16,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            10,
+            3,
+            16
+          ],
+          "texture": "#8"
+        },
+        "west": {
+          "uv": [
+            0,
+            10,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_2",
+      "from": [
+        12,
+        0,
+        0
+      ],
+      "to": [
+        13,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10,
+            1,
+            16
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_3",
+      "from": [
+        3,
+        0,
+        0
+      ],
+      "to": [
+        4,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10,
+            1,
+            16
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_3",
+      "from": [
+        11,
+        1,
+        1
+      ],
+      "to": [
+        12,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_4",
+      "from": [
+        4,
+        1,
+        1
+      ],
+      "to": [
+        5,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_4",
+      "from": [
+        10,
+        3,
+        1
+      ],
+      "to": [
+        11,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6,
+            1,
+            8
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            10,
+            2,
+            12,
+            4
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_5",
+      "from": [
+        5,
+        3,
+        1
+      ],
+      "to": [
+        6,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6,
+            1,
+            8
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            4
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            10,
+            2,
+            12,
+            4
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_5",
+      "from": [
+        9,
+        4,
+        1
+      ],
+      "to": [
+        10,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus_guba_6",
+      "from": [
+        6,
+        4,
+        1
+      ],
+      "to": [
+        7,
+        5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": "#8"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "niz_bok_pravo",
+      "from": [
+        13,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            11,
+            3,
+            16
+          ],
+          "texture": "#8"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            16,
+            16
+          ],
+          "texture": "#8"
+        },
+        "south": {
+          "uv": [
+            0,
+            9,
+            3,
+            16
+          ],
+          "texture": "#8"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            7
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            16
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "niz_zhopa",
+      "from": [
+        3,
+        0,
+        13
+      ],
+      "to": [
+        13,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            10,
+            11,
+            16
+          ],
+          "texture": "#8"
+        },
+        "west": {
+          "uv": [
+            3,
+            11,
+            13,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            4
+          ],
+          "texture": "#8"
+        }
+      }
+    },
+    {
+      "name": "anus",
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            11,
+            13,
+            16
+          ],
+          "texture": "#6"
+        },
+        "east": {
+          "uv": [
+            3,
+            8,
+            14,
+            15
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            9,
+            10
+          ],
+          "texture": "#8"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        45,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        18
+      ],
+      "scale": [
+        2.01,
+        2.01,
+        2.01
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "model_2_1",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        {
+          "name": "group",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "color": 0,
+          "children": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        11,
+        12,
+        13
+      ]
+    }
+  ]
+}

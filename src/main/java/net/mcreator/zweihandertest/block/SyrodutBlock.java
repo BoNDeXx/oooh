@@ -6,23 +6,20 @@ import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.ToolType;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.biome.BiomeColors;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.GrassColors;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.NonNullList;
@@ -50,12 +47,9 @@ import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -78,6 +72,7 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 	public SyrodutBlock(ZweihanderTestModElements instance) {
 		super(instance, 3);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
+		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 	}
 
 	@Override
@@ -93,18 +88,21 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 		}
 	}
 
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	private static class BlockColorRegisterHandler {
+		@OnlyIn(Dist.CLIENT)
+		@SubscribeEvent
+		public void blockColorLoad(ColorHandlerEvent.Block event) {
+			event.getBlockColors().register((bs, world, pos, index) -> {
+				return world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : GrassColors.get(0.5D, 1.0D);
+			}, block);
+		}
 	}
 
-	public static class CustomBlock extends FallingBlock {
+	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.CLAY).sound(SoundType.NETHER_BRICK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.CLAY).sound(SoundType.NETHER_BRICK).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("syrodut");
 		}
@@ -124,38 +122,6 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
-		}
-
-		@Override
-		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction) state.get(FACING)) {
-				case SOUTH :
-				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 16, 0, 32, 0), makeCuboidShape(16, 0, 16, 0, 16, 0)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 32, 16), makeCuboidShape(0, 0, 0, 16, 16, 16)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case EAST :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 0, 0, 32, 16), makeCuboidShape(16, 0, 0, 0, 16, 16)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case WEST :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 32, 0), makeCuboidShape(0, 0, 16, 16, 16, 0)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-			}
 		}
 
 		@Override
