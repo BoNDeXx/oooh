@@ -127,10 +127,20 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "stone_stone_udar",
+      "files": [
+        "untitled_project_v1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "ru_ru": {
       "item.zweihander_test.pebble": "Камушек",
+      "subtitles.stone_stone_udar": "",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Крица",
@@ -142,6 +152,7 @@
     },
     "en_us": {
       "item.zweihander_test.pebble": "Pebble",
+      "subtitles.stone_stone_udar": "",
       "block.zweihander_test.syrodut": "Rennofen",
       "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Сritz",
