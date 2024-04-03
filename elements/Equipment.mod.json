@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Equipment",
+    "icon": {
+      "value": "Items.IRON_SWORD"
+    },
+    "showSearch": true
+  }
+}

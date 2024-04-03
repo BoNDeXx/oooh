@@ -1,7 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "zweihander_test:custom/kamushek",
   "textures": {
-    "all": "zweihander_test:blocks/syrodut_main",
-    "particle": "zweihander_test:blocks/syrodut_main"
+    "all": "zweihander_test:blocks/kamushek",
+    "particle": "zweihander_test:blocks/kamushek",
+    "0": "zweihander_test:blocks/kamushek"
   }
 }

@@ -69,6 +69,61 @@
       "locked_code": false,
       "registry_name": "coal_dust",
       "path": "~/Items/Materials"
+    },
+    {
+      "name": "LandRock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_rock",
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Equipment",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equipment"
+    },
+    {
+      "name": "StoneCraft",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_craft",
+      "path": "~/Scripts/GUI"
+    },
+    {
+      "name": "PebbleCraftProcedure",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_craft_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "PebbleRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_rightclicked",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Items/Materials"
     }
   ],
   "variable_elements": [],
@@ -77,8 +132,10 @@
     "ru_ru": {
       "item.zweihander_test.pebble": "Камушек",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+      "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Крица",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "block.zweihander_test.land_rock": "Land Rock",
       "item.zweihander_test.chugunok": "Чугунок",
       "item.zweihander_test.schicht": "Шихта",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
@@ -86,8 +143,10 @@
     "en_us": {
       "item.zweihander_test.pebble": "Pebble",
       "block.zweihander_test.syrodut": "Rennofen",
+      "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Сritz",
       "item.zweihander_test.coal_dust": "Сharcoal Dust",
+      "block.zweihander_test.land_rock": "Land Rock",
       "item.zweihander_test.chugunok": "Cast iron",
       "item.zweihander_test.schicht": "Schicht",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
@@ -127,7 +186,16 @@
       },
       {
         "name": "Scripts",
-        "children": []
+        "children": [
+          {
+            "name": "GUI",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
       }
     ]
   },

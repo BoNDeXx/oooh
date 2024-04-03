@@ -28,7 +28,7 @@
       "ZweihanderRP"
     ],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "StoneCraft",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
