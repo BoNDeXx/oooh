@@ -1,11 +1,11 @@
 {
-  "parent": "zweihander_test:custom/syrodut_petch_newest",
+  "parent": "zweihander_test:custom/syrodut_petch_novachka",
   "textures": {
     "all": "zweihander_test:blocks/syrodut_main",
     "particle": "zweihander_test:blocks/syrodut_main",
-    "1": "zweihander_test:blocks/syrodut_dirka",
-    "3": "zweihander_test:blocks/syrodut_main",
-    "4": "zweihander_test:blocks/syrodut_top",
-    "missing": "zweihander_test:blocks/syrodut_main"
+    "6": "zweihander_test:blocks/syrodut_dirka",
+    "8": "zweihander_test:blocks/syrodut_main",
+    "missing": "zweihander_test:blocks/syrodut_main",
+    "9": "zweihander_test:blocks/syrodut_top"
   }
 }
