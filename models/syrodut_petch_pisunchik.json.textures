@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "6": "syrodut_dirka",
+        "8": "syrodut_main",
+        "missing": "syrodut_main",
+        "9": "syrodut_top"
+      },
+      "name": "default"
+    }
+  }
+}
