@@ -2,9 +2,9 @@
   "_fv": 28,
   "_type": "tab",
   "definition": {
-    "name": "Test",
+    "name": "ZweihanderRP Core",
     "icon": {
-      "value": "Blocks.REDSTONE_WIRE"
+      "value": "CUSTOM:Krica"
     },
     "showSearch": false
   }
