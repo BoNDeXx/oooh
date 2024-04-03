@@ -46,8 +46,10 @@ public class ZweihanderTestModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ZweihanderTestModElements() {
-		sounds.put(new ResourceLocation("zweihander_test", "carve_pebble_sound"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihander_test", "carve_pebble_sound")));
+		sounds.put(new ResourceLocation("zweihander_test", "stone_stone_udar"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihander_test", "stone_stone_udar")));
+		sounds.put(new ResourceLocation("zweihander_test", "helmet_sound1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihander_test", "helmet_sound1")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("zweihander_test").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

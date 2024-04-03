@@ -1,9 +1,18 @@
 {
-  "carve_pebble_sound": {
+  "stone_stone_udar": {
     "category": "neutral",
     "sounds": [
       {
         "name": "zweihander_test:untitled_project_v1",
+        "stream": false
+      }
+    ]
+  },
+  "helmet_sound1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihander_test:helmet_sound1",
         "stream": false
       }
     ]

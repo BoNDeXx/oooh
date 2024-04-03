@@ -35,6 +35,15 @@
       "registry_name": "hud"
     },
     {
+      "name": "Pebble",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble",
+      "path": "~/Items/Materials"
+    },
+    {
       "name": "Schicht",
       "type": "item",
       "sortid": 6,
@@ -88,78 +97,64 @@
       "path": "~/Scripts/GUI"
     },
     {
-      "name": "LandRockOnBlockRightClickedcarve",
+      "name": "PebbleCraftProcedure",
       "type": "procedure",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "land_rock_on_block_right_clickedcarve",
+      "registry_name": "pebble_craft_procedure",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
-      "path": "~/Items/Blocks"
+      "path": "~/Items/Materials"
     },
     {
-      "name": "Stonecraft1click",
+      "name": "PebbleRightclicked",
       "type": "procedure",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stonecraft_first_click",
+      "registry_name": "pebble_rightclicked",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
-      "path": "~/Items/Blocks"
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "NormanHelmet",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "norman_helmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "carve_pebble_sound",
+      "name": "stone_stone_udar",
       "files": [
         "untitled_project_v1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "helmet_sound1",
+      "files": [
+        "helmet_sound1"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -167,26 +162,38 @@
   ],
   "language_map": {
     "ru_ru": {
-      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
-      "itemGroup.tabequipment": "Equipment",
+      "subtitles.helmet_sound1": "",
+      "item.zweihander_test.norman_helmet_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Крица",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "block.zweihander_test.land_rock": "Land Rock",
-      "subtitles.carve_pebble_sound": "",
+      "item.zweihander_test.norman_helmet_leggings": "Norman Helmet Leggings",
       "item.zweihander_test.chugunok": "Чугунок",
-      "item.zweihander_test.schicht": "Шихта",
-      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
+      "item.zweihander_test.norman_helmet_chestplate": "Norman Body",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
+      "item.zweihander_test.pebble": "Камушек",
+      "subtitles.stone_stone_udar": "",
+      "itemGroup.tabequipment": "Equipment",
+      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+      "item.zweihander_test.norman_helmet_boots": "Norman Helmet Boots",
+      "item.zweihander_test.schicht": "Шихта"
     },
     "en_us": {
-      "block.zweihander_test.syrodut": "Rennofen",
-      "itemGroup.tabequipment": "Equipment",
-      "item.zweihander_test.krica": "Krica",
-      "item.zweihander_test.coal_dust": "Coal Dust",
+      "subtitles.helmet_sound1": "",
+      "item.zweihander_test.norman_helmet_helmet": "Norman Helmet ",
+      "item.zweihander_test.krica": "Сritz",
+      "item.zweihander_test.coal_dust": "Сharcoal Dust",
       "block.zweihander_test.land_rock": "Land Rock",
-      "subtitles.carve_pebble_sound": "",
-      "item.zweihander_test.chugunok": "Chugunok",
-      "item.zweihander_test.schicht": "Schicht",
-      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
+      "item.zweihander_test.norman_helmet_leggings": "Norman Helmet Leggings",
+      "item.zweihander_test.chugunok": "Cast iron",
+      "item.zweihander_test.norman_helmet_chestplate": "Norman Body",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
+      "item.zweihander_test.pebble": "Pebble",
+      "subtitles.stone_stone_udar": "",
+      "itemGroup.tabequipment": "Equipment",
+      "block.zweihander_test.syrodut": "Rennofen",
+      "item.zweihander_test.norman_helmet_boots": "Norman Helmet Boots",
+      "item.zweihander_test.schicht": "Schicht"
     }
   },
   "foldersRoot": {
