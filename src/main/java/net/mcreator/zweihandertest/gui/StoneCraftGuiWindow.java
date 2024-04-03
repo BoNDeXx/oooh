@@ -107,7 +107,7 @@ public class StoneCraftGuiWindow extends ContainerScreen<StoneCraftGui.GuiContai
 				StoneCraftGui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 122, this.guiTop + 61, 51, 20, new StringTextComponent("k"), e -> {
+		this.addButton(new Button(this.guiLeft + 122, this.guiTop + 61, 51, 20, new StringTextComponent("kopye"), e -> {
 			if (true) {
 				ZweihanderTestMod.PACKET_HANDLER.sendToServer(new StoneCraftGui.ButtonPressedMessage(3, x, y, z));
 				StoneCraftGui.handleButtonAction(entity, 3, x, y, z);
