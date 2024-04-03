@@ -119,6 +119,39 @@
         ]
       },
       "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft1click",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_first_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [],
@@ -137,10 +170,10 @@
     "en_us": {
       "block.zweihander_test.syrodut": "Rennofen",
       "itemGroup.tabequipment": "Equipment",
-      "item.zweihander_test.krica": "Сritz",
-      "item.zweihander_test.coal_dust": "Сharcoal Dust",
+      "item.zweihander_test.krica": "Krica",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "block.zweihander_test.land_rock": "Land Rock",
-      "item.zweihander_test.chugunok": "Cast iron",
+      "item.zweihander_test.chugunok": "Chugunok",
       "item.zweihander_test.schicht": "Schicht",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
     }
