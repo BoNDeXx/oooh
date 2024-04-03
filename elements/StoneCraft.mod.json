@@ -37,10 +37,13 @@
       {
         "type": "button",
         "data": {
-          "text": " ",
+          "text": "Topor",
+          "onClick": {
+            "name": "Stonecraft1click"
+          },
           "width": 30,
           "height": 20,
-          "name": " ",
+          "name": "Topor",
           "x": 87,
           "y": 89
         }

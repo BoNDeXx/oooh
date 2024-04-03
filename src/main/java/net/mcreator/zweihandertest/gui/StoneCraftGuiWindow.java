@@ -89,7 +89,7 @@ public class StoneCraftGuiWindow extends ContainerScreen<StoneCraftGui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 8, this.guiTop + 52, 30, 20, new StringTextComponent(" "), e -> {
+		this.addButton(new Button(this.guiLeft + 8, this.guiTop + 52, 30, 20, new StringTextComponent("Topor"), e -> {
 			if (true) {
 				ZweihanderTestMod.PACKET_HANDLER.sendToServer(new StoneCraftGui.ButtonPressedMessage(0, x, y, z));
 				StoneCraftGui.handleButtonAction(entity, 0, x, y, z);
