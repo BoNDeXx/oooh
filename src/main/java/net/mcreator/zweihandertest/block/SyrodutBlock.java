@@ -14,10 +14,10 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
-import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.EnumProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -28,7 +28,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
-import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -60,12 +59,12 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 	}
 
 	public static class CustomBlock extends FallingBlock {
-		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.CLAY).sound(SoundType.NETHER_BRICK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
 			setRegistryName("syrodut");
 		}
 
@@ -82,39 +81,21 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction) state.get(FACING)) {
-				case SOUTH :
-				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 16, 0, 32, 0), makeCuboidShape(16, 0, 16, 0, 16, 0)
+			switch ((Direction.Axis) state.get(AXIS)) {
+				case X :
+					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 32, 16, 16), makeCuboidShape(0, 0, 0, 16, 16, 16)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
-				case NORTH :
+				case Y :
+				default :
 					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 32, 16), makeCuboidShape(0, 0, 0, 16, 16, 16)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
-				case EAST :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 0, 0, 32, 16), makeCuboidShape(16, 0, 0, 0, 16, 16)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case WEST :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 32, 0), makeCuboidShape(0, 0, 16, 16, 16, 0)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case UP :
-					return VoxelShapes.or(makeCuboidShape(0, 16, 0, 16, 0, 32), makeCuboidShape(0, 16, 0, 16, 0, 16)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case DOWN :
+				case Z :
 					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 16, -16), makeCuboidShape(0, 0, 16, 16, 16, 0)
 
 					)
@@ -125,21 +106,25 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
+			builder.add(AXIS);
 		}
 
+		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+				if ((Direction.Axis) state.get(AXIS) == Direction.Axis.X) {
+					return state.with(AXIS, Direction.Axis.Z);
+				} else if ((Direction.Axis) state.get(AXIS) == Direction.Axis.Z) {
+					return state.with(AXIS, Direction.Axis.X);
+				}
+			}
+			return state;
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
+			Direction.Axis axis = context.getFace().getAxis();;
+			return this.getDefaultState().with(AXIS, axis);
 		}
 
 		@Override
