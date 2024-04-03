@@ -35,7 +35,7 @@ public class StoneCraftGuiWindow extends ContainerScreen<StoneCraftGui.GuiContai
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 270;
+		this.xSize = 189;
 		this.ySize = 166;
 	}
 
@@ -76,7 +76,7 @@ public class StoneCraftGuiWindow extends ContainerScreen<StoneCraftGui.GuiContai
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Pebble Carving", 98, 7, -12829636);
+		this.font.drawString(ms, "Pebble Carving", 58, 7, -12829636);
 	}
 
 	@Override
@@ -89,19 +89,19 @@ public class StoneCraftGuiWindow extends ContainerScreen<StoneCraftGui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 8, this.guiTop + 52, 30, 20, new StringTextComponent("Topor"), e -> {
+		this.addButton(new Button(this.guiLeft + 13, this.guiTop + 61, 30, 20, new StringTextComponent("Topor"), e -> {
 			if (true) {
 				ZweihanderTestMod.PACKET_HANDLER.sendToServer(new StoneCraftGui.ButtonPressedMessage(0, x, y, z));
 				StoneCraftGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 44, this.guiTop + 52, 30, 20, new StringTextComponent(" "), e -> {
+		this.addButton(new Button(this.guiLeft + 49, this.guiTop + 61, 30, 20, new StringTextComponent(" "), e -> {
 			if (true) {
 				ZweihanderTestMod.PACKET_HANDLER.sendToServer(new StoneCraftGui.ButtonPressedMessage(1, x, y, z));
 				StoneCraftGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 80, this.guiTop + 52, 30, 20, new StringTextComponent(" "), e -> {
+		this.addButton(new Button(this.guiLeft + 85, this.guiTop + 61, 30, 20, new StringTextComponent(" "), e -> {
 			if (true) {
 				ZweihanderTestMod.PACKET_HANDLER.sendToServer(new StoneCraftGui.ButtonPressedMessage(2, x, y, z));
 				StoneCraftGui.handleButtonAction(entity, 2, x, y, z);

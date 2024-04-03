@@ -1,9 +1,13 @@
 package net.mcreator.zweihandertest.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.items.ItemHandlerHelper;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
@@ -49,6 +53,18 @@ public class Stonecraft1clickProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == LandRockBlock.block) {
+			if (world instanceof World && !world.isRemote()) {
+				((World) world)
+						.playSound(null, new BlockPos(x, y, z),
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+										.getValue(new ResourceLocation("zweihander_test:carve_pebble_sound")),
+								SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			} else {
+				((World) world).playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("zweihander_test:carve_pebble_sound")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+			}
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(LandRockBlock.block);
 				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
