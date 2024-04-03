@@ -54,8 +54,8 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.FallingBlock;
-import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -100,7 +100,7 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 	}
 
 	public static class CustomBlock extends FallingBlock {
-		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.CLAY).sound(SoundType.NETHER_BRICK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
@@ -155,18 +155,6 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
-				case UP :
-					return VoxelShapes.or(makeCuboidShape(0, 16, 0, 16, 0, 32), makeCuboidShape(0, 16, 0, 16, 0, 16)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
-				case DOWN :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 16, -16), makeCuboidShape(0, 0, 16, 16, 16, 0)
-
-					)
-
-							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -185,8 +173,8 @@ public class SyrodutBlock extends ZweihanderTestModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			Direction facing = context.getFace();;
-			return this.getDefaultState().with(FACING, facing);
+			;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override
