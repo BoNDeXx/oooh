@@ -124,6 +124,21 @@
         "dependencies": []
       },
       "path": "~/Items/Materials"
+    },
+    {
+      "name": "NormanHelmet",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "norman_helmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [],
@@ -135,32 +150,50 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "helmet_sound1",
+      "files": [
+        "helmet_sound1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
-      "item.zweihander_test.pebble": "Камушек",
-      "subtitles.stone_stone_udar": "",
-      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
-      "itemGroup.tabequipment": "Equipment",
+      "subtitles.helmet_sound1": "",
+      "item.zweihander_test.norman_helmet_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Крица",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "block.zweihander_test.land_rock": "Land Rock",
+      "item.zweihander_test.norman_helmet_leggings": "Norman Helmet Leggings",
       "item.zweihander_test.chugunok": "Чугунок",
-      "item.zweihander_test.schicht": "Шихта",
-      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
+      "item.zweihander_test.norman_helmet_chestplate": "Norman Body",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
+      "item.zweihander_test.pebble": "Камушек",
+      "subtitles.stone_stone_udar": "",
+      "itemGroup.tabequipment": "Equipment",
+      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+      "item.zweihander_test.norman_helmet_boots": "Norman Helmet Boots",
+      "item.zweihander_test.schicht": "Шихта"
     },
     "en_us": {
-      "item.zweihander_test.pebble": "Pebble",
-      "subtitles.stone_stone_udar": "",
-      "block.zweihander_test.syrodut": "Rennofen",
-      "itemGroup.tabequipment": "Equipment",
+      "subtitles.helmet_sound1": "",
+      "item.zweihander_test.norman_helmet_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Сritz",
       "item.zweihander_test.coal_dust": "Сharcoal Dust",
       "block.zweihander_test.land_rock": "Land Rock",
+      "item.zweihander_test.norman_helmet_leggings": "Norman Helmet Leggings",
       "item.zweihander_test.chugunok": "Cast iron",
-      "item.zweihander_test.schicht": "Schicht",
-      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
+      "item.zweihander_test.norman_helmet_chestplate": "Norman Body",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
+      "item.zweihander_test.pebble": "Pebble",
+      "subtitles.stone_stone_udar": "",
+      "itemGroup.tabequipment": "Equipment",
+      "block.zweihander_test.syrodut": "Rennofen",
+      "item.zweihander_test.norman_helmet_boots": "Norman Helmet Boots",
+      "item.zweihander_test.schicht": "Schicht"
     }
   },
   "foldersRoot": {
