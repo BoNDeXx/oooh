@@ -13,7 +13,7 @@
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "rock",
     "particleTexture": "",
     "tintType": "Grass",
     "isItemTinted": false,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Pebble"
+      "value": "CUSTOM:LandRock"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "LandRockOnBlockRightClickedcarve"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
