@@ -46,8 +46,11 @@ public class ZweihanderTestModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ZweihanderTestModElements() {
+<<<<<<< HEAD
 		sounds.put(new ResourceLocation("zweihander_test", "carve_pebble_sound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihander_test", "carve_pebble_sound")));
+=======
+>>>>>>> parent of af06a3b (helmet)
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("zweihander_test").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
