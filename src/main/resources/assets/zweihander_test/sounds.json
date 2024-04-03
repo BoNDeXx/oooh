@@ -1,0 +1,11 @@
+{
+  "carve_pebble_sound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihander_test:untitled_project_v1",
+        "stream": false
+      }
+    ]
+  }
+}

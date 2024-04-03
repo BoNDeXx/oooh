@@ -152,10 +152,118 @@
         ]
       },
       "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft2click",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_2click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft3click",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_3click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft4click",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_4click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "carve_pebble_sound",
+      "files": [
+        "untitled_project_v1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "ru_ru": {
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
@@ -163,6 +271,7 @@
       "item.zweihander_test.krica": "Крица",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "block.zweihander_test.land_rock": "Land Rock",
+      "subtitles.carve_pebble_sound": "",
       "item.zweihander_test.chugunok": "Чугунок",
       "item.zweihander_test.schicht": "Шихта",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
@@ -173,6 +282,7 @@
       "item.zweihander_test.krica": "Krica",
       "item.zweihander_test.coal_dust": "Coal Dust",
       "block.zweihander_test.land_rock": "Land Rock",
+      "subtitles.carve_pebble_sound": "",
       "item.zweihander_test.chugunok": "Chugunok",
       "item.zweihander_test.schicht": "Schicht",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"

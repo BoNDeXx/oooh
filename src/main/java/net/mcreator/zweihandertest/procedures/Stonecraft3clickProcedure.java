@@ -19,32 +19,32 @@ import net.mcreator.zweihandertest.ZweihanderTestMod;
 
 import java.util.Map;
 
-public class Stonecraft1clickProcedure {
+public class Stonecraft3clickProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				ZweihanderTestMod.LOGGER.warn("Failed to load dependency world for procedure Stonecraft1click!");
+				ZweihanderTestMod.LOGGER.warn("Failed to load dependency world for procedure Stonecraft3click!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				ZweihanderTestMod.LOGGER.warn("Failed to load dependency x for procedure Stonecraft1click!");
+				ZweihanderTestMod.LOGGER.warn("Failed to load dependency x for procedure Stonecraft3click!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				ZweihanderTestMod.LOGGER.warn("Failed to load dependency y for procedure Stonecraft1click!");
+				ZweihanderTestMod.LOGGER.warn("Failed to load dependency y for procedure Stonecraft3click!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				ZweihanderTestMod.LOGGER.warn("Failed to load dependency z for procedure Stonecraft1click!");
+				ZweihanderTestMod.LOGGER.warn("Failed to load dependency z for procedure Stonecraft3click!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				ZweihanderTestMod.LOGGER.warn("Failed to load dependency entity for procedure Stonecraft1click!");
+				ZweihanderTestMod.LOGGER.warn("Failed to load dependency entity for procedure Stonecraft3click!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -72,7 +72,7 @@ public class Stonecraft1clickProcedure {
 			}
 			world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
-				ItemStack _setstack = new ItemStack(Items.STONE_AXE);
+				ItemStack _setstack = new ItemStack(Items.ARROW);
 				_setstack.setCount((int) 1);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}

@@ -3,9 +3,9 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 270,
+    "width": 191,
     "height": 166,
-    "inventoryOffsetX": -46,
+    "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
@@ -24,17 +24,6 @@
         }
       },
       {
-        "type": "outputslot",
-        "data": {
-          "id": 0,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": false,
-          "name": "Slot #0",
-          "x": 312,
-          "y": 71
-        }
-      },
-      {
         "type": "button",
         "data": {
           "text": "Topor",
@@ -44,30 +33,50 @@
           "width": 30,
           "height": 20,
           "name": "Topor",
-          "x": 87,
-          "y": 89
+          "x": 132,
+          "y": 98
         }
       },
       {
         "type": "button",
         "data": {
-          "text": " ",
+          "text": "Nozhik",
+          "onClick": {
+            "name": "Stonecraft2click"
+          },
           "width": 30,
           "height": 20,
-          "name": " ",
-          "x": 123,
-          "y": 89
+          "name": "Nozhik",
+          "x": 168,
+          "y": 98
         }
       },
       {
         "type": "button",
         "data": {
-          "text": " ",
+          "text": " Strela",
+          "onClick": {
+            "name": "Stonecraft3click"
+          },
           "width": 30,
           "height": 20,
-          "name": " ",
-          "x": 159,
-          "y": 89
+          "name": " Strela",
+          "x": 204,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "k",
+          "onClick": {
+            "name": "Stonecraft4click"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "k",
+          "x": 240,
+          "y": 98
         }
       }
     ],
