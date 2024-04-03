@@ -25,6 +25,14 @@
       "locked_code": false,
       "registry_name": "syrodut",
       "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Hud",
+      "type": "overlay",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hud"
     }
   ],
   "variable_elements": [],
