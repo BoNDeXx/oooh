@@ -35,15 +35,6 @@
       "registry_name": "hud"
     },
     {
-      "name": "Pebble",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pebble",
-      "path": "~/Items/Materials"
-    },
-    {
       "name": "Schicht",
       "type": "item",
       "sortid": 6,
@@ -97,50 +88,76 @@
       "path": "~/Scripts/GUI"
     },
     {
-      "name": "PebbleCraftProcedure",
+      "name": "LandRockOnBlockRightClickedcarve",
       "type": "procedure",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pebble_craft_procedure",
+      "registry_name": "land_rock_on_block_right_clickedcarve",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Items/Materials"
+      "path": "~/Items/Blocks"
     },
     {
-      "name": "PebbleRightclicked",
+      "name": "Stonecraft1click",
       "type": "procedure",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pebble_rightclicked",
+      "registry_name": "stonecraft_first_click",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/Items/Materials"
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "stone_stone_udar",
-      "files": [
-        "untitled_project_v1"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.zweihander_test.pebble": "Камушек",
-      "subtitles.stone_stone_udar": "",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "itemGroup.tabequipment": "Equipment",
       "item.zweihander_test.krica": "Крица",
@@ -151,14 +168,12 @@
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
     },
     "en_us": {
-      "item.zweihander_test.pebble": "Pebble",
-      "subtitles.stone_stone_udar": "",
       "block.zweihander_test.syrodut": "Rennofen",
       "itemGroup.tabequipment": "Equipment",
-      "item.zweihander_test.krica": "Сritz",
-      "item.zweihander_test.coal_dust": "Сharcoal Dust",
+      "item.zweihander_test.krica": "Krica",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "block.zweihander_test.land_rock": "Land Rock",
-      "item.zweihander_test.chugunok": "Cast iron",
+      "item.zweihander_test.chugunok": "Chugunok",
       "item.zweihander_test.schicht": "Schicht",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
     }
