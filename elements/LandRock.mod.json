@@ -8,14 +8,14 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "syrodut_petch_pisunchik:default",
-    "rotationMode": 1,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "syrodut_main",
-    "tintType": "Grass",
+    "particleTexture": "",
+    "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
@@ -32,11 +32,9 @@
         "subtract": false
       }
     ],
-    "name": "Rennofen",
-    "specialInfo": [
-      "ZweihanderRP"
-    ],
-    "hardness": 2.0,
+    "name": "Land Rock",
+    "specialInfo": [],
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": true,
     "isWaterloggable": false,
@@ -45,16 +43,16 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.CLAY_BALL"
+      "value": "CUSTOM:Pebble"
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "CLAY"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -76,10 +74,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "NETHER_BRICK"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -106,9 +104,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -125,11 +123,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

@@ -6,7 +6,7 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test"
+      "registry_name": "zweihander_rp_core"
     },
     {
       "name": "Krica",
@@ -51,17 +51,46 @@
       "locked_code": false,
       "registry_name": "schicht",
       "path": "~/Items/Materials"
+    },
+    {
+      "name": "Chugunok",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chugunok",
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "path": "~/Items/Materials"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "item.zweihander_test.pebble": "Камушек",
+      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+      "item.zweihander_test.krica": "Крица",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihander_test.chugunok": "Чугунок",
+      "item.zweihander_test.schicht": "Шихта",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа"
+    },
     "en_us": {
       "item.zweihander_test.pebble": "Pebble",
       "block.zweihander_test.syrodut": "Rennofen",
-      "item.zweihander_test.krica": "Krica",
+      "item.zweihander_test.krica": "Сritz",
+      "item.zweihander_test.coal_dust": "Сharcoal Dust",
+      "item.zweihander_test.chugunok": "Cast iron",
       "item.zweihander_test.schicht": "Schicht",
-      "itemGroup.tabtest": "Test"
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core"
     }
   },
   "foldersRoot": {

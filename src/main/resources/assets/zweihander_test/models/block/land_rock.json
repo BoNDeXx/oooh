@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zweihander_test:blocks/syrodut_main",
+    "particle": "zweihander_test:blocks/syrodut_main"
+  }
+}

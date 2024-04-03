@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
+import net.mcreator.zweihandertest.item.KricaItem;
 import net.mcreator.zweihandertest.ZweihanderTestModElements;
 
 @ZweihanderTestModElements.ModElement.Tag
@@ -18,11 +18,11 @@ public class TestItemGroup extends ZweihanderTestModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabtest") {
+		tab = new ItemGroup("tabzweihander_rp_core") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.REDSTONE_WIRE);
+				return new ItemStack(KricaItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
