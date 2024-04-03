@@ -53,11 +53,8 @@ public class Stonecraft1clickProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == LandRockBlock.block) {
-			if (entity instanceof PlayerEntity) {
-				ItemStack _stktoremove = new ItemStack(LandRockBlock.block);
-				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
-						((PlayerEntity) entity).container.func_234641_j_());
-			}
+			if (entity instanceof PlayerEntity)
+				((PlayerEntity) entity).closeScreen();
 			if (world instanceof World && !world.isRemote()) {
 				((World) world)
 						.playSound(null, new BlockPos(x, y, z),
@@ -70,14 +67,17 @@ public class Stonecraft1clickProcedure {
 								.getValue(new ResourceLocation("zweihander_test:carve_pebble_sound")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(LandRockBlock.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
 			world.setBlockState(new BlockPos(x, y, z), Blocks.AIR.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.STONE_AXE);
 				_setstack.setCount((int) 1);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).closeScreen();
 		}
 	}
 }

@@ -42,7 +42,7 @@
         "data": {
           "text": "Nozhik",
           "onClick": {
-            "name": "Stonecraft2click"
+            "name": "Stonecraft1click"
           },
           "width": 30,
           "height": 20,
@@ -56,7 +56,7 @@
         "data": {
           "text": " Strela",
           "onClick": {
-            "name": "Stonecraft3click"
+            "name": "Stonecraft1click"
           },
           "width": 30,
           "height": 20,
@@ -70,7 +70,7 @@
         "data": {
           "text": "kopye",
           "onClick": {
-            "name": "Stonecraft4click"
+            "name": "Stonecraft1click"
           },
           "width": 51,
           "height": 20,
