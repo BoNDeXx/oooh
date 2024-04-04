@@ -377,6 +377,15 @@
         ]
       },
       "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Woodstupka",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodstupka",
+      "path": "~/Items/Blocks/ToolsBlocks"
     }
   ],
   "variable_elements": [],
@@ -400,6 +409,7 @@
       "item.zweihanderrp.schicht": "Schicht",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihander_test.chugunok": "Чугунок",
+      "block.zweihanderrp.woodstupka": "Woodstupka",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihander_test.stone_knife_head": "Knife Head",
@@ -429,6 +439,7 @@
       "item.zweihanderrp.schicht": "Schicht",
       "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihander_test.chugunok": "Chugunok",
+      "block.zweihanderrp.woodstupka": "Woodstupka",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihander_test.stone_knife_head": "Knife Head",
@@ -458,7 +469,12 @@
         "children": [
           {
             "name": "Blocks",
-            "children": []
+            "children": [
+              {
+                "name": "ToolsBlocks",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Tools",

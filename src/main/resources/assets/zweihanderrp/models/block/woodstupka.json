@@ -1,0 +1,9 @@
+{
+  "parent": "zweihanderrp:custom/stupipestikw",
+  "textures": {
+    "all": "zweihanderrp:blocks/birch_planks",
+    "particle": "zweihanderrp:blocks/birch_planks",
+    "0": "zweihanderrp:blocks/birch_planks",
+    "missing": "zweihanderrp:blocks/birch_planks"
+  }
+}

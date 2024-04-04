@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "birch_planks",
+        "missing": "birch_planks"
+      },
+      "name": "default"
+    }
+  }
+}
