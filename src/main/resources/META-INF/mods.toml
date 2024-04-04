@@ -3,17 +3,17 @@ loaderVersion="[36,)"
 license="MIT License"
 
 [[mods]]
-modId="zweihander_test"
+modId="zweihanderrp"
 version="0.0.1"
-displayName="zweihander_test"
+displayName="zweihanderRP"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="BoNDeX, FGR_UNN"
+authors="BoNDeX, FGR_UNN, Cerbin"
 description='''
 FOR ERIKUNI BECOUSE MCREATOR IS SHIT!!
 '''
 
-[[dependencies.zweihander_test]]
+[[dependencies.zweihanderrp]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"

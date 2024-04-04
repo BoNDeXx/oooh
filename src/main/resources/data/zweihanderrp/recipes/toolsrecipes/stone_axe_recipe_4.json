@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23"
+  ],
+  "key": {
+    "1": {
+      "item": "zweihanderrp:stone_axe_head"
+    },
+    "2": {
+      "item": "zweihanderrp:rope"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "zweihanderrp:rope"
+    },
+    "1": {
+      "item": "zweihanderrp:stone_shovel_head"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_shovel",
+    "count": 1
+  }
+}

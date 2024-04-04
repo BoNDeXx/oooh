@@ -1,0 +1,529 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zweihander_rp_core"
+    },
+    {
+      "name": "Krica",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica",
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "Syrodut",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syrodut",
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Hud",
+      "type": "overlay",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hud"
+    },
+    {
+      "name": "Schicht",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schicht",
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "Chugunok",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chugunok",
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "LandRock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_rock",
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Equipment",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equipment"
+    },
+    {
+      "name": "StoneCraft",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_craft",
+      "path": "~/Scripts/GUI"
+    },
+    {
+      "name": "LandRockOnBlockRightClickedcarve",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_rock_on_block_right_clickedcarve",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft1click",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_first_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "StoneShovelHead",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_head",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "StoneAxeHead",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_head",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "StoneHoeHead",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_head",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "StonePickaxeHead",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_head",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "StoneKnifeHead",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_knife_head",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "Rope",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rope",
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "StoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_recipe",
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StoneAxeRecipe2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_recipe_2",
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StoneAxeRecipe3",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_recipe_3",
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StoneAxeRecipe4",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_recipe_4",
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel_recipe",
+      "path": "~/Scripts/Recipes/ToolsRecipes"
+    },
+    {
+      "name": "StoneShoveRecipe2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shove_recipe_2",
+      "path": "~/Scripts/Recipes/ToolsRecipes"
+    },
+    {
+      "name": "StoneShoveRecipe3",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shove_recipe_3",
+      "path": "~/Scripts/Recipes/ToolsRecipes"
+    },
+    {
+      "name": "StoneShoveRecipe4",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shove_recipe_4",
+      "path": "~/Scripts/Recipes/ToolsRecipes"
+    },
+    {
+      "name": "Stonecraft2Shoveclick",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_2_shoveclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft3Hoe",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_3_hoe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Stonecraft4Pixcale",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_4_pixcale",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "carve_pebble_sound",
+      "files": [
+        "untitled_project_v1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "item.zweihanderrp.stone_knife_head": "Knife Head",
+      "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
+      "item.zweihanderrp.krica": "Krica",
+      "item.zweihanderrp.chugunok": "Chugunok",
+      "item.zweihander_test.stone_shovel_head": "Stone Shovel Head",
+      "item.zweihanderrp.schicht": "Schicht",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihander_test.chugunok": "Чугунок",
+      "item.zweihander_test.rope": "Rope",
+      "item.zweihanderrp.coal_dust": "Coal Dust",
+      "item.zweihander_test.stone_knife_head": "Knife Head",
+      "item.zweihanderrp.stone_axe_head": "Axe Head",
+      "subtitles.carve_pebble_sound": "",
+      "item.zweihanderrp.rope": "Rope",
+      "item.zweihander_test.stone_axe_head": "Axe Head",
+      "item.zweihander_test.stone_hoe_head": "Hoe Head",
+      "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
+      "item.zweihander_test.krica": "Крица",
+      "block.zweihander_test.land_rock": "Land Rock",
+      "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
+      "block.zweihanderrp.syrodut": "Rennofen",
+      "block.zweihanderrp.land_rock": "Land Rock",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
+      "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
+      "itemGroup.tabequipment": "Equipment",
+      "item.zweihanderrp.stone_hoe_head": "Hoe Head",
+      "item.zweihander_test.schicht": "Шихта"
+    },
+    "en_us": {
+      "item.zweihanderrp.stone_knife_head": "Knife Head",
+      "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
+      "item.zweihanderrp.krica": "Krica",
+      "item.zweihanderrp.chugunok": "Chugunok",
+      "item.zweihander_test.stone_shovel_head": "Stone Shovel Head",
+      "item.zweihanderrp.schicht": "Schicht",
+      "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihander_test.chugunok": "Chugunok",
+      "item.zweihander_test.rope": "Rope",
+      "item.zweihanderrp.coal_dust": "Coal Dust",
+      "item.zweihander_test.stone_knife_head": "Knife Head",
+      "item.zweihanderrp.stone_axe_head": "Axe Head",
+      "subtitles.carve_pebble_sound": "",
+      "item.zweihanderrp.rope": "Rope",
+      "item.zweihander_test.stone_axe_head": "Axe Head",
+      "item.zweihander_test.stone_hoe_head": "Hoe Head",
+      "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
+      "item.zweihander_test.krica": "Krica",
+      "block.zweihander_test.land_rock": "Land Rock",
+      "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
+      "block.zweihanderrp.syrodut": "Rennofen",
+      "block.zweihanderrp.land_rock": "Land Rock",
+      "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
+      "block.zweihander_test.syrodut": "Rennofen",
+      "itemGroup.tabequipment": "Equipment",
+      "item.zweihanderrp.stone_hoe_head": "Hoe Head",
+      "item.zweihander_test.schicht": "Schicht"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Armors",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Scripts",
+        "children": [
+          {
+            "name": "GUI",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": [
+              {
+                "name": "ToolsRecipes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "zweihanderrp",
+    "modName": "zweihanderRP",
+    "version": "0.0.1",
+    "description": "FOR ERIKUNI BECOUSE MCREATOR IS SHIT!!",
+    "author": "BoNDeX, FGR_UNN, Cerbin",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.zweihanderrp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

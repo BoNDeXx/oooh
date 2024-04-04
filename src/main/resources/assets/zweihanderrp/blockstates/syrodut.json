@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zweihanderrp:block/syrodut"
+    },
+    "facing=east": {
+      "model": "zweihanderrp:block/syrodut",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zweihanderrp:block/syrodut",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zweihanderrp:block/syrodut",
+      "y": 270
+    }
+  }
+}

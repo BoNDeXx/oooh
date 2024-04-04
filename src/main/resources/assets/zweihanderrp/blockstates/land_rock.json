@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zweihanderrp:block/land_rock"
+    },
+    "facing=east": {
+      "model": "zweihanderrp:block/land_rock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zweihanderrp:block/land_rock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zweihanderrp:block/land_rock",
+      "y": 270
+    }
+  }
+}

@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "CLAY"
+      "value": "SHULKER"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -108,9 +108,9 @@
     "particleAmount": 4,
     "hasInventory": true,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 2,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
@@ -125,11 +125,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

@@ -3,10 +3,10 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 189,
-    "height": 166,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "width": 183,
+    "height": 185,
+    "inventoryOffsetX": 1,
+    "inventoryOffsetY": 10,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -20,57 +20,209 @@
           },
           "name": "Pebble Carving",
           "x": 177,
-          "y": 44
+          "y": 35
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "Topor",
+          "text": "Pickaxe",
           "onClick": {
-            "name": "Stonecraft1click"
+            "name": "Stonecraft4Pixcale"
           },
-          "width": 30,
+          "width": 61,
           "height": 20,
-          "name": "Topor",
-          "x": 132,
-          "y": 98
+          "name": "Pickaxe",
+          "x": 133,
+          "y": 104
         }
       },
       {
         "type": "button",
         "data": {
-          "text": " ",
+          "text": "Hoe",
           "onClick": {
-            "name": "Stonecraft1click"
+            "name": "Stonecraft3Hoe"
           },
-          "width": 30,
+          "width": 61,
           "height": 20,
-          "name": " ",
-          "x": 168,
-          "y": 98
+          "name": "Hoe",
+          "x": 133,
+          "y": 77
         }
       },
       {
         "type": "button",
         "data": {
-          "text": " ",
+          "text": "Axe",
           "onClick": {
             "name": "Stonecraft1click"
           },
-          "width": 30,
+          "width": 61,
           "height": 20,
-          "name": " ",
-          "x": 204,
-          "y": 98
+          "name": "Axe",
+          "x": 133,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Shovel",
+          "onClick": {
+            "name": "Stonecraft2Shoveclick"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Shovel",
+          "x": 214,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Arrowhead",
+          "width": 61,
+          "height": 20,
+          "name": "Arrowhead",
+          "x": 214,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Knife",
+          "width": 61,
+          "height": 20,
+          "name": "Knife",
+          "x": 214,
+          "y": 104
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 196,
+          "y": 50
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_axe_baza.png",
+          "use1Xscale": false,
+          "name": "stone_axe_baza.png",
+          "x": 196,
+          "y": 50
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 196,
+          "y": 77
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 196,
+          "y": 104
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 277,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_hoe_baza.png",
+          "use1Xscale": false,
+          "name": "stone_hoe_baza.png",
+          "x": 196,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_pickaxe_baza.png",
+          "use1Xscale": false,
+          "name": "stone_pickaxe_baza.png",
+          "x": 196,
+          "y": 104
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 277,
+          "y": 50
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 277,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_shovel_baza.png",
+          "use1Xscale": false,
+          "name": "stone_shovel_baza.png",
+          "x": 277,
+          "y": 50
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_sword_baza.png",
+          "use1Xscale": false,
+          "name": "stone_sword_baza.png",
+          "x": 277,
+          "y": 104
         }
       }
     ],
     "gridSettings": {
       "sx": 18,
       "sy": 18,
-      "ox": 11,
-      "oy": 15,
+      "ox": 12,
+      "oy": 9,
       "snapOnGrid": true
     }
   }
