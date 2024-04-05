@@ -1,7 +1,9 @@
 {
   "mappings": {
     "default": {
-      "map": {},
+      "map": {
+        "0": "birch_planks"
+      },
       "name": "default"
     }
   }
