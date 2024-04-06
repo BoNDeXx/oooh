@@ -48,6 +48,14 @@ public class ZweihanderrpModElements {
 	public ZweihanderrpModElements() {
 		sounds.put(new ResourceLocation("zweihanderrp", "carve_pebble_sound"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihanderrp", "carve_pebble_sound")));
+		sounds.put(new ResourceLocation("zweihanderrp", "helmet_sound1m"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihanderrp", "helmet_sound1m")));
+		sounds.put(new ResourceLocation("zweihanderrp", "udar_po_kolchuge"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihanderrp", "udar_po_kolchuge")));
+		sounds.put(new ResourceLocation("zweihanderrp", "plate_armor1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihanderrp", "plate_armor1")));
+		sounds.put(new ResourceLocation("zweihanderrp", "kolchuga"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zweihanderrp", "kolchuga")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("zweihanderrp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

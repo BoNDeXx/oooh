@@ -7,5 +7,41 @@
         "stream": false
       }
     ]
+  },
+  "helmet_sound1m": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihanderrp:helmet_sound1",
+        "stream": false
+      }
+    ]
+  },
+  "udar_po_kolchuge": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihanderrp:cee8940ffcf1506",
+        "stream": false
+      }
+    ]
+  },
+  "plate_armor1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihanderrp:lati1",
+        "stream": false
+      }
+    ]
+  },
+  "kolchuga": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zweihanderrp:kolchuga",
+        "stream": false
+      }
+    ]
   }
 }
