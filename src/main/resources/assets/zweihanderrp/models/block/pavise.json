@@ -1,0 +1,8 @@
+{
+  "parent": "zweihanderrp:custom/pavise",
+  "textures": {
+    "all": "zweihanderrp:blocks/pavise",
+    "particle": "zweihanderrp:blocks/pavise",
+    "texture": "zweihanderrp:blocks/pavise"
+  }
+}

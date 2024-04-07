@@ -1070,6 +1070,15 @@
         "ec": false
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "Pavise",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pavise",
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1326,6 +1335,7 @@
       "item.zweihanderrp.tophelm_boots": "Tophelm Boots",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
       "item.zweihanderrp.iberian_helmet_boots": "Iberian Helmet Boots",
+      "block.zweihanderrp.pavise": "Pavise",
       "item.zweihanderrp.veryrichtophelm_chestplate": "Veryrichtophelm Body",
       "item.zweihanderrp.blued_klapvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
@@ -1540,6 +1550,7 @@
       "item.zweihanderrp.tophelm_boots": "Tophelm Boots",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
       "item.zweihanderrp.iberian_helmet_boots": "Iberian Helmet Boots",
+      "block.zweihanderrp.pavise": "Pavise",
       "item.zweihanderrp.veryrichtophelm_chestplate": "Veryrichtophelm Body",
       "item.zweihanderrp.blued_klapvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
@@ -1619,7 +1630,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "gecholib"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zweihanderrp",
