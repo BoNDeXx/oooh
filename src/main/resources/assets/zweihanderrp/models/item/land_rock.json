@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/rock"
-  }
+    "layer0": "zweihanderrp:item/rock"
+  },
+  "render_type": "translucent"
 }

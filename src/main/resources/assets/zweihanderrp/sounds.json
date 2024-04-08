@@ -1,6 +1,5 @@
 {
   "carve_pebble_sound": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "zweihanderrp:untitled_project_v1",
@@ -9,7 +8,6 @@
     ]
   },
   "helmet_sound1m": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "zweihanderrp:helmet_sound1",
@@ -18,7 +16,6 @@
     ]
   },
   "udar_po_kolchuge": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "zweihanderrp:cee8940ffcf1506",
@@ -27,7 +24,6 @@
     ]
   },
   "plate_armor1": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "zweihanderrp:lati1",
@@ -36,10 +32,17 @@
     ]
   },
   "kolchuga": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "zweihanderrp:kolchuga",
+        "stream": false
+      }
+    ]
+  },
+  "mortarpestesound": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:mortarpeste",
         "stream": false
       }
     ]

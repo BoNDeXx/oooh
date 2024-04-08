@@ -1,11 +1,12 @@
 {
   "parent": "zweihanderrp:custom/syrodut_petch_pisunchik",
   "textures": {
-    "all": "zweihanderrp:blocks/syrodut_main",
-    "particle": "zweihanderrp:blocks/syrodut_main",
-    "6": "zweihanderrp:blocks/syrodut_dirka",
-    "8": "zweihanderrp:blocks/syrodut_main",
-    "missing": "zweihanderrp:blocks/syrodut_main",
-    "9": "zweihanderrp:blocks/syrodut_top"
-  }
+    "all": "zweihanderrp:block/syrodut_main",
+    "particle": "zweihanderrp:block/syrodut_main",
+    "6": "zweihanderrp:block/syrodut_dirka",
+    "8": "zweihanderrp:block/syrodut_main",
+    "missing": "zweihanderrp:block/syrodut_main",
+    "9": "zweihanderrp:block/syrodut_top"
+  },
+  "render_type": "solid"
 }

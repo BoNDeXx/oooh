@@ -6,7 +6,10 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zweihander_rp_core"
+      "registry_name": "zweihander_rp_core",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Krica",
@@ -15,6 +18,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "krica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/KricaItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/krica.json"
+        ]
+      },
       "path": "~/Items/Materials"
     },
     {
@@ -24,6 +33,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "syrodut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/block/SyrodutBlock.java",
+          "src/main/resources/assets/zweihanderrp/blockstates/syrodut.json",
+          "src/main/resources/assets/zweihanderrp/models/item/syrodut.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/entity/SyrodutBlockEntity.java",
+          "src/main/resources/assets/zweihanderrp/models/block/syrodut.json"
+        ]
+      },
       "path": "~/Items/Blocks"
     },
     {
@@ -32,7 +50,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hud"
+      "registry_name": "hud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/screens/HudOverlay.java"
+        ]
+      }
     },
     {
       "name": "Schicht",
@@ -41,6 +64,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "schicht",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/SchichtItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/schicht.json"
+        ]
+      },
       "path": "~/Items/Materials"
     },
     {
@@ -50,6 +79,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chugunok",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/ChugunokItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/chugunok.json"
+        ]
+      },
       "path": "~/Items/Materials"
     },
     {
@@ -59,6 +94,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/CoalDustItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/coal_dust.json"
+        ]
+      },
       "path": "~/Items/Materials"
     },
     {
@@ -68,6 +109,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "land_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/land_rock.json",
+          "src/main/resources/assets/zweihanderrp/blockstates/land_rock.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/LandRockBlock.java",
+          "src/main/resources/assets/zweihanderrp/models/block/land_rock.json"
+        ]
+      },
       "path": "~/Items/Blocks"
     },
     {
@@ -76,7 +125,10 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "equipment"
+      "registry_name": "equipment",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "StoneCraft",
@@ -85,6 +137,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
+        ]
+      },
       "path": "~/Scripts/GUI"
     },
     {
@@ -95,6 +154,9 @@
       "locked_code": false,
       "registry_name": "land_rock_on_block_right_clickedcarve",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/LandRockOnBlockRightClickedcarveProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -128,6 +190,9 @@
       "locked_code": false,
       "registry_name": "stonecraft_first_click",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Stonecraft1clickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -160,6 +225,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shovel_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneShovelHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_shovel_head.json"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -169,6 +240,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneAxeHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_axe_head.json"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -178,6 +255,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_hoe_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/stone_hoe_head.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneHoeHeadItem.java"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -187,6 +270,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_pickaxe_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/stone_pickaxe_head.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/StonePickaxeHeadItem.java"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -196,6 +285,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_knife_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/stone_knife_head.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneKnifeHeadItem.java"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -205,6 +300,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/RopeItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/rope.json"
+        ]
+      },
       "path": "~/Items/Tools"
     },
     {
@@ -214,6 +315,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe.json"
+        ]
+      },
       "path": "~/Scripts/Recipes"
     },
     {
@@ -223,6 +329,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_2.json"
+        ]
+      },
       "path": "~/Scripts/Recipes"
     },
     {
@@ -232,6 +343,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_3.json"
+        ]
+      },
       "path": "~/Scripts/Recipes"
     },
     {
@@ -241,6 +357,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_4.json"
+        ]
+      },
       "path": "~/Scripts/Recipes"
     },
     {
@@ -250,6 +371,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_shovel_recipe.json"
+        ]
+      },
       "path": "~/Scripts/Recipes/ToolsRecipes"
     },
     {
@@ -259,6 +385,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shove_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_2.json"
+        ]
+      },
       "path": "~/Scripts/Recipes/ToolsRecipes"
     },
     {
@@ -268,6 +399,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shove_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_3.json"
+        ]
+      },
       "path": "~/Scripts/Recipes/ToolsRecipes"
     },
     {
@@ -277,6 +413,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shove_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_4.json"
+        ]
+      },
       "path": "~/Scripts/Recipes/ToolsRecipes"
     },
     {
@@ -287,6 +428,9 @@
       "locked_code": false,
       "registry_name": "stonecraft_2_shoveclick",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Stonecraft2ShoveclickProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -320,6 +464,9 @@
       "locked_code": false,
       "registry_name": "stonecraft_3_hoe",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Stonecraft3HoeProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -353,6 +500,9 @@
       "locked_code": false,
       "registry_name": "stonecraft_4_pixcale",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Stonecraft4PixcaleProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -385,6 +535,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodstupka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/block/WoodstupkaBlock.java",
+          "src/main/resources/assets/zweihanderrp/blockstates/woodstupka.json",
+          "src/main/resources/assets/zweihanderrp/models/item/woodstupka.json",
+          "src/main/resources/assets/zweihanderrp/models/block/woodstupka.json"
+        ]
+      },
       "path": "~/Items/Blocks/ToolsBlocks"
     },
     {
@@ -398,7 +556,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_1_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -413,7 +575,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_2_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -428,7 +594,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_3_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet3Item.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -443,7 +613,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet4Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_4_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -458,7 +632,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_5_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet5Item.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -473,7 +651,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NodicHelmet6Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nodic_helmet_6_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -484,6 +666,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_pebble",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/cobble_stone_pebble.json"
+        ]
+      },
       "path": "~/Scripts/Recipes"
     },
     {
@@ -497,7 +684,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/bacinet_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BacinetItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -512,7 +703,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BarbuteItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/barbute_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -527,7 +722,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/SalletItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/sallet_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -542,7 +741,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/bascinetwithklappvisor_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BascinetwithklappvisorItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -557,7 +760,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/h_zhelmete_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/HZhelmeteItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -572,7 +779,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_tophelm_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedTophelmItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -587,7 +798,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/TophelmItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/tophelm_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -602,7 +817,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/redtophelm_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RedtophelmItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -617,7 +836,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/veryrichtophelm_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/VeryrichtophelmItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -632,7 +855,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/rich_klappviser_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RichKlappviserItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -647,7 +874,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/HZhelmeteRichItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/h_zhelmete_rich_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -662,7 +893,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedbarbuteItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/engravedbarbute_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -677,7 +912,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/PaintedBarbuteItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/painted_barbute_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -692,7 +931,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedsalletItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/bluedsallet_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -707,7 +950,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedKlapvisorItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/blued_klapvisor_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -722,7 +969,12 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/romanarmor_chestplate.json",
+          "src/main/resources/assets/zweihanderrp/models/item/romanarmor_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RomanarmorItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -737,7 +989,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/mail_standard_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/MailStandardItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -752,7 +1008,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/KoifeItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/koife_helmet.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -767,7 +1027,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -782,7 +1046,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/full_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/FullCuirassItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -797,7 +1065,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/crude_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/CrudeCuirassItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -812,7 +1084,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/pauldrons_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PauldronsItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -827,7 +1103,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/CrudeGovnoCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/crude_govno_cuirass_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -842,7 +1122,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/pauldrons_standard_leather_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PauldronsStandardLeatherItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -857,7 +1141,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/leather_brigandine_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/LeatherBrigandineItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -872,7 +1160,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/RedPaintedPauldronsItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/red_painted_pauldrons_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -887,7 +1179,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedPauldronsItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_pauldrons_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -902,7 +1198,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_cuirass_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -917,7 +1217,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/RichCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/rich_cuirass_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -932,7 +1236,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/blued_cuirass_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -947,7 +1255,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/black_blued_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BlackBluedCuirassItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -962,7 +1274,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedPauldronsItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/blued_pauldrons_chestplate.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -977,7 +1293,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/arabic_standard_pauldrons_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ArabicStandardPauldronsItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -992,7 +1312,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/turban_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/TurbanItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -1007,7 +1331,11 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/iberian_helmet_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/IberianHelmetItem.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -1022,7 +1350,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/ArabicTunikItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/arabic_tunik_leggings.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -1037,7 +1369,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/blue_tunik_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BlueTunik1Item.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -1052,7 +1388,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/blue_tunik_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BlueTunik2Item.java"
+        ]
       },
       "path": "~/Items/Armors"
     },
@@ -1067,18 +1407,44 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/BlueTunik3Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/blue_tunik_3_leggings.json"
+        ]
       },
       "path": "~/Items/Armors"
     },
     {
-      "name": "Pavise",
-      "type": "block",
-      "sortid": 83,
+      "name": "WoodstupkaOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pavise",
-      "path": "~/Items/Blocks"
+      "registry_name": "woodstupka_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/WoodstupkaOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1122,437 +1488,197 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "mortarpestesound",
+      "files": [
+        "mortarpeste"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
-      "item.zweihanderrp.veryrichtophelm_boots": "Veryrichtophelm Boots",
-      "item.zweihanderrp.nordic_helmet_1_boots": "Nordic Helmet 1 Boots",
-      "item.zweihanderrp.rich_cuirass_helmet": "Rich Cuirass Helmet",
-      "item.zweihanderrp.red_painted_pauldrons_leggings": "Red Painted Pauldrons Leggings",
-      "item.zweihanderrp.h_zhelmete_chestplate": "H Zhelmete Body",
       "block.zweihanderrp.woodstupka": "Woodstupka",
-      "item.zweihanderrp.barbute_boots": "Barbute Boots",
-      "item.zweihanderrp.blue_tunik_3_helmet": "Blue Tunik 3 Helmet",
-      "item.zweihanderrp.painted_barbute_boots": "Barbute Boots",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
-      "item.zweihanderrp.blue_tunik_1_helmet": "Blue Tunik 1 Helmet",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
-      "item.zweihanderrp.blue_tunik_3_chestplate": "Blue Tunik 3 Body",
-      "item.zweihanderrp.crude_govno_cuirass_helmet": "Crude Govno Cuirass Helmet",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
-      "item.zweihanderrp.h_zhelmete_boots": "H Zhelmete Boots",
-      "item.zweihanderrp.blued_klapvisor_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.blue_tunik_2_chestplate": "Blue Tunik 2 Body",
-      "item.zweihanderrp.nordic_helmet_5_leggings": "Nordic Helmet 4 Leggings",
-      "item.zweihanderrp.bluedsallet_chestplate": "Bluedsallet Body",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "item.zweihander_test.schicht": "Шихта",
-      "item.zweihanderrp.arabic_tunik_chestplate": "Arabic Tunik Body",
-      "item.zweihanderrp.mail_standard_helmet": "Mail Standard Helmet",
-      "item.zweihanderrp.h_zhelmete_rich_chestplate": "H Zhelmete Body",
       "item.zweihanderrp.schicht": "Schicht",
       "subtitles.plate_armor1": "",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Tophelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
-      "item.zweihanderrp.black_blued_cuirass_boots": "Black Blued Cuirass Boots",
-      "item.zweihanderrp.crude_govno_cuirass_leggings": "Crude Govno Cuirass Leggings",
-      "item.zweihanderrp.redtophelm_chestplate": "Redtophelm Body",
-      "item.zweihanderrp.engraved_pauldrons_leggings": "Engraved Pauldrons Leggings",
       "item.zweihander_test.rope": "Rope",
-      "item.zweihanderrp.h_zhelmete_leggings": "H Zhelmete Leggings",
-      "item.zweihanderrp.iberian_helmet_chestplate": "Iberian Helmet Body",
-      "item.zweihanderrp.engraved_tophelm_chestplate": "Engraved Tophelm Body",
-      "item.zweihanderrp.turban_boots": "Turban Boots",
-      "item.zweihanderrp.nordic_helmet_2_boots": "Nordic Helmet 2 Boots",
       "item.zweihanderrp.veryrichtophelm_helmet": "Rich Topfhelm",
       "item.zweihanderrp.nordic_helmet_1_helmet": "Nordic Helmet",
-      "item.zweihanderrp.sallet_boots": "Sallet Boots",
       "block.zweihander_test.land_rock": "Land Rock",
-      "item.zweihanderrp.pauldrons_standard_leather_helmet": "Pauldrons Standard Leather Helmet",
       "block.zweihanderrp.land_rock": "Land Rock",
-      "item.zweihanderrp.h_zhelmete_rich_boots": "H Zhelmete Boots",
+      "subtitles.mortarpestesound": "",
+      "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Nordic Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
-      "item.zweihanderrp.painted_barbute_chestplate": "Barbute Body",
-      "item.zweihanderrp.blued_klapvisor_boots": "Bascinetwithklappvisor Boots",
       "item.zweihanderrp.pauldrons_standard_leather_chestplate": "Leather Covered Pauldrons Standard ",
-      "item.zweihanderrp.nordic_helmet_1_leggings": "Nordic Helmet 1 Leggings",
-      "item.zweihanderrp.barbute_chestplate": "Barbute Body",
-      "item.zweihanderrp.barbute_leggings": "Barbute Leggings",
+      "item_group.zweihanderrp.zweihander_rp_core": "ZweihanderRP Core",
       "item.zweihanderrp.h_zhelmete_rich_helmet": "Sallet With Bevor",
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihanderrp.bascinetwithklappvisor_helmet": "Bascinet With Klappvisor ",
-      "item.zweihanderrp.nordic_helmet_3_chestplate": "Nordic Helmet 3 Body",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
-      "item.zweihanderrp.tophelm_chestplate": "Tophelm Body",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
-      "item.zweihanderrp.red_painted_pauldrons_boots": "Red Painted Pauldrons Boots",
-      "item.zweihanderrp.engravedbarbute_leggings": "Engravedbarbute Leggings",
-      "item.zweihanderrp.nordic_helmet_5_boots": "Nordic Helmet 4 Boots",
       "item.zweihanderrp.tophelm_helmet": "Tophelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
-      "item.zweihanderrp.bluedsallet_leggings": "Bluedsallet Leggings",
+      "gui.zweihanderrp.stone_craft.button_shovel": "Shovel",
       "item.zweihanderrp.koife_helmet": "Coif",
-      "item.zweihanderrp.engraved_cuirass_helmet": "Engraved Cuirass Helmet",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
-      "item.zweihanderrp.engraved_tophelm_boots": "Engraved Tophelm Boots",
-      "item.zweihanderrp.redtophelm_boots": "Redtophelm Boots",
       "item.zweihanderrp.turban_helmet": "Turban ",
-      "item.zweihanderrp.blued_cuirass_boots": "Blued Cuirass Boots",
-      "item.zweihanderrp.rich_klappviser_leggings": "Bascinetwithklappvisor Leggings",
-      "item.zweihanderrp.blued_cuirass_leggings": "Blued Cuirass Leggings",
-      "item.zweihanderrp.leather_brigandine_boots": "Leather Brigandine Boots",
-      "item.zweihanderrp.crude_cuirass_boots": "Crude Cuirass Boots",
       "item.zweihanderrp.bacinet_helmet": "Bacinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
-      "item.zweihanderrp.bascinetwithklappvisor_boots": "Bascinetwithklappvisor Boots",
       "item.zweihander_test.stone_axe_head": "Axe Head",
-      "item.zweihanderrp.red_painted_pauldrons_helmet": "Red Painted Pauldrons Helmet",
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
-      "item.zweihanderrp.rich_klappviser_boots": "Bascinetwithklappvisor Boots",
       "subtitles.udar_po_kolchuge": "",
-      "item.zweihanderrp.blued_pauldrons_boots": "Blued Pauldrons Boots",
-      "item.zweihanderrp.iberian_helmet_leggings": "Iberian Helmet Leggings",
-      "item.zweihanderrp.nordic_helmet_1_chestplate": "Nordic Helmet 1 Body",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
-      "item.zweihanderrp.simple_cuirass_helmet": "Simple Cuirass Helmet",
-      "item.zweihanderrp.black_blued_cuirass_leggings": "Black Blued Cuirass Leggings",
-      "item.zweihanderrp.bascinetwithklappvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.nordic_helmet_4_leggings": "Nordic Helmet 4 Leggings",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
-      "item.zweihanderrp.engraved_tophelm_leggings": "Engraved Tophelm Leggings",
-      "item.zweihanderrp.bacinet_leggings": "Bacinet Leggings",
-      "item.zweihanderrp.nordic_helmet_4_boots": "Nordic Helmet 4 Boots",
-      "item.zweihanderrp.nodic_helmet_6_boots": "Nordic Helmet 4 Boots",
-      "item.zweihanderrp.black_blued_cuirass_helmet": "Black Blued Cuirass Helmet",
-      "item.zweihanderrp.arabic_standard_pauldrons_boots": "Arabic Standard Pauldrons Boots",
-      "item.zweihanderrp.blue_tunik_2_helmet": "Blue Tunik 2 Helmet",
       "item.zweihander_test.stone_knife_head": "Knife Head",
-      "item.zweihanderrp.arabic_standard_pauldrons_helmet": "Arabic Standard Pauldrons Helmet",
-      "item.zweihanderrp.pauldrons_leggings": "Pauldrons Leggings",
+      "gui.zweihanderrp.stone_craft.button_knife": "Knife",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.nordic_helmet_5_chestplate": "Nordic Helmet 4 Body",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
-      "item.zweihanderrp.tophelm_leggings": "Tophelm Leggings",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
       "subtitles.kolchuga": "",
-      "item.zweihanderrp.koife_chestplate": "Koife Body",
-      "item.zweihanderrp.sallet_chestplate": "Sallet Body",
-      "item.zweihanderrp.mail_standard_leggings": "Mail Standard Leggings",
       "itemGroup.tabequipment": "Equipment",
-      "item.zweihanderrp.blued_cuirass_helmet": "Blued Cuirass Helmet",
-      "item.zweihanderrp.nodic_helmet_6_leggings": "Nordic Helmet 4 Leggings",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
-      "item.zweihanderrp.blued_pauldrons_helmet": "Blued Pauldrons Helmet",
-      "item.zweihanderrp.pauldrons_helmet": "Pauldrons Helmet",
-      "item.zweihanderrp.engraved_pauldrons_helmet": "Engraved Pauldrons Helmet",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.krica": "Krica",
       "item.zweihanderrp.chugunok": "Chugunok",
-      "item.zweihanderrp.blue_tunik_3_boots": "Blue Tunik 3 Boots",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
-      "item.zweihanderrp.simple_cuirass_boots": "Simple Cuirass Boots",
-      "item.zweihanderrp.full_cuirass_helmet": "Full Cuirass Helmet",
-      "item.zweihanderrp.pauldrons_standard_leather_leggings": "Pauldrons Standard Leather Leggings",
-      "item.zweihanderrp.pauldrons_boots": "Pauldrons Boots",
-      "item.zweihanderrp.leather_brigandine_helmet": "Leather Brigandine Helmet",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
-      "item.zweihanderrp.engraved_cuirass_leggings": "Engraved Cuirass Leggings",
-      "item.zweihanderrp.koife_boots": "Koife Boots",
-      "item.zweihanderrp.full_cuirass_leggings": "Full Cuirass Leggings",
-      "item.zweihanderrp.rich_klappviser_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.rich_cuirass_boots": "Rich Cuirass Boots",
-      "item.zweihanderrp.painted_barbute_leggings": "Barbute Leggings",
-      "item.zweihanderrp.turban_chestplate": "Turban Body",
+      "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
-      "item.zweihanderrp.full_cuirass_boots": "Full Cuirass Boots",
-      "item.zweihanderrp.pauldrons_standard_leather_boots": "Pauldrons Standard Leather Boots",
       "item.zweihanderrp.engraved_pauldrons_chestplate": "Engraved Pauldrons",
       "item.zweihanderrp.nodic_helmet_6_helmet": "Nordic Helmet ",
-      "item.zweihanderrp.crude_govno_cuirass_boots": "Crude Govno Cuirass Boots",
       "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
-      "item.zweihanderrp.nordic_helmet_2_leggings": "Nordic Helmet 2 Leggings",
-      "item.zweihanderrp.nordic_helmet_3_boots": "Nordic Helmet 3 Boots",
-      "item.zweihanderrp.engraved_cuirass_boots": "Engraved Cuirass Boots",
-      "item.zweihanderrp.crude_cuirass_helmet": "Crude Cuirass Helmet",
-      "item.zweihanderrp.simple_cuirass_leggings": "Simple Cuirass Leggings",
-      "item.zweihanderrp.engravedbarbute_chestplate": "Engravedbarbute Body",
-      "item.zweihanderrp.veryrichtophelm_leggings": "Veryrichtophelm Leggings",
-      "item.zweihanderrp.blue_tunik_2_boots": "Blue Tunik 2 Boots",
+      "gui.zweihanderrp.stone_craft.button_arrowhead": "Arrowhead",
       "item.zweihanderrp.blued_pauldrons_chestplate": "Blued Pauldrons ",
-      "item.zweihanderrp.arabic_tunik_boots": "Arabic Tunik Boots",
-      "item.zweihanderrp.koife_leggings": "Koife Leggings",
-      "item.zweihanderrp.turban_leggings": "Turban Leggings",
       "item.zweihander_test.stone_shovel_head": "Stone Shovel Head",
       "item.zweihanderrp.romanarmor_chestplate": "Lorica Segmentata",
       "item.zweihander_test.chugunok": "Чугунок",
       "item.zweihanderrp.blued_klapvisor_helmet": "Bascinet With Engraved Klappvisor ",
+      "gui.zweihanderrp.stone_craft.button_pickaxe": "Pickaxe",
       "item.zweihanderrp.blued_cuirass_chestplate": "Blued Cuirass ",
-      "item.zweihanderrp.redtophelm_leggings": "Redtophelm Leggings",
-      "item.zweihanderrp.blue_tunik_1_boots": "Blue Tunik 1 Boots",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Klappvisor ",
-      "item.zweihanderrp.mail_standard_boots": "Mail Standard Boots",
-      "item.zweihanderrp.bascinetwithklappvisor_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.engravedbarbute_boots": "Engravedbarbute Boots",
-      "item.zweihanderrp.blued_pauldrons_leggings": "Blued Pauldrons Leggings",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Tophelm ",
-      "item.zweihanderrp.engraved_pauldrons_boots": "Engraved Pauldrons Boots",
-      "item.zweihanderrp.leather_brigandine_leggings": "Leather Brigandine Leggings",
       "block.zweihanderrp.syrodut": "Rennofen",
-      "item.zweihanderrp.romanarmor_leggings": "Romanarmor Leggings",
-      "item.zweihanderrp.arabic_standard_pauldrons_leggings": "Arabic Standard Pauldrons Leggings",
-      "item.zweihanderrp.rich_cuirass_leggings": "Rich Cuirass Leggings",
       "item.zweihanderrp.blue_tunik_1_leggings": "Blue Tunik ",
-      "item.zweihanderrp.arabic_tunik_helmet": "Arabic Tunik Helmet",
-      "item.zweihanderrp.blue_tunik_1_chestplate": "Blue Tunik 1 Body",
+      "gui.zweihanderrp.hud.label_enbtintegertagname": "\u003cENBT:integer:tagName\u003e",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
-      "item.zweihanderrp.h_zhelmete_rich_leggings": "H Zhelmete Leggings",
-      "item.zweihanderrp.sallet_leggings": "Sallet Leggings",
-      "item.zweihanderrp.nordic_helmet_4_chestplate": "Nordic Helmet 4 Body",
-      "item.zweihanderrp.bacinet_chestplate": "Bacinet Body",
       "item.zweihanderrp.sallet_helmet": "Sallet",
-      "item.zweihanderrp.romanarmor_boots": "Romanarmor Boots",
-      "item.zweihanderrp.nodic_helmet_6_chestplate": "Nordic Helmet 4 Body",
-      "item.zweihanderrp.crude_cuirass_leggings": "Crude Cuirass Leggings",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallat With Bevor",
       "subtitles.helmet_sound1m": "",
-      "item.zweihanderrp.bacinet_boots": "Bacinet Boots",
-      "item.zweihanderrp.nordic_helmet_2_chestplate": "Nordic Helmet 2 Body",
-      "item.zweihanderrp.bluedsallet_boots": "Bluedsallet Boots",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Nordic Helmet ",
-      "item.zweihanderrp.nordic_helmet_3_leggings": "Nordic Helmet 3 Leggings",
-      "item.zweihanderrp.tophelm_boots": "Tophelm Boots",
+      "item_group.zweihanderrp.equipment": "Equipment",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
-      "item.zweihanderrp.iberian_helmet_boots": "Iberian Helmet Boots",
-      "block.zweihanderrp.pavise": "Pavise",
-      "item.zweihanderrp.veryrichtophelm_chestplate": "Veryrichtophelm Body",
-      "item.zweihanderrp.blued_klapvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
     },
     "en_us": {
-      "item.zweihanderrp.veryrichtophelm_boots": "Veryrichtophelm Boots",
-      "item.zweihanderrp.nordic_helmet_1_boots": "Nordic Boots",
-      "item.zweihanderrp.rich_cuirass_helmet": "Rich Cuirass Helmet",
-      "item.zweihanderrp.red_painted_pauldrons_leggings": "Red Painted Pauldrons Leggings",
-      "item.zweihanderrp.h_zhelmete_chestplate": "H Zhelmete Body",
       "block.zweihanderrp.woodstupka": "Woodstupka",
-      "item.zweihanderrp.barbute_boots": "Barbute Boots",
-      "item.zweihanderrp.blue_tunik_3_helmet": "Blue Tunik 3 Helmet",
-      "item.zweihanderrp.painted_barbute_boots": "Barbute Boots",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
-      "item.zweihanderrp.blue_tunik_1_helmet": "Blue Tunik 1 Helmet",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
-      "item.zweihanderrp.blue_tunik_3_chestplate": "Blue Tunik 3 Body",
-      "item.zweihanderrp.crude_govno_cuirass_helmet": "Crude Govno Cuirass Helmet",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
-      "item.zweihanderrp.h_zhelmete_boots": "H Zhelmete Boots",
-      "item.zweihanderrp.blued_klapvisor_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.blue_tunik_2_chestplate": "Blue Tunik 2 Body",
-      "item.zweihanderrp.nordic_helmet_5_leggings": "Nordic Helmet 4 Leggings",
-      "item.zweihanderrp.bluedsallet_chestplate": "Bluedsallet Body",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "item.zweihander_test.schicht": "Schicht",
-      "item.zweihanderrp.arabic_tunik_chestplate": "Arabic Tunik Body",
-      "item.zweihanderrp.mail_standard_helmet": "Mail Standard Helmet",
-      "item.zweihanderrp.h_zhelmete_rich_chestplate": "H Zhelmete Body",
       "item.zweihanderrp.schicht": "Schicht",
       "subtitles.plate_armor1": "",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Topfhelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
-      "item.zweihanderrp.black_blued_cuirass_boots": "Black Blued Cuirass Boots",
-      "item.zweihanderrp.crude_govno_cuirass_leggings": "Crude Govno Cuirass Leggings",
-      "item.zweihanderrp.redtophelm_chestplate": "Redtophelm Body",
-      "item.zweihanderrp.engraved_pauldrons_leggings": "Engraved Pauldrons Leggings",
       "item.zweihander_test.rope": "Rope",
-      "item.zweihanderrp.h_zhelmete_leggings": "H Zhelmete Leggings",
-      "item.zweihanderrp.iberian_helmet_chestplate": "Iberian Helmet Body",
-      "item.zweihanderrp.engraved_tophelm_chestplate": "Engraved Tophelm Body",
-      "item.zweihanderrp.turban_boots": "Turban Boots",
-      "item.zweihanderrp.nordic_helmet_2_boots": "Nordic Helmet 2 Boots",
       "item.zweihanderrp.veryrichtophelm_helmet": "Rich Topfhelm",
       "item.zweihanderrp.nordic_helmet_1_helmet": "Сervelliere",
-      "item.zweihanderrp.sallet_boots": "Sallet Boots",
       "block.zweihander_test.land_rock": "Land Rock",
-      "item.zweihanderrp.pauldrons_standard_leather_helmet": "Pauldrons Standard Leather Helmet",
       "block.zweihanderrp.land_rock": "Land Rock",
-      "item.zweihanderrp.h_zhelmete_rich_boots": "H Zhelmete Boots",
+      "subtitles.mortarpestesound": "",
+      "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Leather Reinforced Viking Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
-      "item.zweihanderrp.painted_barbute_chestplate": "Barbute Body",
-      "item.zweihanderrp.blued_klapvisor_boots": "Bascinetwithklappvisor Boots",
       "item.zweihanderrp.pauldrons_standard_leather_chestplate": "Leather Covered Pauldrons Standard ",
-      "item.zweihanderrp.nordic_helmet_1_leggings": "Nordic Leggings",
-      "item.zweihanderrp.barbute_chestplate": "Barbute Body",
-      "item.zweihanderrp.barbute_leggings": "Barbute Leggings",
+      "item_group.zweihanderrp.zweihander_rp_core": "ZweihanderRP Core",
       "item.zweihanderrp.h_zhelmete_rich_helmet": "Sallet With Engraved Bevor",
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihanderrp.bascinetwithklappvisor_helmet": "Bascinet With Klappvisor ",
-      "item.zweihanderrp.nordic_helmet_3_chestplate": "Nordic Helmet 3 Body",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
-      "item.zweihanderrp.tophelm_chestplate": "Tophelm Body",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
-      "item.zweihanderrp.red_painted_pauldrons_boots": "Red Painted Pauldrons Boots",
-      "item.zweihanderrp.engravedbarbute_leggings": "Engravedbarbute Leggings",
-      "item.zweihanderrp.nordic_helmet_5_boots": "Nordic Helmet 4 Boots",
       "item.zweihanderrp.tophelm_helmet": "Topfhelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
-      "item.zweihanderrp.bluedsallet_leggings": "Bluedsallet Leggings",
+      "gui.zweihanderrp.stone_craft.button_shovel": "Shovel",
       "item.zweihanderrp.koife_helmet": "Mail Coif",
-      "item.zweihanderrp.engraved_cuirass_helmet": "Engraved Cuirass Helmet",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
-      "item.zweihanderrp.engraved_tophelm_boots": "Engraved Tophelm Boots",
-      "item.zweihanderrp.redtophelm_boots": "Redtophelm Boots",
       "item.zweihanderrp.turban_helmet": "Turban ",
-      "item.zweihanderrp.blued_cuirass_boots": "Blued Cuirass Boots",
-      "item.zweihanderrp.rich_klappviser_leggings": "Bascinetwithklappvisor Leggings",
-      "item.zweihanderrp.blued_cuirass_leggings": "Blued Cuirass Leggings",
-      "item.zweihanderrp.leather_brigandine_boots": "Leather Brigandine Boots",
-      "item.zweihanderrp.crude_cuirass_boots": "Crude Cuirass Boots",
       "item.zweihanderrp.bacinet_helmet": "Bascinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
-      "item.zweihanderrp.bascinetwithklappvisor_boots": "Bascinetwithklappvisor Boots",
       "item.zweihander_test.stone_axe_head": "Axe Head",
-      "item.zweihanderrp.red_painted_pauldrons_helmet": "Red Painted Pauldrons Helmet",
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
-      "item.zweihanderrp.rich_klappviser_boots": "Bascinetwithklappvisor Boots",
       "subtitles.udar_po_kolchuge": "",
-      "item.zweihanderrp.blued_pauldrons_boots": "Blued Pauldrons Boots",
-      "item.zweihanderrp.iberian_helmet_leggings": "Iberian Helmet Leggings",
-      "item.zweihanderrp.nordic_helmet_1_chestplate": "Nordic Body",
       "block.zweihander_test.syrodut": "Rennofen",
-      "item.zweihanderrp.simple_cuirass_helmet": "Simple Cuirass Helmet",
-      "item.zweihanderrp.black_blued_cuirass_leggings": "Black Blued Cuirass Leggings",
-      "item.zweihanderrp.bascinetwithklappvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.nordic_helmet_4_leggings": "Nordic Helmet 4 Leggings",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
-      "item.zweihanderrp.engraved_tophelm_leggings": "Engraved Tophelm Leggings",
-      "item.zweihanderrp.bacinet_leggings": "Bacinet Leggings",
-      "item.zweihanderrp.nordic_helmet_4_boots": "Nordic Helmet 4 Boots",
-      "item.zweihanderrp.nodic_helmet_6_boots": "Nordic Helmet 4 Boots",
-      "item.zweihanderrp.black_blued_cuirass_helmet": "Black Blued Cuirass Helmet",
-      "item.zweihanderrp.arabic_standard_pauldrons_boots": "Arabic Standard Pauldrons Boots",
-      "item.zweihanderrp.blue_tunik_2_helmet": "Blue Tunik 2 Helmet",
       "item.zweihander_test.stone_knife_head": "Knife Head",
-      "item.zweihanderrp.arabic_standard_pauldrons_helmet": "Arabic Standard Pauldrons Helmet",
-      "item.zweihanderrp.pauldrons_leggings": "Pauldrons Leggings",
+      "gui.zweihanderrp.stone_craft.button_knife": "Knife",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.nordic_helmet_5_chestplate": "Nordic Helmet 4 Body",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
-      "item.zweihanderrp.tophelm_leggings": "Tophelm Leggings",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
       "subtitles.kolchuga": "",
-      "item.zweihanderrp.koife_chestplate": "Koife Body",
-      "item.zweihanderrp.sallet_chestplate": "Sallet Body",
-      "item.zweihanderrp.mail_standard_leggings": "Mail Standard Leggings",
       "itemGroup.tabequipment": "Equipment",
-      "item.zweihanderrp.blued_cuirass_helmet": "Blued Cuirass Helmet",
-      "item.zweihanderrp.nodic_helmet_6_leggings": "Nordic Helmet 4 Leggings",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
-      "item.zweihanderrp.blued_pauldrons_helmet": "Blued Pauldrons Helmet",
-      "item.zweihanderrp.pauldrons_helmet": "Pauldrons Helmet",
-      "item.zweihanderrp.engraved_pauldrons_helmet": "Engraved Pauldrons Helmet",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.krica": "Krica",
       "item.zweihanderrp.chugunok": "Chugunok",
-      "item.zweihanderrp.blue_tunik_3_boots": "Blue Tunik 3 Boots",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
-      "item.zweihanderrp.simple_cuirass_boots": "Simple Cuirass Boots",
-      "item.zweihanderrp.full_cuirass_helmet": "Full Cuirass Helmet",
-      "item.zweihanderrp.pauldrons_standard_leather_leggings": "Pauldrons Standard Leather Leggings",
-      "item.zweihanderrp.pauldrons_boots": "Pauldrons Boots",
-      "item.zweihanderrp.leather_brigandine_helmet": "Leather Brigandine Helmet",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
-      "item.zweihanderrp.engraved_cuirass_leggings": "Engraved Cuirass Leggings",
-      "item.zweihanderrp.koife_boots": "Koife Boots",
-      "item.zweihanderrp.full_cuirass_leggings": "Full Cuirass Leggings",
-      "item.zweihanderrp.rich_klappviser_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.rich_cuirass_boots": "Rich Cuirass Boots",
-      "item.zweihanderrp.painted_barbute_leggings": "Barbute Leggings",
-      "item.zweihanderrp.turban_chestplate": "Turban Body",
+      "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
-      "item.zweihanderrp.full_cuirass_boots": "Full Cuirass Boots",
-      "item.zweihanderrp.pauldrons_standard_leather_boots": "Pauldrons Standard Leather Boots",
       "item.zweihanderrp.engraved_pauldrons_chestplate": "Engraved Pauldrons",
       "item.zweihanderrp.nodic_helmet_6_helmet": "Anglo-Saxon Helmet ",
-      "item.zweihanderrp.crude_govno_cuirass_boots": "Crude Govno Cuirass Boots",
       "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
-      "item.zweihanderrp.nordic_helmet_2_leggings": "Nordic Helmet 2 Leggings",
-      "item.zweihanderrp.nordic_helmet_3_boots": "Nordic Helmet 3 Boots",
-      "item.zweihanderrp.engraved_cuirass_boots": "Engraved Cuirass Boots",
-      "item.zweihanderrp.crude_cuirass_helmet": "Crude Cuirass Helmet",
-      "item.zweihanderrp.simple_cuirass_leggings": "Simple Cuirass Leggings",
-      "item.zweihanderrp.engravedbarbute_chestplate": "Engravedbarbute Body",
-      "item.zweihanderrp.veryrichtophelm_leggings": "Veryrichtophelm Leggings",
-      "item.zweihanderrp.blue_tunik_2_boots": "Blue Tunik 2 Boots",
+      "gui.zweihanderrp.stone_craft.button_arrowhead": "Arrowhead",
       "item.zweihanderrp.blued_pauldrons_chestplate": "Blued Pauldrons ",
-      "item.zweihanderrp.arabic_tunik_boots": "Arabic Tunik Boots",
-      "item.zweihanderrp.koife_leggings": "Koife Leggings",
-      "item.zweihanderrp.turban_leggings": "Turban Leggings",
       "item.zweihander_test.stone_shovel_head": "Stone Shovel Head",
       "item.zweihanderrp.romanarmor_chestplate": "Lorica Segmentata",
       "item.zweihander_test.chugunok": "Chugunok",
       "item.zweihanderrp.blued_klapvisor_helmet": "Bascinet With Blued Klappvisor ",
+      "gui.zweihanderrp.stone_craft.button_pickaxe": "Pickaxe",
       "item.zweihanderrp.blued_cuirass_chestplate": "Painted Cuirass ",
-      "item.zweihanderrp.redtophelm_leggings": "Redtophelm Leggings",
-      "item.zweihanderrp.blue_tunik_1_boots": "Blue Tunik 1 Boots",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Engraved Klappvisor ",
-      "item.zweihanderrp.mail_standard_boots": "Mail Standard Boots",
-      "item.zweihanderrp.bascinetwithklappvisor_chestplate": "Bascinetwithklappvisor Body",
-      "item.zweihanderrp.engravedbarbute_boots": "Engravedbarbute Boots",
-      "item.zweihanderrp.blued_pauldrons_leggings": "Blued Pauldrons Leggings",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Topfhelm ",
-      "item.zweihanderrp.engraved_pauldrons_boots": "Engraved Pauldrons Boots",
-      "item.zweihanderrp.leather_brigandine_leggings": "Leather Brigandine Leggings",
       "block.zweihanderrp.syrodut": "Rennofen",
-      "item.zweihanderrp.romanarmor_leggings": "Romanarmor Leggings",
-      "item.zweihanderrp.arabic_standard_pauldrons_leggings": "Arabic Standard Pauldrons Leggings",
-      "item.zweihanderrp.rich_cuirass_leggings": "Rich Cuirass Leggings",
       "item.zweihanderrp.blue_tunik_1_leggings": "Blue Tunik ",
-      "item.zweihanderrp.arabic_tunik_helmet": "Arabic Tunik Helmet",
-      "item.zweihanderrp.blue_tunik_1_chestplate": "Blue Tunik 1 Body",
+      "gui.zweihanderrp.hud.label_enbtintegertagname": "\u003cENBT:integer:tagName\u003e",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
-      "item.zweihanderrp.h_zhelmete_rich_leggings": "H Zhelmete Leggings",
-      "item.zweihanderrp.sallet_leggings": "Sallet Leggings",
-      "item.zweihanderrp.nordic_helmet_4_chestplate": "Nordic Helmet 4 Body",
-      "item.zweihanderrp.bacinet_chestplate": "Bacinet Body",
       "item.zweihanderrp.sallet_helmet": "Sallet",
-      "item.zweihanderrp.romanarmor_boots": "Romanarmor Boots",
-      "item.zweihanderrp.nodic_helmet_6_chestplate": "Nordic Helmet 4 Body",
-      "item.zweihanderrp.crude_cuirass_leggings": "Crude Cuirass Leggings",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallet With Bevor",
       "subtitles.helmet_sound1m": "",
-      "item.zweihanderrp.bacinet_boots": "Bacinet Boots",
-      "item.zweihanderrp.nordic_helmet_2_chestplate": "Nordic Helmet 2 Body",
-      "item.zweihanderrp.bluedsallet_boots": "Bluedsallet Boots",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Viking Helmet ",
-      "item.zweihanderrp.nordic_helmet_3_leggings": "Nordic Helmet 3 Leggings",
-      "item.zweihanderrp.tophelm_boots": "Tophelm Boots",
+      "item_group.zweihanderrp.equipment": "Equipment",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
-      "item.zweihanderrp.iberian_helmet_boots": "Iberian Helmet Boots",
-      "block.zweihanderrp.pavise": "Pavise",
-      "item.zweihanderrp.veryrichtophelm_chestplate": "Veryrichtophelm Body",
-      "item.zweihanderrp.blued_klapvisor_leggings": "Bascinetwithklappvisor Leggings",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
     }
   },
@@ -1633,10 +1759,10 @@
     "mcreatorDependencies": [
       "gecholib"
     ],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zweihanderrp",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202300452316
 }

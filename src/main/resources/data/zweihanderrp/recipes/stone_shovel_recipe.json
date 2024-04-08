@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "0 ",
-    "23"
+    "a ",
+    "bc"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "zweihanderrp:stone_shovel_head"
     },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     },
-    "3": {
+    "c": {
       "item": "zweihanderrp:rope"
     }
   },

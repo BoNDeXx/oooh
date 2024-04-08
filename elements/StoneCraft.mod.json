@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -13,12 +13,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Pebble Carving",
+          "name": "label_pebble_carving",
+          "text": {
+            "fixedValue": "Pebble Carving"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Pebble Carving",
           "x": 177,
           "y": 35
         }
@@ -26,13 +28,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_pickaxe",
           "text": "Pickaxe",
+          "isUndecorated": false,
           "onClick": {
             "name": "Stonecraft4Pixcale"
           },
           "width": 61,
           "height": 20,
-          "name": "Pickaxe",
           "x": 133,
           "y": 104
         }
@@ -40,13 +43,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_hoe",
           "text": "Hoe",
+          "isUndecorated": false,
           "onClick": {
             "name": "Stonecraft3Hoe"
           },
           "width": 61,
           "height": 20,
-          "name": "Hoe",
           "x": 133,
           "y": 77
         }
@@ -54,13 +58,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_axe",
           "text": "Axe",
+          "isUndecorated": false,
           "onClick": {
             "name": "Stonecraft1click"
           },
           "width": 61,
           "height": 20,
-          "name": "Axe",
           "x": 133,
           "y": 50
         }
@@ -68,13 +73,14 @@
       {
         "type": "button",
         "data": {
+          "name": "button_shovel",
           "text": "Shovel",
+          "isUndecorated": false,
           "onClick": {
             "name": "Stonecraft2Shoveclick"
           },
           "width": 61,
           "height": 20,
-          "name": "Shovel",
           "x": 214,
           "y": 50
         }
@@ -82,10 +88,11 @@
       {
         "type": "button",
         "data": {
+          "name": "button_arrowhead",
           "text": "Arrowhead",
+          "isUndecorated": false,
           "width": 61,
           "height": 20,
-          "name": "Arrowhead",
           "x": 214,
           "y": 77
         }
@@ -93,10 +100,11 @@
       {
         "type": "button",
         "data": {
+          "name": "button_knife",
           "text": "Knife",
+          "isUndecorated": false,
           "width": 61,
           "height": 20,
-          "name": "Knife",
           "x": 214,
           "y": 104
         }
@@ -105,9 +113,10 @@
         "type": "outputslot",
         "data": {
           "id": 0,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
           "x": 196,
           "y": 50
         }
@@ -117,7 +126,6 @@
         "data": {
           "image": "stone_axe_baza.png",
           "use1Xscale": false,
-          "name": "stone_axe_baza.png",
           "x": 196,
           "y": 50
         }
@@ -126,9 +134,10 @@
         "type": "outputslot",
         "data": {
           "id": 1,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
           "x": 196,
           "y": 77
         }
@@ -137,9 +146,10 @@
         "type": "outputslot",
         "data": {
           "id": 2,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
           "x": 196,
           "y": 104
         }
@@ -148,9 +158,10 @@
         "type": "outputslot",
         "data": {
           "id": 3,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #3",
           "x": 277,
           "y": 104
         }
@@ -160,7 +171,6 @@
         "data": {
           "image": "stone_hoe_baza.png",
           "use1Xscale": false,
-          "name": "stone_hoe_baza.png",
           "x": 196,
           "y": 77
         }
@@ -170,7 +180,6 @@
         "data": {
           "image": "stone_pickaxe_baza.png",
           "use1Xscale": false,
-          "name": "stone_pickaxe_baza.png",
           "x": 196,
           "y": 104
         }
@@ -179,9 +188,10 @@
         "type": "outputslot",
         "data": {
           "id": 4,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #4",
           "x": 277,
           "y": 50
         }
@@ -190,9 +200,10 @@
         "type": "outputslot",
         "data": {
           "id": 5,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #5",
           "x": 277,
           "y": 77
         }
@@ -202,7 +213,6 @@
         "data": {
           "image": "stone_shovel_baza.png",
           "use1Xscale": false,
-          "name": "stone_shovel_baza.png",
           "x": 277,
           "y": 50
         }
@@ -212,7 +222,6 @@
         "data": {
           "image": "stone_sword_baza.png",
           "use1Xscale": false,
-          "name": "stone_sword_baza.png",
           "x": 277,
           "y": 104
         }

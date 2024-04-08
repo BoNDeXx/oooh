@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/helmet_g3_-_copy"
+    "layer0": "zweihanderrp:item/helmet_g3_-_copy"
   }
 }

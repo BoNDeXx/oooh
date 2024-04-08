@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/stone_pickaxe_baza"
+    "layer0": "zweihanderrp:item/stone_pickaxe_baza"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/konstantin_stupin"
-  }
+    "layer0": "zweihanderrp:item/konstantin_stupin"
+  },
+  "render_type": "translucent"
 }

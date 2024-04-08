@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/helmetnorman5"
+    "layer0": "zweihanderrp:item/helmetnorman5"
   }
 }

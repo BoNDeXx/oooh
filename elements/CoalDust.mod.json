@@ -1,10 +1,12 @@
 {
-  "_fv": 28,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "coal_powder",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Coal Dust",
     "rarity": "COMMON",
     "creativeTab": {
@@ -24,14 +26,16 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "ZweihanderRP"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "ZweihanderRP"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "hasDispenseBehavior": false,
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

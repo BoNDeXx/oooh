@@ -1,67 +1,51 @@
 
 package net.mcreator.zweihanderrp.item;
 
-import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.Entity;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
-import net.mcreator.zweihanderrp.itemgroup.EquipmentItemGroup;
-import net.mcreator.zweihanderrp.ZweihanderrpModElements;
+import java.util.List;
 
-@ZweihanderrpModElements.ModElement.Tag
-public class NordicHelmet1Item extends ZweihanderrpModElements.ModElement {
-	@ObjectHolder("zweihanderrp:nordic_helmet_1_helmet")
-	public static final Item helmet = null;
-	@ObjectHolder("zweihanderrp:nordic_helmet_1_chestplate")
-	public static final Item body = null;
-	@ObjectHolder("zweihanderrp:nordic_helmet_1_leggings")
-	public static final Item legs = null;
-	@ObjectHolder("zweihanderrp:nordic_helmet_1_boots")
-	public static final Item boots = null;
-
-	public NordicHelmet1Item(ZweihanderrpModElements instance) {
-		super(instance, 37);
-	}
-
-	@Override
-	public void initElements() {
-		IArmorMaterial armormaterial = new IArmorMaterial() {
+public abstract class NordicHelmet1Item extends ArmorItem {
+	public NordicHelmet1Item(ArmorItem.Type type, Item.Properties properties) {
+		super(new ArmorMaterial() {
 			@Override
-			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 25;
 			}
 
 			@Override
-			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 9;
 			}
 
 			@Override
-			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("zweihanderrp:helmet_sound1m"));
+			public SoundEvent getEquipSound() {
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("zweihanderrp:helmet_sound1m"));
 			}
 
 			@Override
-			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of();
 			}
 
-			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
 				return "nordic_helmet_1";
@@ -76,13 +60,22 @@ public class NordicHelmet1Item extends ZweihanderrpModElements.ModElement {
 			public float getKnockbackResistance() {
 				return 0f;
 			}
-		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(EquipmentItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "zweihanderrp:textures/models/armor/r1norhelms__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("nordic_helmet_1_helmet"));
+		}, type, properties);
 	}
 
+	public static class Helmet extends NordicHelmet1Item {
+		public Helmet() {
+			super(ArmorItem.Type.HELMET, new Item.Properties());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, world, list, flag);
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "zweihanderrp:textures/models/armor/r1norhelms__layer_1.png";
+		}
+	}
 }

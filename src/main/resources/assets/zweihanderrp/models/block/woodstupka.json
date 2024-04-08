@@ -1,8 +1,9 @@
 {
   "parent": "zweihanderrp:custom/stipichok",
   "textures": {
-    "all": "zweihanderrp:blocks/birch_planks",
-    "particle": "zweihanderrp:blocks/birch_planks",
-    "0": "zweihanderrp:blocks/birch_planks"
-  }
+    "all": "zweihanderrp:block/birch_planks",
+    "particle": "zweihanderrp:block/birch_planks",
+    "0": "zweihanderrp:block/birch_planks"
+  },
+  "render_type": "solid"
 }

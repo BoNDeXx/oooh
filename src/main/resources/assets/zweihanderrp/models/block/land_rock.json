@@ -1,8 +1,9 @@
 {
   "parent": "zweihanderrp:custom/kamushek",
   "textures": {
-    "all": "zweihanderrp:blocks/kamushek",
-    "particle": "zweihanderrp:blocks/kamushek",
-    "0": "zweihanderrp:blocks/kamushek"
-  }
+    "all": "zweihanderrp:block/kamushek",
+    "particle": "zweihanderrp:block/kamushek",
+    "0": "zweihanderrp:block/kamushek"
+  },
+  "render_type": "solid"
 }

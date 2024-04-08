@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "zweihanderrp:items/chest_p2"
+    "layer0": "zweihanderrp:item/chest_p2"
   }
 }
