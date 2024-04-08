@@ -529,23 +529,6 @@
       "path": "~/Items/Blocks"
     },
     {
-      "name": "Woodstupka",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "woodstupka",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/block/WoodstupkaBlock.java",
-          "src/main/resources/assets/zweihanderrp/blockstates/woodstupka.json",
-          "src/main/resources/assets/zweihanderrp/models/item/woodstupka.json",
-          "src/main/resources/assets/zweihanderrp/models/block/woodstupka.json"
-        ]
-      },
-      "path": "~/Items/Blocks/ToolsBlocks"
-    },
-    {
       "name": "NordicHelmet1",
       "type": "armor",
       "sortid": 37,
@@ -1445,6 +1428,29 @@
           }
         ]
       }
+    },
+    {
+      "name": "VSTUPlenie",
+      "type": "animatedblock",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vstu_plenie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/block/model/VSTUPlenieDisplayModel.java",
+          "src/main/resources/assets/zweihanderrp/models/custom/vstu_plenie_particle.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/entity/VSTUPlenieTileEntity.java",
+          "src/main/java/net/mcreator/zweihanderrp/block/VSTUPlenieBlock.java",
+          "src/main/resources/assets/zweihanderrp/blockstates/vstu_plenie.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/model/VSTUPlenieBlockModel.java",
+          "src/main/java/net/mcreator/zweihanderrp/block/renderer/VSTUPlenieDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/zweihanderrp/block/renderer/VSTUPlenieTileRenderer.java",
+          "src/main/java/net/mcreator/zweihanderrp/block/display/VSTUPlenieDisplayItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/vstu_plenie.json"
+        ]
+      },
+      "path": "~/Items/Blocks/ToolsBlocks"
     }
   ],
   "variable_elements": [],
@@ -1500,7 +1506,6 @@
   ],
   "language_map": {
     "ru_ru": {
-      "block.zweihanderrp.woodstupka": "Woodstupka",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
@@ -1535,6 +1540,7 @@
       "item.zweihanderrp.koife_helmet": "Coif",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
       "item.zweihanderrp.turban_helmet": "Turban ",
+      "block.zweihanderrp.vstu_plenie": "VSTU Plenie",
       "item.zweihanderrp.bacinet_helmet": "Bacinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
       "item.zweihander_test.stone_axe_head": "Axe Head",
@@ -1591,7 +1597,6 @@
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
     },
     "en_us": {
-      "block.zweihanderrp.woodstupka": "Woodstupka",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
@@ -1626,6 +1631,7 @@
       "item.zweihanderrp.koife_helmet": "Mail Coif",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
       "item.zweihanderrp.turban_helmet": "Turban ",
+      "block.zweihanderrp.vstu_plenie": "Mortar and Pestle",
       "item.zweihanderrp.bacinet_helmet": "Bascinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
       "item.zweihander_test.stone_axe_head": "Axe Head",
@@ -1757,7 +1763,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "gecholib"
+      "geckolib"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

@@ -5,19 +5,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
-import net.minecraft.commands.CommandFunction;
+import net.minecraft.core.BlockPos;
 
 import javax.annotation.Nullable;
-
-import java.util.Optional;
 
 @Mod.EventBusSubscriber
 public class WoodstupkaOnBlockRightClickedProcedure {
@@ -33,12 +26,12 @@ public class WoodstupkaOnBlockRightClickedProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if (true) {
-			if (world instanceof ServerLevel _level && _level.getServer() != null) {
-				Optional<CommandFunction> _fopt = _level.getServer().getFunctions().get(new ResourceLocation("stupkakrutit"));
-				if (_fopt.isPresent())
-					_level.getServer().getFunctions().execute(_fopt.get(), new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null));
-			}
+		{
+			int _value = 1;
+			BlockPos _pos = BlockPos.containing(x, y, z);
+			BlockState _bs = world.getBlockState(_pos);
+			if (_bs.getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+				world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 		}
 	}
 }

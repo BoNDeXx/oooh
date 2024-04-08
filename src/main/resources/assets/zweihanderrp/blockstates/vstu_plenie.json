@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zweihanderrp:custom/vstu_plenie_particle"
+    },
+    "facing=east": {
+      "model": "zweihanderrp:custom/vstu_plenie_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zweihanderrp:custom/vstu_plenie_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zweihanderrp:custom/vstu_plenie_particle",
+      "y": 270
+    }
+  }
+}

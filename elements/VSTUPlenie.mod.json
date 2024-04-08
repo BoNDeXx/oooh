@@ -1,6 +1,6 @@
 {
   "_fv": 57,
-  "_type": "block",
+  "_type": "animatedblock",
   "definition": {
     "texture": "birch_planks",
     "textureTop": "",
@@ -8,8 +8,7 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "stipichok:default",
+    "renderType": 0,
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,13 +32,13 @@
         "subtract": false
       }
     ],
-    "name": "Woodstupka",
+    "name": "Mortar and Pestle",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.3,
+    "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": true,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Test"
@@ -56,9 +55,9 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,6 +76,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 1,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -101,7 +101,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -109,6 +115,7 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -122,26 +129,14 @@
     "onRightClicked": {
       "name": "WoodstupkaOnBlockRightClicked"
     },
-    "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "stupipestikw_-_converted_-_converted.geo_-_converted.geo.json",
+    "displaySettings": "stupipestikw_-_converted_-_converted.item_-_converted.geo.json"
   }
 }

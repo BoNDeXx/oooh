@@ -67,6 +67,7 @@ import net.mcreator.zweihanderrp.item.BarbuteItem;
 import net.mcreator.zweihanderrp.item.BacinetItem;
 import net.mcreator.zweihanderrp.item.ArabicTunikItem;
 import net.mcreator.zweihanderrp.item.ArabicStandardPauldronsItem;
+import net.mcreator.zweihanderrp.block.display.VSTUPlenieDisplayItem;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
 public class ZweihanderrpModItems {
@@ -83,7 +84,6 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> STONE_PICKAXE_HEAD = REGISTRY.register("stone_pickaxe_head", () -> new StonePickaxeHeadItem());
 	public static final RegistryObject<Item> STONE_KNIFE_HEAD = REGISTRY.register("stone_knife_head", () -> new StoneKnifeHeadItem());
 	public static final RegistryObject<Item> ROPE = REGISTRY.register("rope", () -> new RopeItem());
-	public static final RegistryObject<Item> WOODSTUPKA = block(ZweihanderrpModBlocks.WOODSTUPKA);
 	public static final RegistryObject<Item> NORDIC_HELMET_1_HELMET = REGISTRY.register("nordic_helmet_1_helmet", () -> new NordicHelmet1Item.Helmet());
 	public static final RegistryObject<Item> NORDIC_HELMET_2_HELMET = REGISTRY.register("nordic_helmet_2_helmet", () -> new NordicHelmet2Item.Helmet());
 	public static final RegistryObject<Item> NORDIC_HELMET_3_HELMET = REGISTRY.register("nordic_helmet_3_helmet", () -> new NordicHelmet3Item.Helmet());
@@ -130,6 +130,7 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> BLUE_TUNIK_1_LEGGINGS = REGISTRY.register("blue_tunik_1_leggings", () -> new BlueTunik1Item.Leggings());
 	public static final RegistryObject<Item> BLUE_TUNIK_2_LEGGINGS = REGISTRY.register("blue_tunik_2_leggings", () -> new BlueTunik2Item.Leggings());
 	public static final RegistryObject<Item> BLUE_TUNIK_3_LEGGINGS = REGISTRY.register("blue_tunik_3_leggings", () -> new BlueTunik3Item.Leggings());
+	public static final RegistryObject<Item> VSTU_PLENIE = REGISTRY.register(ZweihanderrpModBlocks.VSTU_PLENIE.getId().getPath(), () -> new VSTUPlenieDisplayItem(ZweihanderrpModBlocks.VSTU_PLENIE.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

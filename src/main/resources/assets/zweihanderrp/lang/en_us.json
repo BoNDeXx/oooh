@@ -1,5 +1,4 @@
 {
-  "block.zweihanderrp.woodstupka": "Woodstupka",
   "item.zweihanderrp.stone_axe_head": "Axe Head",
   "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
   "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
@@ -34,6 +33,7 @@
   "item.zweihanderrp.koife_helmet": "Mail Coif",
   "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
   "item.zweihanderrp.turban_helmet": "Turban ",
+  "block.zweihanderrp.vstu_plenie": "Mortar and Pestle",
   "item.zweihanderrp.bacinet_helmet": "Bascinet",
   "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
   "item.zweihander_test.stone_axe_head": "Axe Head",

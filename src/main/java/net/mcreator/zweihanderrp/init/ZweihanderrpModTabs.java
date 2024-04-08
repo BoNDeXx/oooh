@@ -31,7 +31,7 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.STONE_PICKAXE_HEAD.get());
 				tabData.accept(ZweihanderrpModItems.STONE_KNIFE_HEAD.get());
 				tabData.accept(ZweihanderrpModItems.ROPE.get());
-				tabData.accept(ZweihanderrpModBlocks.WOODSTUPKA.get().asItem());
+				tabData.accept(ZweihanderrpModBlocks.VSTU_PLENIE.get().asItem());
 			})
 
 					.build());
