@@ -45,19 +45,6 @@
       "path": "~/Items/Blocks"
     },
     {
-      "name": "Hud",
-      "type": "overlay",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hud",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/client/screens/HudOverlay.java"
-        ]
-      }
-    },
-    {
       "name": "Schicht",
       "type": "item",
       "sortid": 6,
@@ -1453,7 +1440,14 @@
       "path": "~/Items/Blocks/ToolsBlocks"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "water_amount",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "10.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "carve_pebble_sound",
@@ -1552,7 +1546,6 @@
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
       "item.zweihander_test.schicht": "Шихта",
-      "gui.zweihanderrp.hud.label_enbtintegertagname": "\u003cENBT:integer:tagName\u003e",
       "item.zweihanderrp.turban_helmet": "Turban ",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
@@ -1643,7 +1636,6 @@
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
       "item.zweihander_test.schicht": "Schicht",
-      "gui.zweihanderrp.hud.label_enbtintegertagname": "\u003cENBT:integer:tagName\u003e",
       "item.zweihanderrp.turban_helmet": "Turban ",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
