@@ -5,7 +5,7 @@
     "type": 1,
     "width": 176,
     "height": 166,
-    "inventoryOffsetX": 0,
+    "inventoryOffsetX": -1,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
@@ -173,30 +173,6 @@
         }
       },
       {
-        "type": "outputslot",
-        "data": {
-          "id": 9,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 276,
-          "y": 80
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_forging",
-          "text": "Forging",
-          "isUndecorated": false,
-          "width": 61,
-          "height": 20,
-          "x": 204,
-          "y": 80
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -233,6 +209,18 @@
         }
       },
       {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
         "type": "label",
         "data": {
           "name": "label_blacksmithing",
@@ -245,6 +233,40 @@
           },
           "x": 177,
           "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_progbar.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1_progbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anvilprogressbar0"
+          },
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_smith",
+          "image": "button_smith.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Anviltest1"
+          },
+          "x": 204,
+          "y": 80
         }
       }
     ],

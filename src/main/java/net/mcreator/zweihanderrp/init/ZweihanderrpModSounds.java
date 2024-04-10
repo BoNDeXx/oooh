@@ -21,4 +21,5 @@ public class ZweihanderrpModSounds {
 	public static final RegistryObject<SoundEvent> PLATE_ARMOR1 = REGISTRY.register("plate_armor1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_armor1")));
 	public static final RegistryObject<SoundEvent> KOLCHUGA = REGISTRY.register("kolchuga", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "kolchuga")));
 	public static final RegistryObject<SoundEvent> MORTARPESTESOUND = REGISTRY.register("mortarpestesound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "mortarpestesound")));
+	public static final RegistryObject<SoundEvent> ANVIL_STUK1 = REGISTRY.register("anvil_stuk1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "anvil_stuk1")));
 }

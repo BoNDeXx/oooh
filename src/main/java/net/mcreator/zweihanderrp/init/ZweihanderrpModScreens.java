@@ -12,7 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.zweihanderrp.client.gui.StoneCraftScreen;
-import net.mcreator.zweihanderrp.client.gui.SmithingCraftScreen;
+import net.mcreator.zweihanderrp.client.gui.SmallanvilGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ZweihanderrpModScreens {
@@ -20,7 +20,7 @@ public class ZweihanderrpModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ZweihanderrpModMenus.STONE_CRAFT.get(), StoneCraftScreen::new);
-			MenuScreens.register(ZweihanderrpModMenus.SMITHING_CRAFT.get(), SmithingCraftScreen::new);
+			MenuScreens.register(ZweihanderrpModMenus.SMALLANVIL_GUI.get(), SmallanvilGUIScreen::new);
 		});
 	}
 }

@@ -25,7 +25,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class SmithingCraftMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -38,8 +38,8 @@ public class SmithingCraftMenu extends AbstractContainerMenu implements Supplier
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public SmithingCraftMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(ZweihanderrpModMenus.SMITHING_CRAFT.get(), id);
+	public SmallanvilGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(ZweihanderrpModMenus.SMALLANVIL_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(12);
@@ -104,6 +104,12 @@ public class SmithingCraftMenu extends AbstractContainerMenu implements Supplier
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 62) {
 			private final int slot = 8;
 		}));
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 79, 62) {
+			private final int slot = 10;
+		}));
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 97, 62) {
+			private final int slot = 11;
+		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 151, 44) {
 			private final int slot = 9;
 
@@ -112,17 +118,11 @@ public class SmithingCraftMenu extends AbstractContainerMenu implements Supplier
 				return false;
 			}
 		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 79, 62) {
-			private final int slot = 10;
-		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 97, 62) {
-			private final int slot = 11;
-		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, 0 + 142));
 	}
 
 	@Override

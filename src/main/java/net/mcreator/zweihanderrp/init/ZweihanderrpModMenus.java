@@ -12,11 +12,11 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.zweihanderrp.world.inventory.StoneCraftMenu;
-import net.mcreator.zweihanderrp.world.inventory.SmithingCraftMenu;
+import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
 public class ZweihanderrpModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, ZweihanderrpMod.MODID);
 	public static final RegistryObject<MenuType<StoneCraftMenu>> STONE_CRAFT = REGISTRY.register("stone_craft", () -> IForgeMenuType.create(StoneCraftMenu::new));
-	public static final RegistryObject<MenuType<SmithingCraftMenu>> SMITHING_CRAFT = REGISTRY.register("smithing_craft", () -> IForgeMenuType.create(SmithingCraftMenu::new));
+	public static final RegistryObject<MenuType<SmallanvilGUIMenu>> SMALLANVIL_GUI = REGISTRY.register("smallanvil_gui", () -> IForgeMenuType.create(SmallanvilGUIMenu::new));
 }
