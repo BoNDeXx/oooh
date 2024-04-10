@@ -8,5 +8,5 @@
     "3": "zweihanderrp:block/anvil",
     "missing": "zweihanderrp:block/anvil"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
