@@ -1,6 +1,22 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "zweihanderrp:block/dark_oak_log_top"
+  "parent": "zweihanderrp:block/govno_small_anvil",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
   }
 }

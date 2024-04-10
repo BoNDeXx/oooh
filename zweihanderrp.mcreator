@@ -1463,10 +1463,10 @@
       "registry_name": "govno_small_anvil",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/blockstates/govno_small_anvil.json",
-          "src/main/java/net/mcreator/zweihanderrp/block/GovnoSmallAnvilBlock.java",
           "src/main/resources/assets/zweihanderrp/models/item/govno_small_anvil.json",
-          "src/main/resources/assets/zweihanderrp/models/block/govno_small_anvil.json"
+          "src/main/java/net/mcreator/zweihanderrp/block/GovnoSmallAnvilBlock.java",
+          "src/main/resources/assets/zweihanderrp/models/block/govno_small_anvil.json",
+          "src/main/resources/assets/zweihanderrp/blockstates/govno_small_anvil.json"
         ]
       },
       "path": "~/Items/Blocks/ToolsBlocks"

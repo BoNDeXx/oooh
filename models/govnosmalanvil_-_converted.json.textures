@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "dark_oak_log_top",
+        "2": "oak_log",
+        "3": "anvil",
+        "missing": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

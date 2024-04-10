@@ -8,8 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 3,
-    "customModelName": "Govnosmalanvil:default",
+    "renderType": 2,
+    "customModelName": "govnosmalanvil_-_converted:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 20.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -104,7 +104,7 @@
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "SmithingCraft",
-    "openGUIOnRightClick": false,
+    "openGUIOnRightClick": true,
     "inventorySize": 12,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
