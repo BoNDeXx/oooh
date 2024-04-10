@@ -47,6 +47,7 @@
   "item.zweihander_test.schicht": "Шихта",
   "item.zweihanderrp.turban_helmet": "Turban ",
   "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
+  "gui.zweihanderrp.smithing_craft.label_blacksmithing": "Blacksmithing",
   "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
   "item.zweihanderrp.krica": "Krica",
   "item.zweihanderrp.chugunok": "Chugunok",
@@ -67,6 +68,7 @@
   "gui.zweihanderrp.stone_craft.button_axe": "Axe",
   "item.zweihander_test.stone_axe_head": "Axe Head",
   "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
+  "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
   "item.zweihanderrp.veryrichtophelm_helmet": "Rich Topfhelm",
   "item.zweihanderrp.nordic_helmet_1_helmet": "Nordic Helmet",
   "item.zweihanderrp.engraved_pauldrons_chestplate": "Engraved Pauldrons",
@@ -84,6 +86,7 @@
   "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
   "item.zweihanderrp.stone_hoe_head": "Hoe Head",
   "gui.zweihanderrp.stone_craft.button_arrowhead": "Arrowhead",
+  "block.zweihanderrp.govno_small_anvil": "Small Anvil",
   "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
   "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body",
   "item.zweihanderrp.blued_pauldrons_chestplate": "Blued Pauldrons "

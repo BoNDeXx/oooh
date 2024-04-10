@@ -1,0 +1,20 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "zweihanderrp:models/item/Govnosmalanvil.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "#m_5d41cd3e-7d29-5f00-1546-9d2343add518": "zweihanderrp:block/",
+        "#m_06c732ac-82a2-f819-3a32-e52202ad4ee5": "zweihanderrp:block/",
+        "#m_85a00a82-2f0b-f132-9f25-1cc94ffc51b5": "zweihanderrp:block/"
+      }
+    }
+  },
+  "textures": {
+    "particle": "zweihanderrp:block/dark_oak_log_top"
+  },
+  "render_type": "solid"
+}

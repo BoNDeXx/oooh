@@ -32,6 +32,7 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.STONE_KNIFE_HEAD.get());
 				tabData.accept(ZweihanderrpModItems.ROPE.get());
 				tabData.accept(ZweihanderrpModBlocks.VSTU_PLENIE.get().asItem());
+				tabData.accept(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL.get().asItem());
 			})
 
 					.build());

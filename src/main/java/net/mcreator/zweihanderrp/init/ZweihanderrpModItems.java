@@ -131,6 +131,7 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> BLUE_TUNIK_2_LEGGINGS = REGISTRY.register("blue_tunik_2_leggings", () -> new BlueTunik2Item.Leggings());
 	public static final RegistryObject<Item> BLUE_TUNIK_3_LEGGINGS = REGISTRY.register("blue_tunik_3_leggings", () -> new BlueTunik3Item.Leggings());
 	public static final RegistryObject<Item> VSTU_PLENIE = REGISTRY.register(ZweihanderrpModBlocks.VSTU_PLENIE.getId().getPath(), () -> new VSTUPlenieDisplayItem(ZweihanderrpModBlocks.VSTU_PLENIE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GOVNO_SMALL_ANVIL = block(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
