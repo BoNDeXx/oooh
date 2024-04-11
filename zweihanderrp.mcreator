@@ -1517,9 +1517,6 @@
       "locked_code": false,
       "registry_name": "anviltest_1",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/Anviltest1Procedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -1552,6 +1549,138 @@
         "return_type": "logic",
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/procedures/Anvilprogressbar0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Procedures"
+    },
+    {
+      "name": "Anvilprogressbar1",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilprogressbar_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Anvilprogressbar1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Procedures"
+    },
+    {
+      "name": "Anvilprogressbar2",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilprogressbar_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Anvilprogressbar2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Procedures"
+    },
+    {
+      "name": "Anvilprogressbar3",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilprogressbar_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Anvilprogressbar3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Procedures"
+    },
+    {
+      "name": "Anvilprogressbar4",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilprogressbar_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Anvilprogressbar4Procedure.java"
         ],
         "dependencies": [
           {

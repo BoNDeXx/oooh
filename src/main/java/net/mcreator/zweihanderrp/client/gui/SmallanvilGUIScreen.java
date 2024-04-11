@@ -10,6 +10,10 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar4Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar3Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar2Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar1Procedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar0Procedure;
 import net.mcreator.zweihanderrp.network.SmallanvilGUIButtonMessage;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
@@ -56,6 +60,18 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 
 		if (Anvilprogressbar0Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar4Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 97, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		RenderSystem.disableBlend();
 	}

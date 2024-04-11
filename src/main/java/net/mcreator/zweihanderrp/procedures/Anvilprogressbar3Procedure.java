@@ -4,7 +4,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-public class Anvilprogressbar0Procedure {
+public class Anvilprogressbar3Procedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
 		if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -13,7 +13,7 @@ public class Anvilprogressbar0Procedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "Forgingprogress") >= 20) {
+		}.getValue(world, BlockPos.containing(x, y, z), "Forgingprogress") >= 80) {
 			return true;
 		}
 		return false;

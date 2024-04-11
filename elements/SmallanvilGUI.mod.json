@@ -257,6 +257,54 @@
         }
       },
       {
+        "type": "image",
+        "data": {
+          "image": "2_progbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anvilprogressbar1"
+          },
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3_progbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anvilprogressbar2"
+          },
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5_progbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anvilprogressbar3"
+          },
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "full_progbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Anvilprogressbar4"
+          },
+          "x": 223,
+          "y": 80
+        }
+      },
+      {
         "type": "imagebutton",
         "data": {
           "name": "imagebutton_button_smith",
