@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.zweihanderrp.item.VeryrichtophelmItem;
 import net.mcreator.zweihanderrp.item.TurbanItem;
+import net.mcreator.zweihanderrp.item.TreatedCritzItem;
 import net.mcreator.zweihanderrp.item.TophelmItem;
 import net.mcreator.zweihanderrp.item.StoneShovelHeadItem;
 import net.mcreator.zweihanderrp.item.StonePickaxeHeadItem;
@@ -132,6 +133,8 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> BLUE_TUNIK_3_LEGGINGS = REGISTRY.register("blue_tunik_3_leggings", () -> new BlueTunik3Item.Leggings());
 	public static final RegistryObject<Item> VSTU_PLENIE = REGISTRY.register(ZweihanderrpModBlocks.VSTU_PLENIE.getId().getPath(), () -> new VSTUPlenieDisplayItem(ZweihanderrpModBlocks.VSTU_PLENIE.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GOVNO_SMALL_ANVIL = block(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL);
+	public static final RegistryObject<Item> TREATED_CRITZ = REGISTRY.register("treated_critz", () -> new TreatedCritzItem());
+	public static final RegistryObject<Item> TESTVERSTAK = block(ZweihanderrpModBlocks.TESTVERSTAK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

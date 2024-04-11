@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.zweihanderrp.client.gui.TestverstakGUIScreen;
 import net.mcreator.zweihanderrp.client.gui.StoneCraftScreen;
 import net.mcreator.zweihanderrp.client.gui.SmallanvilGUIScreen;
 
@@ -21,6 +22,7 @@ public class ZweihanderrpModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ZweihanderrpModMenus.STONE_CRAFT.get(), StoneCraftScreen::new);
 			MenuScreens.register(ZweihanderrpModMenus.SMALLANVIL_GUI.get(), SmallanvilGUIScreen::new);
+			MenuScreens.register(ZweihanderrpModMenus.TESTVERSTAK_GUI.get(), TestverstakGUIScreen::new);
 		});
 	}
 }

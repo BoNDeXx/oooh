@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.zweihanderrp.block.VSTUPlenieBlock;
+import net.mcreator.zweihanderrp.block.TestverstakBlock;
 import net.mcreator.zweihanderrp.block.SyrodutBlock;
 import net.mcreator.zweihanderrp.block.LandRockBlock;
 import net.mcreator.zweihanderrp.block.GovnoSmallAnvilBlock;
@@ -26,6 +27,7 @@ public class ZweihanderrpModBlocks {
 	public static final RegistryObject<Block> LAND_ROCK = REGISTRY.register("land_rock", () -> new LandRockBlock());
 	public static final RegistryObject<Block> VSTU_PLENIE = REGISTRY.register("vstu_plenie", () -> new VSTUPlenieBlock());
 	public static final RegistryObject<Block> GOVNO_SMALL_ANVIL = REGISTRY.register("govno_small_anvil", () -> new GovnoSmallAnvilBlock());
+	public static final RegistryObject<Block> TESTVERSTAK = REGISTRY.register("testverstak", () -> new TestverstakBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
