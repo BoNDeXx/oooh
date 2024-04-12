@@ -16,6 +16,7 @@ import net.mcreator.zweihanderrp.item.VeryrichtophelmItem;
 import net.mcreator.zweihanderrp.item.TurbanItem;
 import net.mcreator.zweihanderrp.item.TreatedCritzItem;
 import net.mcreator.zweihanderrp.item.TophelmItem;
+import net.mcreator.zweihanderrp.item.TemplarkitItem;
 import net.mcreator.zweihanderrp.item.StoneShovelHeadItem;
 import net.mcreator.zweihanderrp.item.StonePickaxeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneKnifeHeadItem;
@@ -137,6 +138,9 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> TREATED_CRITZ = REGISTRY.register("treated_critz", () -> new TreatedCritzItem());
 	public static final RegistryObject<Item> TESTVERSTAK = block(ZweihanderrpModBlocks.TESTVERSTAK);
 	public static final RegistryObject<Item> STONE_ARROW_HEAD = REGISTRY.register("stone_arrow_head", () -> new StoneArrowHeadItem());
+	public static final RegistryObject<Item> TEMPLARKIT_HELMET = REGISTRY.register("templarkit_helmet", () -> new TemplarkitItem.Helmet());
+	public static final RegistryObject<Item> TEMPLARKIT_CHESTPLATE = REGISTRY.register("templarkit_chestplate", () -> new TemplarkitItem.Chestplate());
+	public static final RegistryObject<Item> TEMPLARKIT_LEGGINGS = REGISTRY.register("templarkit_leggings", () -> new TemplarkitItem.Leggings());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

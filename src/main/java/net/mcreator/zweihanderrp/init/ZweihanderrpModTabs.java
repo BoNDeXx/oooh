@@ -87,5 +87,8 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.BLUE_TUNIK_1_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.BLUE_TUNIK_2_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.BLUE_TUNIK_3_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_CHESTPLATE.get());
+				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_LEGGINGS.get());
 			}).withSearchBar().build());
 }

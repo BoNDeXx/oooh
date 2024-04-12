@@ -1888,6 +1888,23 @@
         ]
       },
       "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "Templarkit",
+      "type": "armor",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templarkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/TemplarkitItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/templarkit_helmet.json",
+          "src/main/resources/assets/zweihanderrp/models/item/templarkit_leggings.json",
+          "src/main/resources/assets/zweihanderrp/models/item/templarkit_chestplate.json"
+        ]
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -1989,12 +2006,14 @@
       "item.zweihanderrp.chugunok": "Chugunok",
       "item.zweihanderrp.schicht": "Schicht",
       "subtitles.plate_armor1": "",
+      "item.zweihanderrp.templarkit_leggings": "Templar Mail And Tunic",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Tophelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
@@ -2032,6 +2051,7 @@
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Tophelm ",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
+      "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Tophelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
@@ -2090,12 +2110,14 @@
       "item.zweihanderrp.chugunok": "Chugunok",
       "item.zweihanderrp.schicht": "Schicht",
       "subtitles.plate_armor1": "",
+      "item.zweihanderrp.templarkit_leggings": "Templar Mail And Tunic",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Topfhelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
@@ -2133,6 +2155,7 @@
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Topfhelm ",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
+      "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Topfhelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
