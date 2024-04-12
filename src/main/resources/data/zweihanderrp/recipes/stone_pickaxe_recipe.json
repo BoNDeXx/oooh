@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zweihanderrp:rope"
+    },
+    {
+      "item": "zweihanderrp:stone_pickaxe_head"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

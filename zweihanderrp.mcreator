@@ -1846,6 +1846,47 @@
         ]
       },
       "path": "~/Scripts/Recipes/ToolsRecipes"
+    },
+    {
+      "name": "StoneKnifeRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_knife_recipe.json"
+        ]
+      },
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Scripts/Recipes"
+    },
+    {
+      "name": "StonePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/recipes/stone_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Scripts/Recipes"
     }
   ],
   "variable_elements": [
