@@ -1878,6 +1878,7 @@
     {
       "name": "StonePickaxeRecipe",
       "type": "recipe",
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_pickaxe_recipe",
