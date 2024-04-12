@@ -47,6 +47,7 @@ import net.mcreator.zweihanderrp.item.MailStandardItem;
 import net.mcreator.zweihanderrp.item.LeatherBrigandineItem;
 import net.mcreator.zweihanderrp.item.KricaItem;
 import net.mcreator.zweihanderrp.item.KoifeItem;
+import net.mcreator.zweihanderrp.item.JerusTunicItem;
 import net.mcreator.zweihanderrp.item.IberianHelmetItem;
 import net.mcreator.zweihanderrp.item.HungarianTunicItem;
 import net.mcreator.zweihanderrp.item.HospitallerTunic2Item;
@@ -54,14 +55,17 @@ import net.mcreator.zweihanderrp.item.HospitallerTunic1Item;
 import net.mcreator.zweihanderrp.item.HZhelmeteRichItem;
 import net.mcreator.zweihanderrp.item.HZhelmeteItem;
 import net.mcreator.zweihanderrp.item.FullCuirassItem;
+import net.mcreator.zweihanderrp.item.FrenchTunicItem;
 import net.mcreator.zweihanderrp.item.EngravedbarbuteItem;
 import net.mcreator.zweihanderrp.item.EngravedTophelmItem;
 import net.mcreator.zweihanderrp.item.EngravedPauldronsItem;
 import net.mcreator.zweihanderrp.item.EngravedCuirassItem;
+import net.mcreator.zweihanderrp.item.EnglishTunicItem;
 import net.mcreator.zweihanderrp.item.CrudeGovnoCuirassItem;
 import net.mcreator.zweihanderrp.item.CrudeCuirassItem;
 import net.mcreator.zweihanderrp.item.CoalDustItem;
 import net.mcreator.zweihanderrp.item.ChugunokItem;
+import net.mcreator.zweihanderrp.item.CheapArmorIronItem;
 import net.mcreator.zweihanderrp.item.BluedsalletItem;
 import net.mcreator.zweihanderrp.item.BluedPauldronsItem;
 import net.mcreator.zweihanderrp.item.BluedKlapvisorItem;
@@ -153,6 +157,12 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> TEMPLAR_ALT_TUNIC_LEGGINGS = REGISTRY.register("templar_alt_tunic_leggings", () -> new TemplarAltTunicItem.Leggings());
 	public static final RegistryObject<Item> HOSPITALLER_TUNIC_1_LEGGINGS = REGISTRY.register("hospitaller_tunic_1_leggings", () -> new HospitallerTunic1Item.Leggings());
 	public static final RegistryObject<Item> HOSPITALLER_TUNIC_2_LEGGINGS = REGISTRY.register("hospitaller_tunic_2_leggings", () -> new HospitallerTunic2Item.Leggings());
+	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_HELMET = REGISTRY.register("cheap_armor_iron_helmet", () -> new CheapArmorIronItem.Helmet());
+	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_CHESTPLATE = REGISTRY.register("cheap_armor_iron_chestplate", () -> new CheapArmorIronItem.Chestplate());
+	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_LEGGINGS = REGISTRY.register("cheap_armor_iron_leggings", () -> new CheapArmorIronItem.Leggings());
+	public static final RegistryObject<Item> ENGLISH_TUNIC_CHESTPLATE = REGISTRY.register("english_tunic_chestplate", () -> new EnglishTunicItem.Chestplate());
+	public static final RegistryObject<Item> FRENCH_TUNIC_CHESTPLATE = REGISTRY.register("french_tunic_chestplate", () -> new FrenchTunicItem.Chestplate());
+	public static final RegistryObject<Item> JERUS_TUNIC_CHESTPLATE = REGISTRY.register("jerus_tunic_chestplate", () -> new JerusTunicItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

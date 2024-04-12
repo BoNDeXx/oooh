@@ -1995,6 +1995,68 @@
         ]
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "CheapArmorIron",
+      "type": "armor",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheap_armor_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/CheapArmorIronItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_chestplate.json",
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "EnglishTunic",
+      "type": "armor",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "english_tunic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/english_tunic_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/EnglishTunicItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "FrenchTunic",
+      "type": "armor",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "french_tunic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_chestplate.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "JerusTunic",
+      "type": "armor",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jerus_tunic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/jerus_tunic_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/JerusTunicItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -2068,18 +2130,19 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
+      "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "block.zweihanderrp.testverstak": "Testverstak",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
@@ -2117,6 +2180,7 @@
       "subtitles.mortarpestesound": "",
       "item.zweihanderrp.nodic_helmet_6_helmet": "Nordic Helmet ",
       "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
+      "item.zweihanderrp.cheap_armor_iron_leggings": "Cheap Iron Leggings",
       "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Nordic Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
@@ -2145,8 +2209,11 @@
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Tophelm ",
+      "item.zweihanderrp.english_tunic_chestplate": "English Tunic",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
+      "item.zweihanderrp.jerus_tunic_chestplate": "Jerusalem Tunic",
+      "item.zweihanderrp.french_tunic_chestplate": "French Tunic",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Tophelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
@@ -2168,6 +2235,7 @@
       "item.zweihanderrp.treated_critz": "Treated Critz",
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Nordic Helmet ",
+      "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "subtitles.udar_po_kolchuge": "",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
@@ -2178,18 +2246,19 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
+      "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "block.zweihanderrp.testverstak": "Testverstak",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",
@@ -2227,6 +2296,7 @@
       "subtitles.mortarpestesound": "",
       "item.zweihanderrp.nodic_helmet_6_helmet": "Anglo-Saxon Helmet ",
       "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
+      "item.zweihanderrp.cheap_armor_iron_leggings": "Cheap Iron Leggings",
       "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Leather Reinforced Viking Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
@@ -2255,8 +2325,11 @@
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Topfhelm ",
+      "item.zweihanderrp.english_tunic_chestplate": "English Tunic",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
+      "item.zweihanderrp.jerus_tunic_chestplate": "Jerusalem Tunic",
+      "item.zweihanderrp.french_tunic_chestplate": "French Tunic",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Topfhelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
@@ -2278,6 +2351,7 @@
       "item.zweihanderrp.treated_critz": "Treated Critz",
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Viking Helmet ",
+      "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "subtitles.udar_po_kolchuge": "",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",
