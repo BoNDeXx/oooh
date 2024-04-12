@@ -21,6 +21,7 @@ import net.mcreator.zweihanderrp.item.StonePickaxeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneKnifeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneHoeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneAxeHeadItem;
+import net.mcreator.zweihanderrp.item.StoneArrowHeadItem;
 import net.mcreator.zweihanderrp.item.SimpleCuirassItem;
 import net.mcreator.zweihanderrp.item.SchichtItem;
 import net.mcreator.zweihanderrp.item.SalletItem;
@@ -135,6 +136,7 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> GOVNO_SMALL_ANVIL = block(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL);
 	public static final RegistryObject<Item> TREATED_CRITZ = REGISTRY.register("treated_critz", () -> new TreatedCritzItem());
 	public static final RegistryObject<Item> TESTVERSTAK = block(ZweihanderrpModBlocks.TESTVERSTAK);
+	public static final RegistryObject<Item> STONE_ARROW_HEAD = REGISTRY.register("stone_arrow_head", () -> new StoneArrowHeadItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

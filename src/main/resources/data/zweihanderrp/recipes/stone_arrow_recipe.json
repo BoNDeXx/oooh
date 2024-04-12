@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zweihanderrp:stone_arrow_head"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "zweihanderrp:rope"
+    }
+  ],
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

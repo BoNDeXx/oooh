@@ -66,6 +66,8 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 
 		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_sword_baza.png"), this.leftPos + 155, this.topPos + 76, 0, 0, 16, 16, 16, 16);
 
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/arrow_head.png"), this.leftPos + 155, this.topPos + 49, 0, 0, 16, 16, 16, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -129,6 +131,10 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 		guistate.put("button:button_shovel", button_shovel);
 		this.addRenderableWidget(button_shovel);
 		button_arrowhead = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_arrowhead"), e -> {
+			if (true) {
+				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(4, x, y, z));
+				StoneCraftButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
 		}).bounds(this.leftPos + 92, this.topPos + 49, 61, 20).build();
 		guistate.put("button:button_arrowhead", button_arrowhead);
 		this.addRenderableWidget(button_arrowhead);

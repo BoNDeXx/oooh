@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.zweihanderrp.world.inventory.StoneCraftMenu;
+import net.mcreator.zweihanderrp.procedures.Stonecraft5arrowhedusProcedure;
 import net.mcreator.zweihanderrp.procedures.Stonecraft4PixcaleProcedure;
 import net.mcreator.zweihanderrp.procedures.Stonecraft3HoeProcedure;
 import net.mcreator.zweihanderrp.procedures.Stonecraft2ShoveclickProcedure;
@@ -80,6 +81,10 @@ public class StoneCraftButtonMessage {
 		if (buttonID == 3) {
 
 			Stonecraft2ShoveclickProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			Stonecraft5arrowhedusProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

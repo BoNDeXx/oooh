@@ -91,6 +91,9 @@
           "name": "button_arrowhead",
           "text": "Arrowhead",
           "isUndecorated": false,
+          "onClick": {
+            "name": "Stonecraft5arrowhedus"
+          },
           "width": 61,
           "height": 20,
           "x": 214,
@@ -224,6 +227,15 @@
           "use1Xscale": false,
           "x": 277,
           "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_head.png",
+          "use1Xscale": false,
+          "x": 277,
+          "y": 77
         }
       }
     ],
