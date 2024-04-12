@@ -1,21 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "a ",
-    "bc"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "zweihanderrp:stone_shovel_head"
     },
-    "b": {
+    {
       "item": "minecraft:stick"
     },
-    "c": {
+    {
       "item": "zweihanderrp:rope"
     }
-  },
+  ],
   "result": {
     "item": "minecraft:stone_shovel",
     "count": 1

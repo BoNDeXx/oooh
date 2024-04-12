@@ -1,21 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    " c"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "zweihanderrp:rope"
     },
-    "b": {
+    {
       "item": "zweihanderrp:stone_axe_head"
     },
-    "c": {
+    {
       "item": "minecraft:stick"
     }
-  },
+  ],
   "result": {
     "item": "minecraft:stone_axe",
     "count": 1

@@ -310,48 +310,6 @@
       "path": "~/Scripts/Recipes"
     },
     {
-      "name": "StoneAxeRecipe2",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_axe_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_2.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes"
-    },
-    {
-      "name": "StoneAxeRecipe3",
-      "type": "recipe",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_axe_recipe_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_3.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes"
-    },
-    {
-      "name": "StoneAxeRecipe4",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_axe_recipe_4",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_axe_recipe_4.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes"
-    },
-    {
       "name": "StoneShovelRecipe",
       "type": "recipe",
       "sortid": 29,
@@ -361,48 +319,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/zweihanderrp/recipes/stone_shovel_recipe.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes/ToolsRecipes"
-    },
-    {
-      "name": "StoneShoveRecipe2",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_shove_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_2.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes/ToolsRecipes"
-    },
-    {
-      "name": "StoneShoveRecipe3",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_shove_recipe_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_3.json"
-        ]
-      },
-      "path": "~/Scripts/Recipes/ToolsRecipes"
-    },
-    {
-      "name": "StoneShoveRecipe4",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_shove_recipe_4",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/recipes/stone_shove_recipe_4.json"
         ]
       },
       "path": "~/Scripts/Recipes/ToolsRecipes"
