@@ -6,15 +6,20 @@ package net.mcreator.zweihanderrp.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ZweihanderrpModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ZweihanderrpMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ZWEIHANDER_RP_CORE = REGISTRY.register("zweihander_rp_core",
@@ -90,5 +95,18 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_HELMET.get());
 				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_CHESTPLATE.get());
 				tabData.accept(ZweihanderrpModItems.TEMPLARKIT_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.HUNGARIAN_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.ANTIOCHIAN_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.TEMPLAR_ALT_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.HOSPITALLER_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.HOSPITALLER_TUNIC_2_LEGGINGS.get());
 			}).withSearchBar().build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ZweihanderrpModItems.TEUTON_TUNIC_LEGGINGS.get());
+		}
+	}
 }

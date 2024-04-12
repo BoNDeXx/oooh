@@ -16,7 +16,9 @@ import net.mcreator.zweihanderrp.item.VeryrichtophelmItem;
 import net.mcreator.zweihanderrp.item.TurbanItem;
 import net.mcreator.zweihanderrp.item.TreatedCritzItem;
 import net.mcreator.zweihanderrp.item.TophelmItem;
+import net.mcreator.zweihanderrp.item.TeutonTunicItem;
 import net.mcreator.zweihanderrp.item.TemplarkitItem;
+import net.mcreator.zweihanderrp.item.TemplarAltTunicItem;
 import net.mcreator.zweihanderrp.item.StoneShovelHeadItem;
 import net.mcreator.zweihanderrp.item.StonePickaxeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneKnifeHeadItem;
@@ -46,6 +48,9 @@ import net.mcreator.zweihanderrp.item.LeatherBrigandineItem;
 import net.mcreator.zweihanderrp.item.KricaItem;
 import net.mcreator.zweihanderrp.item.KoifeItem;
 import net.mcreator.zweihanderrp.item.IberianHelmetItem;
+import net.mcreator.zweihanderrp.item.HungarianTunicItem;
+import net.mcreator.zweihanderrp.item.HospitallerTunic2Item;
+import net.mcreator.zweihanderrp.item.HospitallerTunic1Item;
 import net.mcreator.zweihanderrp.item.HZhelmeteRichItem;
 import net.mcreator.zweihanderrp.item.HZhelmeteItem;
 import net.mcreator.zweihanderrp.item.FullCuirassItem;
@@ -70,6 +75,7 @@ import net.mcreator.zweihanderrp.item.BarbuteItem;
 import net.mcreator.zweihanderrp.item.BacinetItem;
 import net.mcreator.zweihanderrp.item.ArabicTunikItem;
 import net.mcreator.zweihanderrp.item.ArabicStandardPauldronsItem;
+import net.mcreator.zweihanderrp.item.AntiochianTunicItem;
 import net.mcreator.zweihanderrp.block.display.VSTUPlenieDisplayItem;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
@@ -141,6 +147,12 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> TEMPLARKIT_HELMET = REGISTRY.register("templarkit_helmet", () -> new TemplarkitItem.Helmet());
 	public static final RegistryObject<Item> TEMPLARKIT_CHESTPLATE = REGISTRY.register("templarkit_chestplate", () -> new TemplarkitItem.Chestplate());
 	public static final RegistryObject<Item> TEMPLARKIT_LEGGINGS = REGISTRY.register("templarkit_leggings", () -> new TemplarkitItem.Leggings());
+	public static final RegistryObject<Item> HUNGARIAN_TUNIC_LEGGINGS = REGISTRY.register("hungarian_tunic_leggings", () -> new HungarianTunicItem.Leggings());
+	public static final RegistryObject<Item> ANTIOCHIAN_TUNIC_LEGGINGS = REGISTRY.register("antiochian_tunic_leggings", () -> new AntiochianTunicItem.Leggings());
+	public static final RegistryObject<Item> TEUTON_TUNIC_LEGGINGS = REGISTRY.register("teuton_tunic_leggings", () -> new TeutonTunicItem.Leggings());
+	public static final RegistryObject<Item> TEMPLAR_ALT_TUNIC_LEGGINGS = REGISTRY.register("templar_alt_tunic_leggings", () -> new TemplarAltTunicItem.Leggings());
+	public static final RegistryObject<Item> HOSPITALLER_TUNIC_1_LEGGINGS = REGISTRY.register("hospitaller_tunic_1_leggings", () -> new HospitallerTunic1Item.Leggings());
+	public static final RegistryObject<Item> HOSPITALLER_TUNIC_2_LEGGINGS = REGISTRY.register("hospitaller_tunic_2_leggings", () -> new HospitallerTunic2Item.Leggings());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
