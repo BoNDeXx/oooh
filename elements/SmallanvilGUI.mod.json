@@ -25,7 +25,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -43,7 +43,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -60,8 +60,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 168,
-          "y": 62
+          "x": 132,
+          "y": 89
         }
       },
       {
@@ -78,8 +78,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 132,
-          "y": 80
+          "x": 150,
+          "y": 89
         }
       },
       {
@@ -96,8 +96,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 150,
-          "y": 80
+          "x": 195,
+          "y": 98
         }
       },
       {
@@ -114,97 +114,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 168,
-          "y": 80
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 6,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 132,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 7,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 150,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 8,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 168,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 10,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 204,
-          "y": 98
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 11,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 222,
+          "x": 213,
           "y": 98
         }
       },
@@ -240,7 +150,7 @@
         "data": {
           "image": "no_progbar.png",
           "use1Xscale": false,
-          "x": 204,
+          "x": 195,
           "y": 80
         }
       },
@@ -252,7 +162,7 @@
           "displayCondition": {
             "name": "Anvilprogressbar0"
           },
-          "x": 222,
+          "x": 213,
           "y": 80
         }
       },
@@ -264,7 +174,7 @@
           "displayCondition": {
             "name": "Anvilprogressbar1"
           },
-          "x": 222,
+          "x": 213,
           "y": 80
         }
       },
@@ -276,7 +186,7 @@
           "displayCondition": {
             "name": "Anvilprogressbar2"
           },
-          "x": 222,
+          "x": 213,
           "y": 80
         }
       },
@@ -288,7 +198,7 @@
           "displayCondition": {
             "name": "Anvilprogressbar3"
           },
-          "x": 222,
+          "x": 213,
           "y": 80
         }
       },
@@ -300,7 +210,7 @@
           "displayCondition": {
             "name": "Anvilprogressbar4"
           },
-          "x": 223,
+          "x": 214,
           "y": 80
         }
       },
@@ -313,7 +223,7 @@
           "onClick": {
             "name": "Anviltest1"
           },
-          "x": 204,
+          "x": 195,
           "y": 80
         }
       }

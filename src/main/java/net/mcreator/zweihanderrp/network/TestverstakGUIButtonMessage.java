@@ -64,7 +64,7 @@ public class TestverstakGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			TestcrafttickProcedure.execute(entity);
+			TestcrafttickProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

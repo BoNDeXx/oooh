@@ -6,10 +6,15 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.zweihanderrp.world.inventory.TestverstakGUIMenu;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar4Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar3Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar2Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar1Procedure;
+import net.mcreator.zweihanderrp.procedures.Anvilprogressbar0Procedure;
 import net.mcreator.zweihanderrp.network.TestverstakGUIButtonMessage;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
@@ -22,7 +27,7 @@ public class TestverstakGUIScreen extends AbstractContainerScreen<TestverstakGUI
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_1;
+	ImageButton imagebutton_button_smith;
 
 	public TestverstakGUIScreen(TestverstakGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -50,6 +55,24 @@ public class TestverstakGUIScreen extends AbstractContainerScreen<TestverstakGUI
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/no_progbar.png"), this.leftPos + 78, this.topPos + 43, 0, 0, 54, 18, 54, 18);
+
+		if (Anvilprogressbar0Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
+		if (Anvilprogressbar4Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 97, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -79,13 +102,13 @@ public class TestverstakGUIScreen extends AbstractContainerScreen<TestverstakGUI
 	@Override
 	public void init() {
 		super.init();
-		button_1 = Button.builder(Component.translatable("gui.zweihanderrp.testverstak_gui.button_1"), e -> {
+		imagebutton_button_smith = new ImageButton(this.leftPos + 78, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new TestverstakGUIButtonMessage(0, x, y, z));
 				TestverstakGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 87, this.topPos + 43, 30, 20).build();
-		guistate.put("button:button_1", button_1);
-		this.addRenderableWidget(button_1);
+		});
+		guistate.put("button:imagebutton_button_smith", imagebutton_button_smith);
+		this.addRenderableWidget(imagebutton_button_smith);
 	}
 }

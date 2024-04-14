@@ -1666,7 +1666,6 @@
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/network/TestverstakGUIButtonMessage.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/TestverstakGUIMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/TestverstakGUISlotMessage.java",
           "src/main/java/net/mcreator/zweihanderrp/client/gui/TestverstakGUIScreen.java"
         ]
       },
@@ -1678,7 +1677,7 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "testverstakopen_gui",
+      "registry_name": "anvilopen_gui",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/procedures/TestverstakopenGUIProcedure.java"
@@ -1737,6 +1736,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1757,6 +1772,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1777,6 +1808,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2130,8 +2177,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2246,8 +2293,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2419,6 +2466,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "ForgingScripts",
+            "children": []
           }
         ]
       },

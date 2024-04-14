@@ -56,22 +56,22 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/no_progbar.png"), this.leftPos + 78, this.topPos + 43, 0, 0, 54, 18, 54, 18);
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/no_progbar.png"), this.leftPos + 69, this.topPos + 43, 0, 0, 54, 18, 54, 18);
 
 		if (Anvilprogressbar0Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar1Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar2Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar3Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar4Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 97, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 88, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		RenderSystem.disableBlend();
 	}
@@ -103,7 +103,7 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_button_smith = new ImageButton(this.leftPos + 78, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {
+		imagebutton_button_smith = new ImageButton(this.leftPos + 69, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new SmallanvilGUIButtonMessage(0, x, y, z));
 				SmallanvilGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
