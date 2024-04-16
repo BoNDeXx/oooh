@@ -134,7 +134,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "SmallAnvilOnBlockRightClicked"
+      "name": "AnvilGUIOpen"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

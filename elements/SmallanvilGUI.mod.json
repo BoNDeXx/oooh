@@ -24,6 +24,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ForgingSlotUpdate"
+          },
           "x": 132,
           "y": 71
         }
@@ -42,6 +45,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ForgingSlotUpdate"
+          },
           "x": 150,
           "y": 71
         }
@@ -60,6 +66,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ForgingSlotUpdate"
+          },
           "x": 132,
           "y": 89
         }
@@ -78,6 +87,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "ForgingSlotUpdate"
+          },
           "x": 150,
           "y": 89
         }
@@ -116,18 +128,6 @@
           "dropItemsWhenNotBound": true,
           "x": 213,
           "y": 98
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 9,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 276,
-          "y": 80
         }
       },
       {
@@ -221,19 +221,75 @@
           "image": "button_smith.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "Anviltest1"
+            "name": "ForgingClickButton"
           },
           "x": 195,
           "y": 80
         }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "center_place_anvil.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrowleft_anvil",
+          "image": "arrowleft_anvil.png",
+          "hoveredImage": "",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_arrowright_anvil",
+          "image": "arrowright_anvil.png",
+          "hoveredImage": "",
+          "x": 231,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone_axe_baza.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "KricaResult"
+          },
+          "x": 214,
+          "y": 63
+        }
       }
     ],
+    "onTick": {
+      "name": "AnvilGUIOpenTick"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

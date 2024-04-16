@@ -10,6 +10,7 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
+import net.mcreator.zweihanderrp.procedures.KricaResultProcedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar4Procedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar3Procedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar2Procedure;
@@ -28,6 +29,8 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 	private final int x, y, z;
 	private final Player entity;
 	ImageButton imagebutton_button_smith;
+	ImageButton imagebutton_arrowleft_anvil;
+	ImageButton imagebutton_arrowright_anvil;
 
 	public SmallanvilGUIScreen(SmallanvilGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -73,6 +76,12 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 		if (Anvilprogressbar4Procedure.execute(world, x, y, z)) {
 			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 88, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
+
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/center_place_anvil.png"), this.leftPos + 87, this.topPos + 25, 0, 0, 18, 18, 18, 18);
+
+		if (KricaResultProcedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_axe_baza.png"), this.leftPos + 88, this.topPos + 26, 0, 0, 16, 16, 16, 16);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -111,5 +120,13 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 		});
 		guistate.put("button:imagebutton_button_smith", imagebutton_button_smith);
 		this.addRenderableWidget(imagebutton_button_smith);
+		imagebutton_arrowleft_anvil = new ImageButton(this.leftPos + 69, this.topPos + 25, 18, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_arrowleft_anvil.png"), 18, 36, e -> {
+		});
+		guistate.put("button:imagebutton_arrowleft_anvil", imagebutton_arrowleft_anvil);
+		this.addRenderableWidget(imagebutton_arrowleft_anvil);
+		imagebutton_arrowright_anvil = new ImageButton(this.leftPos + 105, this.topPos + 25, 18, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_arrowright_anvil.png"), 18, 36, e -> {
+		});
+		guistate.put("button:imagebutton_arrowright_anvil", imagebutton_arrowright_anvil);
+		this.addRenderableWidget(imagebutton_arrowright_anvil);
 	}
 }

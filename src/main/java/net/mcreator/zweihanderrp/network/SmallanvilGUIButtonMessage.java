@@ -12,7 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
-import net.mcreator.zweihanderrp.procedures.Anviltest1Procedure;
+import net.mcreator.zweihanderrp.procedures.ForgingClickButtonProcedure;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
 import java.util.function.Supplier;
@@ -64,7 +64,7 @@ public class SmallanvilGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			Anviltest1Procedure.execute(world, x, y, z);
+			ForgingClickButtonProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

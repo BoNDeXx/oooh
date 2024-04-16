@@ -13,7 +13,7 @@ public class Anvilprogressbar3Procedure {
 					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, BlockPos.containing(x, y, z), "testprocess") >= 80 && (new Object() {
+		}.getValue(world, BlockPos.containing(x, y, z), "Forgingprogress") == 80 && (new Object() {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)

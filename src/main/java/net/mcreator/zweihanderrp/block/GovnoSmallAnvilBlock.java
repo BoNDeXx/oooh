@@ -33,7 +33,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zweihanderrp.procedures.SmallAnvilOnBlockRightClickedProcedure;
+import net.mcreator.zweihanderrp.procedures.AnvilGUIOpenProcedure;
 import net.mcreator.zweihanderrp.block.entity.GovnoSmallAnvilBlockEntity;
 
 import java.util.List;
@@ -103,7 +103,7 @@ public class GovnoSmallAnvilBlock extends FallingBlock implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		SmallAnvilOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
+		AnvilGUIOpenProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 

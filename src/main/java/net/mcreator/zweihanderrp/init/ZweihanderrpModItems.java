@@ -146,7 +146,6 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> VSTU_PLENIE = REGISTRY.register(ZweihanderrpModBlocks.VSTU_PLENIE.getId().getPath(), () -> new VSTUPlenieDisplayItem(ZweihanderrpModBlocks.VSTU_PLENIE.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GOVNO_SMALL_ANVIL = block(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL);
 	public static final RegistryObject<Item> TREATED_CRITZ = REGISTRY.register("treated_critz", () -> new TreatedCritzItem());
-	public static final RegistryObject<Item> TESTVERSTAK = block(ZweihanderrpModBlocks.TESTVERSTAK);
 	public static final RegistryObject<Item> STONE_ARROW_HEAD = REGISTRY.register("stone_arrow_head", () -> new StoneArrowHeadItem());
 	public static final RegistryObject<Item> TEMPLARKIT_HELMET = REGISTRY.register("templarkit_helmet", () -> new TemplarkitItem.Helmet());
 	public static final RegistryObject<Item> TEMPLARKIT_CHESTPLATE = REGISTRY.register("templarkit_chestplate", () -> new TemplarkitItem.Chestplate());

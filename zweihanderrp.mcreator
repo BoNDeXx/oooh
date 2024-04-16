@@ -1384,78 +1384,11 @@
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/client/gui/SmallanvilGUIScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUIButtonMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/world/inventory/SmallanvilGUIMenu.java"
+          "src/main/java/net/mcreator/zweihanderrp/world/inventory/SmallanvilGUIMenu.java",
+          "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUISlotMessage.java"
         ]
       },
       "path": "~/Scripts/GUI"
-    },
-    {
-      "name": "SmallAnvilOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "small_anvil_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/SmallAnvilOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Scripts/GUI"
-    },
-    {
-      "name": "Anviltest1",
-      "type": "procedure",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anviltest_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/Anviltest1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Scripts"
     },
     {
       "name": "Anvilprogressbar0",
@@ -1636,198 +1569,6 @@
         ]
       },
       "path": "~/Items/Materials"
-    },
-    {
-      "name": "Testverstak",
-      "type": "block",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testverstak",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/zweihanderrp/models/block/testverstak.json",
-          "src/main/java/net/mcreator/zweihanderrp/block/entity/TestverstakBlockEntity.java",
-          "src/main/java/net/mcreator/zweihanderrp/block/TestverstakBlock.java",
-          "src/main/resources/assets/zweihanderrp/models/item/testverstak.json",
-          "src/main/resources/assets/zweihanderrp/blockstates/testverstak.json"
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "TestverstakGUI",
-      "type": "gui",
-      "sortid": 99,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testverstak_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/network/TestverstakGUIButtonMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/world/inventory/TestverstakGUIMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/TestverstakGUIScreen.java"
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "TestverstakopenGUI",
-      "type": "procedure",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anvilopen_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/TestverstakopenGUIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "Testtag1",
-      "type": "tag",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testtag_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/krica.json"
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "Testrecipe1",
-      "type": "procedure",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testrecipe_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/Testrecipe1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "Testcrafttick",
-      "type": "procedure",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testcrafttick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/TestcrafttickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TestFolder"
-    },
-    {
-      "name": "Testslotchange1",
-      "type": "procedure",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testslotchange_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/Testslotchange1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TestFolder"
     },
     {
       "name": "StoneArrowHead",
@@ -2104,6 +1845,215 @@
         ]
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "AnvilGUIOpen",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_gui_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/AnvilGUIOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/ForgingScripts"
+    },
+    {
+      "name": "ForgedKrica",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forged_krica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/ForgedKricaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Recipes/Forging"
+    },
+    {
+      "name": "ForgingClickButton",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_click_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/ForgingClickButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/ForgingScripts"
+    },
+    {
+      "name": "ForgingSlotUpdate",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_slot_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/ForgingSlotUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/ForgingScripts"
+    },
+    {
+      "name": "KricaResult",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica_result",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaResultProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/ForgingScripts/ResultImage"
+    },
+    {
+      "name": "AnvilGUIOpenTick",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_gui_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/AnvilGUIOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/ForgingScripts"
     }
   ],
   "variable_elements": [
@@ -2177,15 +2127,14 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
       "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
-      "block.zweihanderrp.testverstak": "Testverstak",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
@@ -2293,15 +2242,14 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
       "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
-      "block.zweihanderrp.testverstak": "Testverstak",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
@@ -2469,13 +2417,14 @@
           },
           {
             "name": "ForgingScripts",
-            "children": []
+            "children": [
+              {
+                "name": "ResultImage",
+                "children": []
+              }
+            ]
           }
         ]
-      },
-      {
-        "name": "TestFolder",
-        "children": []
       }
     ]
   },

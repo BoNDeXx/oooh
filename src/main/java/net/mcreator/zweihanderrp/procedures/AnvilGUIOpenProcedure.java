@@ -20,7 +20,7 @@ import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
 
 import io.netty.buffer.Unpooled;
 
-public class SmallAnvilOnBlockRightClickedProcedure {
+public class AnvilGUIOpenProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -44,6 +44,15 @@ public class SmallAnvilOnBlockRightClickedProcedure {
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
 				_blockEntity.getPersistentData().putDouble("Forgingprogress", 0);
+			if (world instanceof Level _level)
+				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+		}
+		if (!world.isClientSide()) {
+			BlockPos _bp = BlockPos.containing(x, y, z);
+			BlockEntity _blockEntity = world.getBlockEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_blockEntity != null)
+				_blockEntity.getPersistentData().putBoolean("RecipeActive", false);
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}

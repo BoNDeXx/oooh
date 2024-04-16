@@ -39,7 +39,6 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModBlocks.VSTU_PLENIE.get().asItem());
 				tabData.accept(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL.get().asItem());
 				tabData.accept(ZweihanderrpModItems.TREATED_CRITZ.get());
-				tabData.accept(ZweihanderrpModBlocks.TESTVERSTAK.get().asItem());
 				tabData.accept(ZweihanderrpModItems.STONE_ARROW_HEAD.get());
 			})
 
