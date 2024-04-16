@@ -1929,28 +1929,7 @@
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/procedures/ForgingClickButtonProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Scripts/ForgingScripts"
     },
@@ -2054,6 +2033,77 @@
         ]
       },
       "path": "~/Scripts/ForgingScripts"
+    },
+    {
+      "name": "TestRecipe",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_recipe",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/TestRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts/Recipes/Forging"
+    },
+    {
+      "name": "TestTag",
+      "type": "tag",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/tags/items/test_tag.json"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "TestGUIOpenTiCk",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_gui_open_ti_ck",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/TestGUIOpenTiCkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/Recipes/Forging"
     }
   ],
   "variable_elements": [
@@ -2127,8 +2177,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2137,8 +2187,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
+      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
@@ -2242,8 +2292,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2252,8 +2302,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
+      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",

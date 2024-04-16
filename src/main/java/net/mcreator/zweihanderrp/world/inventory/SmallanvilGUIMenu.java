@@ -22,7 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zweihanderrp.procedures.AnvilGUIOpenTickProcedure;
+import net.mcreator.zweihanderrp.procedures.TestGUIOpenTiCkProcedure;
 import net.mcreator.zweihanderrp.network.SmallanvilGUISlotMessage;
 import net.mcreator.zweihanderrp.init.ZweihanderrpModMenus;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
@@ -297,7 +297,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			AnvilGUIOpenTickProcedure.execute(world, x, y, z, entity);
+			TestGUIOpenTiCkProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }
