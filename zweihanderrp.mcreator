@@ -126,9 +126,9 @@
       "registry_name": "stone_craft",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java"
         ]
       },
       "path": "~/Scripts/GUI"
@@ -1579,8 +1579,8 @@
       "registry_name": "stone_arrow_head",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/stone_arrow_head.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/StoneArrowHeadItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneArrowHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_arrow_head.json"
         ]
       },
       "path": "~/Items/Tools"
@@ -1687,8 +1687,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/item/TemplarkitItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/templarkit_helmet.json",
           "src/main/resources/assets/zweihanderrp/models/item/templarkit_leggings.json",
+          "src/main/resources/assets/zweihanderrp/models/item/templarkit_helmet.json",
           "src/main/resources/assets/zweihanderrp/models/item/templarkit_chestplate.json"
         ]
       },
@@ -1718,8 +1718,8 @@
       "registry_name": "antiochian_tunic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/AntiochianTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/antiochian_tunic_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/antiochian_tunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/AntiochianTunicItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1748,8 +1748,8 @@
       "registry_name": "templar_alt_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/templar_alt_tunic_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/TemplarAltTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/TemplarAltTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/templar_alt_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1763,8 +1763,8 @@
       "registry_name": "hospitaller_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1778,8 +1778,8 @@
       "registry_name": "hospitaller_tunic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1793,10 +1793,10 @@
       "registry_name": "cheap_armor_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json",
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json",
           "src/main/java/net/mcreator/zweihanderrp/item/CheapArmorIronItem.java",
           "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_chestplate.json",
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1810,8 +1810,8 @@
       "registry_name": "english_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/english_tunic_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/EnglishTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/EnglishTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/english_tunic_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1840,8 +1840,8 @@
       "registry_name": "jerus_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/jerus_tunic_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/JerusTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/JerusTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/jerus_tunic_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1929,7 +1929,28 @@
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/procedures/ForgingClickButtonProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Scripts/ForgingScripts"
     },
@@ -1966,75 +1987,6 @@
       "path": "~/Scripts/ForgingScripts"
     },
     {
-      "name": "KricaResult",
-      "type": "procedure",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "krica_result",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaResultProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Scripts/ForgingScripts/ResultImage"
-    },
-    {
-      "name": "AnvilGUIOpenTick",
-      "type": "procedure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anvil_gui_open_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/AnvilGUIOpenTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Scripts/ForgingScripts"
-    },
-    {
       "name": "TestRecipe",
       "type": "procedure",
       "sortid": 132,
@@ -2043,9 +1995,6 @@
       "registry_name": "test_recipe",
       "metadata": {
         "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/TestRecipeProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2070,40 +2019,24 @@
       "path": "~/Scripts"
     },
     {
-      "name": "TestGUIOpenTiCk",
+      "name": "KricaTemperature",
       "type": "procedure",
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_gui_open_ti_ck",
+      "registry_name": "krica_temperature",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/TestGUIOpenTiCkProcedure.java"
+          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaTemperatureProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
-      "path": "~/Scripts/Recipes/Forging"
+      "path": "~/Scripts/ItemScripts"
     }
   ],
   "variable_elements": [
@@ -2177,8 +2110,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2187,8 +2120,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
@@ -2292,8 +2225,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2302,8 +2235,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",
@@ -2467,12 +2400,15 @@
           },
           {
             "name": "ForgingScripts",
-            "children": [
-              {
-                "name": "ResultImage",
-                "children": []
-              }
-            ]
+            "children": []
+          },
+          {
+            "name": "CustomTags",
+            "children": []
+          },
+          {
+            "name": "ItemScripts",
+            "children": []
           }
         ]
       }

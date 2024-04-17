@@ -64,7 +64,7 @@ public class SmallanvilGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ForgingClickButtonProcedure.execute();
+			ForgingClickButtonProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

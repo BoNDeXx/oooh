@@ -86,6 +86,26 @@ public class SmallanvilGUISlotMessage {
 
 			ForgingSlotUpdateProcedure.execute(world, x, y, z);
 		}
+		if (slot == 4 && changeType == 0) {
+
+			ForgingSlotUpdateProcedure.execute(world, x, y, z);
+		}
+		if (slot == 5 && changeType == 0) {
+
+			ForgingSlotUpdateProcedure.execute(world, x, y, z);
+		}
+		if (slot == 6 && changeType == 0) {
+
+			ForgingSlotUpdateProcedure.execute(world, x, y, z);
+		}
+		if (slot == 7 && changeType == 0) {
+
+			ForgingSlotUpdateProcedure.execute(world, x, y, z);
+		}
+		if (slot == 8 && changeType == 0) {
+
+			ForgingSlotUpdateProcedure.execute(world, x, y, z);
+		}
 	}
 
 	@SubscribeEvent

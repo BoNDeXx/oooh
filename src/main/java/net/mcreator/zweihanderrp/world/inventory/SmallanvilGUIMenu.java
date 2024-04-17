@@ -4,9 +4,6 @@ package net.mcreator.zweihanderrp.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -22,7 +19,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.zweihanderrp.procedures.TestGUIOpenTiCkProcedure;
 import net.mcreator.zweihanderrp.network.SmallanvilGUISlotMessage;
 import net.mcreator.zweihanderrp.init.ZweihanderrpModMenus;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
@@ -31,7 +27,6 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@Mod.EventBusSubscriber
 public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -49,7 +44,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 		super(ZweihanderrpModMenus.SMALLANVIL_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(7);
+		this.internal = new ItemStackHandler(12);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -84,7 +79,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 35) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 26) {
 			private final int slot = 0;
 
 			@Override
@@ -93,7 +88,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 				slotChanged(0, 0, 0);
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 26) {
 			private final int slot = 1;
 
 			@Override
@@ -102,7 +97,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 				slotChanged(1, 0, 0);
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 53) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 26) {
 			private final int slot = 2;
 
 			@Override
@@ -111,7 +106,7 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 				slotChanged(2, 0, 0);
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 53) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 7, 44) {
 			private final int slot = 3;
 
 			@Override
@@ -120,14 +115,59 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 				slotChanged(3, 0, 0);
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 70, 62) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 44) {
 			private final int slot = 4;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(4, 0, 0);
+			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 88, 62) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 43, 44) {
 			private final int slot = 5;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(5, 0, 0);
+			}
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 151, 44) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 7, 62) {
 			private final int slot = 6;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(6, 0, 0);
+			}
+		}));
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 25, 62) {
+			private final int slot = 7;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(7, 0, 0);
+			}
+		}));
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 62) {
+			private final int slot = 8;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(8, 0, 0);
+			}
+		}));
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 79, 62) {
+			private final int slot = 9;
+		}));
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 97, 62) {
+			private final int slot = 10;
+		}));
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 151, 44) {
+			private final int slot = 11;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -161,16 +201,16 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 7) {
-				if (!this.moveItemStackTo(itemstack1, 7, this.slots.size(), true))
+			if (index < 12) {
+				if (!this.moveItemStackTo(itemstack1, 12, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 7, false)) {
-				if (index < 7 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 7 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 12, false)) {
+				if (index < 12 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 12 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 7, 7 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 12, 12 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -287,17 +327,5 @@ public class SmallanvilGUIMenu extends AbstractContainerMenu implements Supplier
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
-	}
-
-	@SubscribeEvent
-	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		Player entity = event.player;
-		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof SmallanvilGUIMenu) {
-			Level world = entity.level();
-			double x = entity.getX();
-			double y = entity.getY();
-			double z = entity.getZ();
-			TestGUIOpenTiCkProcedure.execute(world, x, y, z, entity);
-		}
 	}
 }

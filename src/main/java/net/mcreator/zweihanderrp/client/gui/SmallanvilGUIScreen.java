@@ -10,7 +10,6 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.zweihanderrp.world.inventory.SmallanvilGUIMenu;
-import net.mcreator.zweihanderrp.procedures.KricaResultProcedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar4Procedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar3Procedure;
 import net.mcreator.zweihanderrp.procedures.Anvilprogressbar2Procedure;
@@ -29,8 +28,6 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 	private final int x, y, z;
 	private final Player entity;
 	ImageButton imagebutton_button_smith;
-	ImageButton imagebutton_arrowleft_anvil;
-	ImageButton imagebutton_arrowright_anvil;
 
 	public SmallanvilGUIScreen(SmallanvilGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -59,28 +56,22 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/no_progbar.png"), this.leftPos + 69, this.topPos + 43, 0, 0, 54, 18, 54, 18);
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/no_progbar.png"), this.leftPos + 78, this.topPos + 43, 0, 0, 54, 18, 54, 18);
 
 		if (Anvilprogressbar0Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/1_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar1Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/2_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar2Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/3_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar3Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 87, this.topPos + 43, 0, 0, 33, 18, 33, 18);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/5_progbar.png"), this.leftPos + 96, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		if (Anvilprogressbar4Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 88, this.topPos + 43, 0, 0, 33, 18, 33, 18);
-		}
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/center_place_anvil.png"), this.leftPos + 87, this.topPos + 25, 0, 0, 18, 18, 18, 18);
-
-		if (KricaResultProcedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_axe_baza.png"), this.leftPos + 88, this.topPos + 26, 0, 0, 16, 16, 16, 16);
+			guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/full_progbar.png"), this.leftPos + 97, this.topPos + 43, 0, 0, 33, 18, 33, 18);
 		}
 		RenderSystem.disableBlend();
 	}
@@ -112,7 +103,7 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_button_smith = new ImageButton(this.leftPos + 69, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {
+		imagebutton_button_smith = new ImageButton(this.leftPos + 78, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new SmallanvilGUIButtonMessage(0, x, y, z));
 				SmallanvilGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -120,13 +111,5 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 		});
 		guistate.put("button:imagebutton_button_smith", imagebutton_button_smith);
 		this.addRenderableWidget(imagebutton_button_smith);
-		imagebutton_arrowleft_anvil = new ImageButton(this.leftPos + 69, this.topPos + 25, 18, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_arrowleft_anvil.png"), 18, 36, e -> {
-		});
-		guistate.put("button:imagebutton_arrowleft_anvil", imagebutton_arrowleft_anvil);
-		this.addRenderableWidget(imagebutton_arrowleft_anvil);
-		imagebutton_arrowright_anvil = new ImageButton(this.leftPos + 105, this.topPos + 25, 18, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_arrowright_anvil.png"), 18, 36, e -> {
-		});
-		guistate.put("button:imagebutton_arrowright_anvil", imagebutton_arrowright_anvil);
-		this.addRenderableWidget(imagebutton_arrowright_anvil);
 	}
 }
