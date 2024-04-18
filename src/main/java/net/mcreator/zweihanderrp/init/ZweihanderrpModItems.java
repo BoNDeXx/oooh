@@ -7,11 +7,18 @@ package net.mcreator.zweihanderrp.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.item.ItemProperties;
 
+import net.mcreator.zweihanderrp.procedures.KricaPropertyTemperatureProcedure;
 import net.mcreator.zweihanderrp.item.VeryrichtophelmItem;
 import net.mcreator.zweihanderrp.item.TurbanItem;
 import net.mcreator.zweihanderrp.item.TreatedCritzItem;
@@ -83,6 +90,7 @@ import net.mcreator.zweihanderrp.item.AntiochianTunicItem;
 import net.mcreator.zweihanderrp.block.display.VSTUPlenieDisplayItem;
 import net.mcreator.zweihanderrp.ZweihanderrpMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ZweihanderrpModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ZweihanderrpMod.MODID);
 	public static final RegistryObject<Item> KRICA = REGISTRY.register("krica", () -> new KricaItem());
@@ -165,5 +173,13 @@ public class ZweihanderrpModItems {
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	@SubscribeEvent
+	public static void clientLoad(FMLClientSetupEvent event) {
+		event.enqueueWork(() -> {
+			ItemProperties.register(KRICA.get(), new ResourceLocation("zweihanderrp:krica_krica_temperature"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) KricaPropertyTemperatureProcedure
+					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0, entity));
+		});
 	}
 }

@@ -23,7 +23,7 @@ public class TestRecipeProcedure {
 		slot = 0;
 		for (int index0 = 0; index0 < (int) slotCount; index0++) {
 			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get((int) slot)).getItem() : ItemStack.EMPTY)
-					.is(ItemTags.create(new ResourceLocation("zweihanderrp:test_tag")))) {
+					.is(ItemTags.create(new ResourceLocation("zweihanderrp:krica_tag")))) {
 				ItemCount = ItemCount + 1;
 			}
 			slot = slot + 1;

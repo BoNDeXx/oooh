@@ -13,6 +13,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.zweihanderrp.client.gui.StoneCraftScreen;
 import net.mcreator.zweihanderrp.client.gui.SmallanvilGUIScreen;
+import net.mcreator.zweihanderrp.client.gui.RennOfenGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ZweihanderrpModScreens {
@@ -21,6 +22,7 @@ public class ZweihanderrpModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ZweihanderrpModMenus.STONE_CRAFT.get(), StoneCraftScreen::new);
 			MenuScreens.register(ZweihanderrpModMenus.SMALLANVIL_GUI.get(), SmallanvilGUIScreen::new);
+			MenuScreens.register(ZweihanderrpModMenus.RENN_OFEN_GUI.get(), RennOfenGUIScreen::new);
 		});
 	}
 }

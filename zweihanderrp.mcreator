@@ -1995,6 +1995,9 @@
       "registry_name": "test_recipe",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/TestRecipeProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2037,6 +2040,136 @@
         ]
       },
       "path": "~/Scripts/ItemScripts"
+    },
+    {
+      "name": "RennOfenGUI",
+      "type": "gui",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renn_ofen_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/world/inventory/RennOfenGUIMenu.java",
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/RennOfenGUIScreen.java"
+        ]
+      },
+      "path": "~/Scripts/GUI"
+    },
+    {
+      "name": "KricaTag",
+      "type": "tag",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/tags/items/krica_tag.json"
+        ]
+      },
+      "path": "~/Scripts/CustomTags"
+    },
+    {
+      "name": "KricaPropertyTemperature",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica_property_temperature",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaPropertyTemperatureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "KricaPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "KricaSpecialInformation",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krica_special_information",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Materials"
     }
   ],
   "variable_elements": [
@@ -2110,8 +2243,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2120,8 +2253,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
+      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
@@ -2225,8 +2358,8 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2235,8 +2368,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
+      "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",
