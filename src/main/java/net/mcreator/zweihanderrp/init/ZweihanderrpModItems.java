@@ -61,6 +61,7 @@ import net.mcreator.zweihanderrp.item.HospitallerTunic2Item;
 import net.mcreator.zweihanderrp.item.HospitallerTunic1Item;
 import net.mcreator.zweihanderrp.item.HZhelmeteRichItem;
 import net.mcreator.zweihanderrp.item.HZhelmeteItem;
+import net.mcreator.zweihanderrp.item.GreenhoodanimItem;
 import net.mcreator.zweihanderrp.item.FullCuirassItem;
 import net.mcreator.zweihanderrp.item.FrenchTunicItem;
 import net.mcreator.zweihanderrp.item.EngravedbarbuteItem;
@@ -170,6 +171,7 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> ENGLISH_TUNIC_LEGGINGS = REGISTRY.register("english_tunic_leggings", () -> new EnglishTunicItem.Leggings());
 	public static final RegistryObject<Item> FRENCH_TUNIC_LEGGINGS = REGISTRY.register("french_tunic_leggings", () -> new FrenchTunicItem.Leggings());
 	public static final RegistryObject<Item> JERUS_TUNIC_LEGGINGS = REGISTRY.register("jerus_tunic_leggings", () -> new JerusTunicItem.Leggings());
+	public static final RegistryObject<Item> GREENHOODANIM_HELMET = REGISTRY.register("greenhoodanim_helmet", () -> new GreenhoodanimItem.Helmet());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

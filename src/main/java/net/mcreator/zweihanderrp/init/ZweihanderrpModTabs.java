@@ -105,6 +105,7 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.ENGLISH_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.FRENCH_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.JERUS_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.GREENHOODANIM_HELMET.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
