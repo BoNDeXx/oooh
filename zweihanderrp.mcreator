@@ -2185,6 +2185,41 @@
         ]
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "Overlaystuff",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlaystuff",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/OverlaystuffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "Helmetoverlay",
+      "type": "overlay",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetoverlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/screens/HelmetoverlayOverlay.java"
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
     }
   ],
   "variable_elements": [
@@ -2529,7 +2564,12 @@
         "children": [
           {
             "name": "GUI",
-            "children": []
+            "children": [
+              {
+                "name": "helmetoverlay",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Procedures",
