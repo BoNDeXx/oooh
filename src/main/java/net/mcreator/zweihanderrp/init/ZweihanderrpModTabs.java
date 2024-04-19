@@ -102,9 +102,9 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.CHEAP_ARMOR_IRON_HELMET.get());
 				tabData.accept(ZweihanderrpModItems.CHEAP_ARMOR_IRON_CHESTPLATE.get());
 				tabData.accept(ZweihanderrpModItems.CHEAP_ARMOR_IRON_LEGGINGS.get());
-				tabData.accept(ZweihanderrpModItems.ENGLISH_TUNIC_CHESTPLATE.get());
-				tabData.accept(ZweihanderrpModItems.FRENCH_TUNIC_CHESTPLATE.get());
-				tabData.accept(ZweihanderrpModItems.JERUS_TUNIC_CHESTPLATE.get());
+				tabData.accept(ZweihanderrpModItems.ENGLISH_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.FRENCH_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.JERUS_TUNIC_LEGGINGS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

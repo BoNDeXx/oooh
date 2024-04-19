@@ -4,10 +4,10 @@
   "definition": {
     "enableHelmet": false,
     "textureHelmet": "",
-    "enableBody": true,
+    "enableBody": false,
     "textureBody": "fra_leggings",
-    "enableLeggings": false,
-    "textureLeggings": "",
+    "enableLeggings": true,
+    "textureLeggings": "fra_leggings",
     "enableBoots": false,
     "textureBoots": "",
     "creativeTab": {
@@ -16,7 +16,7 @@
     "armorTextureFile": "fra_",
     "helmetName": "French Tunic Helmet",
     "bodyName": "French Tunic",
-    "leggingsName": "French Tunic Leggings",
+    "leggingsName": "French Tunic ",
     "bootsName": "French Tunic Boots",
     "helmetSpecialInformation": {
       "fixedValue": []

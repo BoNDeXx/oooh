@@ -1811,7 +1811,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/item/EnglishTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/english_tunic_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/english_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1826,7 +1826,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1841,7 +1841,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/item/JerusTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/jerus_tunic_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/jerus_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2170,6 +2170,23 @@
         ]
       },
       "path": "~/Items/Materials"
+    },
+    {
+      "name": "Greenhoodka",
+      "type": "animatedarmor",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenhoodka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenhoodkaItem.java",
+          "src/main/java/net/mcreator/zweihanderrp/item/model/GreenhoodkaModel.java",
+          "src/main/java/net/mcreator/zweihanderrp/client/renderer/GreenhoodkaArmorRenderer.java",
+          "src/main/resources/assets/zweihanderrp/models/item/greenhoodka_helmet.json"
+        ]
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -2242,9 +2259,12 @@
     "ru_ru": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
+      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihanderrp.greenhoodka_helmet": "Green Hood",
+      "item.zweihanderrp.greenhoodka_leggings": "Greenhoodka Leggings",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2253,8 +2273,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Nordic Helmet ",
       "item.zweihander_test.krica": "Крица",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Nordic Helmet ",
@@ -2262,6 +2282,7 @@
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
       "itemGroup.tabequipment": "Equipment",
+      "item.zweihanderrp.french_tunic_leggings": "French Tunic ",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
@@ -2318,14 +2339,12 @@
       "item.zweihanderrp.blued_cuirass_chestplate": "Blued Cuirass ",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Klappvisor ",
+      "item.zweihanderrp.greenhoodka_boots": "Greenhoodka Boots",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Tophelm ",
-      "item.zweihanderrp.english_tunic_chestplate": "English Tunic",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
-      "item.zweihanderrp.jerus_tunic_chestplate": "Jerusalem Tunic",
-      "item.zweihanderrp.french_tunic_chestplate": "French Tunic",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Tophelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
@@ -2339,6 +2358,7 @@
       "block.zweihanderrp.vstu_plenie": "VSTU Plenie",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallat With Bevor",
       "item.zweihanderrp.stone_arrow_head": "Knife Head",
+      "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
       "subtitles.helmet_sound1m": "",
       "item.zweihanderrp.bacinet_helmet": "Bacinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
@@ -2349,6 +2369,7 @@
       "item.zweihanderrp.nordic_helmet_3_helmet": "Nordic Helmet ",
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "subtitles.udar_po_kolchuge": "",
+      "item.zweihanderrp.greenhoodka_chestplate": "Greenhoodka Chestplate",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
@@ -2357,9 +2378,12 @@
     "en_us": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
+      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihanderrp.greenhoodka_helmet": "Green Hood",
+      "item.zweihanderrp.greenhoodka_leggings": "Greenhoodka Leggings",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2368,8 +2392,8 @@
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
       "item.zweihanderrp.nordic_helmet_2_helmet": "Norman Helmet ",
       "item.zweihander_test.krica": "Krica",
-      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "item.zweihanderrp.antiochian_tunic_leggings": "Antiochian Tunic",
+      "item.zweihanderrp.simple_cuirass_chestplate": "Simple Cuirass",
       "gui.zweihanderrp.smallanvil_gui.label_blacksmithing": "Blacksmithing",
       "item.zweihanderrp.pauldrons_chestplate": "Pauldrons ",
       "item.zweihanderrp.nordic_helmet_4_helmet": "Varangian Helmet ",
@@ -2377,6 +2401,7 @@
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
       "itemGroup.tabequipment": "Equipment",
+      "item.zweihanderrp.french_tunic_leggings": "French Tunic ",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
@@ -2433,14 +2458,12 @@
       "item.zweihanderrp.blued_cuirass_chestplate": "Painted Cuirass ",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Engraved Klappvisor ",
+      "item.zweihanderrp.greenhoodka_boots": "Greenhoodka Boots",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Topfhelm ",
-      "item.zweihanderrp.english_tunic_chestplate": "English Tunic",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
-      "item.zweihanderrp.jerus_tunic_chestplate": "Jerusalem Tunic",
-      "item.zweihanderrp.french_tunic_chestplate": "French Tunic",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Topfhelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
@@ -2454,6 +2477,7 @@
       "block.zweihanderrp.vstu_plenie": "Mortar and Pestle",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallet With Bevor",
       "item.zweihanderrp.stone_arrow_head": "Stone Arrow Head",
+      "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
       "subtitles.helmet_sound1m": "",
       "item.zweihanderrp.bacinet_helmet": "Bascinet",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
@@ -2464,6 +2488,7 @@
       "item.zweihanderrp.nordic_helmet_3_helmet": "Viking Helmet ",
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "subtitles.udar_po_kolchuge": "",
+      "item.zweihanderrp.greenhoodka_chestplate": "Greenhoodka Chestplate",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",

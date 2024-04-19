@@ -4,10 +4,10 @@
   "definition": {
     "enableHelmet": false,
     "textureHelmet": "",
-    "enableBody": true,
+    "enableBody": false,
     "textureBody": "eng_leggings",
-    "enableLeggings": false,
-    "textureLeggings": "",
+    "enableLeggings": true,
+    "textureLeggings": "eng_leggings",
     "enableBoots": false,
     "textureBoots": "",
     "creativeTab": {
@@ -16,7 +16,7 @@
     "armorTextureFile": "eng_",
     "helmetName": "English Tunic Helmet",
     "bodyName": "English Tunic",
-    "leggingsName": "English Tunic Leggings",
+    "leggingsName": "English Tunic ",
     "bootsName": "English Tunic Boots",
     "helmetSpecialInformation": {
       "fixedValue": []

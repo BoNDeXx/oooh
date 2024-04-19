@@ -64,9 +64,9 @@ public abstract class FrenchTunicItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Chestplate extends FrenchTunicItem {
-		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
+	public static class Leggings extends FrenchTunicItem {
+		public Leggings() {
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public abstract class FrenchTunicItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "zweihanderrp:textures/models/armor/fra__layer_1.png";
+			return "zweihanderrp:textures/models/armor/fra__layer_2.png";
 		}
 
 		@Override

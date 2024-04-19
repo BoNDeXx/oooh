@@ -167,9 +167,9 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_HELMET = REGISTRY.register("cheap_armor_iron_helmet", () -> new CheapArmorIronItem.Helmet());
 	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_CHESTPLATE = REGISTRY.register("cheap_armor_iron_chestplate", () -> new CheapArmorIronItem.Chestplate());
 	public static final RegistryObject<Item> CHEAP_ARMOR_IRON_LEGGINGS = REGISTRY.register("cheap_armor_iron_leggings", () -> new CheapArmorIronItem.Leggings());
-	public static final RegistryObject<Item> ENGLISH_TUNIC_CHESTPLATE = REGISTRY.register("english_tunic_chestplate", () -> new EnglishTunicItem.Chestplate());
-	public static final RegistryObject<Item> FRENCH_TUNIC_CHESTPLATE = REGISTRY.register("french_tunic_chestplate", () -> new FrenchTunicItem.Chestplate());
-	public static final RegistryObject<Item> JERUS_TUNIC_CHESTPLATE = REGISTRY.register("jerus_tunic_chestplate", () -> new JerusTunicItem.Chestplate());
+	public static final RegistryObject<Item> ENGLISH_TUNIC_LEGGINGS = REGISTRY.register("english_tunic_leggings", () -> new EnglishTunicItem.Leggings());
+	public static final RegistryObject<Item> FRENCH_TUNIC_LEGGINGS = REGISTRY.register("french_tunic_leggings", () -> new FrenchTunicItem.Leggings());
+	public static final RegistryObject<Item> JERUS_TUNIC_LEGGINGS = REGISTRY.register("jerus_tunic_leggings", () -> new JerusTunicItem.Leggings());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
