@@ -4,14 +4,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-
-import net.mcreator.zweihanderrp.init.ZweihanderrpModItems;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class OverlaystuffProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if (ZweihanderrpModItems.NORDIC_HELMET_3_HELMET.get() == (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("zweihanderrp:overlay_tags_simple")))) {
 			return true;
 		}
 		return false;

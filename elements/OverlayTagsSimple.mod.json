@@ -1,0 +1,79 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:NordicHelmet3.helmet"
+      },
+      {
+        "value": "CUSTOM:NordicHelmet4.helmet"
+      },
+      {
+        "value": "CUSTOM:NordicHelmet5.helmet"
+      },
+      {
+        "value": "CUSTOM:NodicHelmet6.helmet"
+      },
+      {
+        "value": "CUSTOM:Sallet.helmet"
+      },
+      {
+        "value": "CUSTOM:Bascinetwithklappvisor.helmet"
+      },
+      {
+        "value": "CUSTOM:Barbute.helmet"
+      },
+      {
+        "value": "CUSTOM:HZhelmete.helmet"
+      },
+      {
+        "value": "CUSTOM:EngravedTophelm.helmet"
+      },
+      {
+        "value": "CUSTOM:Tophelm.helmet"
+      },
+      {
+        "value": "CUSTOM:Redtophelm.helmet"
+      },
+      {
+        "value": "CUSTOM:Veryrichtophelm.helmet"
+      },
+      {
+        "value": "CUSTOM:RichKlappviser.helmet"
+      },
+      {
+        "value": "CUSTOM:HZhelmeteRich.helmet"
+      },
+      {
+        "value": "CUSTOM:Engravedbarbute.helmet"
+      },
+      {
+        "value": "CUSTOM:PaintedBarbute.helmet"
+      },
+      {
+        "value": "CUSTOM:Turban.helmet"
+      },
+      {
+        "value": "CUSTOM:Bluedsallet.helmet"
+      },
+      {
+        "value": "CUSTOM:BluedKlapvisor.helmet"
+      },
+      {
+        "value": "CUSTOM:Templarkit.helmet"
+      },
+      {
+        "value": "CUSTOM:CheapArmorIron.helmet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "overlay_tags_simple",
+    "namespace": "mod"
+  }
+}
