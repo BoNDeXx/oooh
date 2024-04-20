@@ -39,7 +39,10 @@
   "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
   "item.zweihander_test.rope": "Rope",
   "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
+  "subtitles.plate_legs_walk_1": "",
   "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+  "subtitles.plate_legs_walk_2": "",
+  "subtitles.plate_legs_walk_3": "",
   "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
   "gui.zweihanderrp.stone_craft.button_axe": "Axe",
   "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
@@ -101,7 +104,10 @@
   "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
   "subtitles.helmet_sound1m": "",
   "item.zweihanderrp.bacinet_helmet": "Bacinet",
+  "subtitles.plate_chest_walk_1": "",
+  "subtitles.plate_chest_walk_2": "",
   "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
+  "subtitles.plate_chest_walk_3": "",
   "item.zweihanderrp.hospitaller_tunic_2_leggings": "Hospitaller Black Tunic",
   "item.zweihander_test.stone_axe_head": "Axe Head",
   "item.zweihanderrp.treated_critz": "Treated Critz",
@@ -112,5 +118,6 @@
   "item_group.zweihanderrp.equipment": "Equipment",
   "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
   "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
+  "subtitles.armor_walk": "",
   "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
 }

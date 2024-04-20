@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "zweihanderrp:romanarmor_chestplate",
+    "zweihanderrp:simple_cuirass_chestplate",
+    "zweihanderrp:full_cuirass_chestplate",
+    "zweihanderrp:crude_cuirass_chestplate",
+    "zweihanderrp:crude_govno_cuirass_chestplate",
+    "zweihanderrp:leather_brigandine_chestplate",
+    "zweihanderrp:engraved_cuirass_chestplate",
+    "zweihanderrp:rich_cuirass_chestplate",
+    "zweihanderrp:blued_cuirass_chestplate",
+    "zweihanderrp:black_blued_cuirass_chestplate",
+    "zweihanderrp:cheap_armor_iron_chestplate"
+  ]
+}

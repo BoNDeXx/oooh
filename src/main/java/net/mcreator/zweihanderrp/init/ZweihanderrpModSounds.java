@@ -22,4 +22,10 @@ public class ZweihanderrpModSounds {
 	public static final RegistryObject<SoundEvent> KOLCHUGA = REGISTRY.register("kolchuga", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "kolchuga")));
 	public static final RegistryObject<SoundEvent> MORTARPESTESOUND = REGISTRY.register("mortarpestesound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "mortarpestesound")));
 	public static final RegistryObject<SoundEvent> ANVIL_STUK1 = REGISTRY.register("anvil_stuk1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "anvil_stuk1")));
+	public static final RegistryObject<SoundEvent> PLATE_CHEST_WALK_1 = REGISTRY.register("plate_chest_walk_1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_chest_walk_1")));
+	public static final RegistryObject<SoundEvent> PLATE_CHEST_WALK_2 = REGISTRY.register("plate_chest_walk_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_chest_walk_2")));
+	public static final RegistryObject<SoundEvent> PLATE_CHEST_WALK_3 = REGISTRY.register("plate_chest_walk_3", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_chest_walk_3")));
+	public static final RegistryObject<SoundEvent> PLATE_LEGS_WALK_1 = REGISTRY.register("plate_legs_walk_1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_legs_walk_1")));
+	public static final RegistryObject<SoundEvent> PLATE_LEGS_WALK_2 = REGISTRY.register("plate_legs_walk_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_legs_walk_2")));
+	public static final RegistryObject<SoundEvent> PLATE_LEGS_WALK_3 = REGISTRY.register("plate_legs_walk_3", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("zweihanderrp", "plate_legs_walk_3")));
 }

@@ -10,13 +10,19 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.zweihanderrp.procedures.ChestsoundprocProcedure;
+
 import java.util.List;
+
+import com.google.common.collect.Iterables;
 
 public abstract class SimpleCuirassItem extends ArmorItem {
 	public SimpleCuirassItem(ArmorItem.Type type, Item.Properties properties) {
@@ -76,6 +82,19 @@ public abstract class SimpleCuirassItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "zweihanderrp:textures/models/armor/arg1__layer_1.png";
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return false;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				ChestsoundprocProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+			}
 		}
 	}
 }

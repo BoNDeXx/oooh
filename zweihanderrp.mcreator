@@ -915,8 +915,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2283,6 +2283,56 @@
         ]
       },
       "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "Platechestsound",
+      "type": "tag",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platechestsound",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/tags/items/platechestsound.json"
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay/armorsound"
+    },
+    {
+      "name": "Chestsoundproc",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestsoundproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/ChestsoundprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay/armorsound"
     }
   ],
   "variable_elements": [
@@ -2349,6 +2399,54 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "plate_chest_walk_1",
+      "files": [
+        "plate1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "plate_chest_walk_2",
+      "files": [
+        "plate2"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "plate_chest_walk_3",
+      "files": [
+        "plate3"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "plate_legs_walk_1",
+      "files": [
+        "legs1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "plate_legs_walk_2",
+      "files": [
+        "legs2"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "plate_legs_walk_3",
+      "files": [
+        "legs3"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2393,7 +2491,10 @@
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
+      "subtitles.plate_legs_walk_1": "",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "subtitles.plate_legs_walk_2": "",
+      "subtitles.plate_legs_walk_3": "",
       "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
@@ -2455,7 +2556,10 @@
       "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
       "subtitles.helmet_sound1m": "",
       "item.zweihanderrp.bacinet_helmet": "Bacinet",
+      "subtitles.plate_chest_walk_1": "",
+      "subtitles.plate_chest_walk_2": "",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
+      "subtitles.plate_chest_walk_3": "",
       "item.zweihanderrp.hospitaller_tunic_2_leggings": "Hospitaller Black Tunic",
       "item.zweihander_test.stone_axe_head": "Axe Head",
       "item.zweihanderrp.treated_critz": "Treated Critz",
@@ -2466,6 +2570,7 @@
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
+      "subtitles.armor_walk": "",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
     },
     "en_us": {
@@ -2509,7 +2614,10 @@
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
+      "subtitles.plate_legs_walk_1": "",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
+      "subtitles.plate_legs_walk_2": "",
+      "subtitles.plate_legs_walk_3": "",
       "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
@@ -2571,7 +2679,10 @@
       "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
       "subtitles.helmet_sound1m": "",
       "item.zweihanderrp.bacinet_helmet": "Bascinet",
+      "subtitles.plate_chest_walk_1": "",
+      "subtitles.plate_chest_walk_2": "",
       "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
+      "subtitles.plate_chest_walk_3": "",
       "item.zweihanderrp.hospitaller_tunic_2_leggings": "Hospitaller Red Tunic",
       "item.zweihander_test.stone_axe_head": "Axe Head",
       "item.zweihanderrp.treated_critz": "Treated Critz",
@@ -2582,6 +2693,7 @@
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
+      "subtitles.armor_walk": "",
       "item.zweihanderrp.black_blued_cuirass_chestplate": "Black Blued Cuirass Body"
     }
   },

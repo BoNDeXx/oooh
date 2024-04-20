@@ -54,5 +54,53 @@
         "stream": false
       }
     ]
+  },
+  "plate_chest_walk_1": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:plate1",
+        "stream": false
+      }
+    ]
+  },
+  "plate_chest_walk_2": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:plate2",
+        "stream": false
+      }
+    ]
+  },
+  "plate_chest_walk_3": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:plate3",
+        "stream": false
+      }
+    ]
+  },
+  "plate_legs_walk_1": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:legs1",
+        "stream": false
+      }
+    ]
+  },
+  "plate_legs_walk_2": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:legs2",
+        "stream": false
+      }
+    ]
+  },
+  "plate_legs_walk_3": {
+    "sounds": [
+      {
+        "name": "zweihanderrp:legs3",
+        "stream": false
+      }
+    ]
   }
 }
