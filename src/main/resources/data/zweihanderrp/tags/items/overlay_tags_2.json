@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zweihanderrp:tophelm_helmet",
+    "zweihanderrp:engraved_tophelm_helmet",
+    "zweihanderrp:redtophelm_helmet",
+    "zweihanderrp:rich_klappviser_helmet",
+    "zweihanderrp:bascinetwithklappvisor_helmet",
+    "zweihanderrp:blued_klapvisor_helmet",
+    "zweihanderrp:templarkit_helmet"
+  ]
+}

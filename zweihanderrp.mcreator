@@ -2234,6 +2234,55 @@
         ]
       },
       "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "OverlayTags2",
+      "type": "tag",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_tags_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zweihanderrp/tags/items/overlay_tags_2.json"
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "Overlaystuff2",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlaystuff_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Overlaystuff2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "Helmetoverlay2",
+      "type": "overlay",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetoverlay_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/screens/Helmetoverlay2Overlay.java"
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
     }
   ],
   "variable_elements": [
@@ -2308,8 +2357,8 @@
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2424,8 +2473,8 @@
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihander_test.coal_dust": "Coal Dust",
+      "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
@@ -2581,7 +2630,12 @@
             "children": [
               {
                 "name": "helmetoverlay",
-                "children": []
+                "children": [
+                  {
+                    "name": "armorsound",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
