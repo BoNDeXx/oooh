@@ -2698,6 +2698,7 @@
     {
       "name": "ByzSegmented",
       "type": "armor",
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "byz_segmented",
@@ -3115,7 +3116,7 @@
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Viking Helmet ",
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
-      "item.zweihanderrp.byz_segmented_leggings": "Hauberk with Polish Surcoat",
+      "item.zweihanderrp.byz_segmented_leggings": "Byzantine Scale Hauberk",
       "subtitles.udar_po_kolchuge": "",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",
