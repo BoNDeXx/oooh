@@ -52,6 +52,7 @@ import net.mcreator.zweihanderrp.item.RedPaintedPauldronsItem;
 import net.mcreator.zweihanderrp.item.PurpleTunic3Item;
 import net.mcreator.zweihanderrp.item.PurpleTunic2Item;
 import net.mcreator.zweihanderrp.item.PurpleTunic1Item;
+import net.mcreator.zweihanderrp.item.PolishTunicItem;
 import net.mcreator.zweihanderrp.item.PauldronsStandardLeatherItem;
 import net.mcreator.zweihanderrp.item.PauldronsItem;
 import net.mcreator.zweihanderrp.item.PaintedBarbuteItem;
@@ -89,11 +90,13 @@ import net.mcreator.zweihanderrp.item.EnglishTunicItem;
 import net.mcreator.zweihanderrp.item.CrudeGovnoCuirassItem;
 import net.mcreator.zweihanderrp.item.CrudeCuirassItem;
 import net.mcreator.zweihanderrp.item.CoalDustItem;
+import net.mcreator.zweihanderrp.item.CiliciaTunicItem;
 import net.mcreator.zweihanderrp.item.ChugunokItem;
 import net.mcreator.zweihanderrp.item.CheapArmorIronItem;
 import net.mcreator.zweihanderrp.item.ChainmailshirtredItem;
 import net.mcreator.zweihanderrp.item.ChainmailshirtpurpItem;
 import net.mcreator.zweihanderrp.item.ChainmailshirtdefaultItem;
+import net.mcreator.zweihanderrp.item.ByzSegmentedItem;
 import net.mcreator.zweihanderrp.item.BluedsalletItem;
 import net.mcreator.zweihanderrp.item.BluedPauldronsItem;
 import net.mcreator.zweihanderrp.item.BluedKlapvisorItem;
@@ -217,6 +220,9 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> YELLOW_TUNIC_3_LEGGINGS = REGISTRY.register("yellow_tunic_3_leggings", () -> new YellowTunic3Item.Leggings());
 	public static final RegistryObject<Item> BASCINETKLAPPHEV_HELMET = REGISTRY.register("bascinetklapphev_helmet", () -> new BascinetklapphevItem.Helmet());
 	public static final RegistryObject<Item> HELMETINTER_HELMET = REGISTRY.register("helmetinter_helmet", () -> new HelmetinterItem.Helmet());
+	public static final RegistryObject<Item> CILICIA_TUNIC_LEGGINGS = REGISTRY.register("cilicia_tunic_leggings", () -> new CiliciaTunicItem.Leggings());
+	public static final RegistryObject<Item> POLISH_TUNIC_LEGGINGS = REGISTRY.register("polish_tunic_leggings", () -> new PolishTunicItem.Leggings());
+	public static final RegistryObject<Item> BYZ_SEGMENTED_LEGGINGS = REGISTRY.register("byz_segmented_leggings", () -> new ByzSegmentedItem.Leggings());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

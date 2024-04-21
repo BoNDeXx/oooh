@@ -2664,6 +2664,50 @@
         ]
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "CiliciaTunic",
+      "type": "armor",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cilicia_tunic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/cilicia_tunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/CiliciaTunicItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "PolishTunic",
+      "type": "armor",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polish_tunic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/PolishTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/polish_tunic_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "ByzSegmented",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byz_segmented",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/byz_segmented_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ByzSegmentedItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -2785,6 +2829,7 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
+      "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Cilician Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
@@ -2812,6 +2857,7 @@
       "itemGroup.tabequipment": "Equipment",
       "item.zweihanderrp.red_tunic_3_leggings": "Hauberk with Red Surcoat and Yellow Stripes 1",
       "item.zweihanderrp.french_tunic_leggings": "French Tunic ",
+      "item.zweihanderrp.cilicia_tunic_leggings": "Hauberk with Cilician Surcoat",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
@@ -2920,6 +2966,7 @@
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Nordic Helmet ",
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
+      "item.zweihanderrp.byz_segmented_leggings": "Hauberk with Polish Surcoat",
       "subtitles.udar_po_kolchuge": "",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
@@ -2931,6 +2978,7 @@
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
       "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
+      "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Polish Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
       "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
@@ -2958,6 +3006,7 @@
       "itemGroup.tabequipment": "Equipment",
       "item.zweihanderrp.red_tunic_3_leggings": "Hauberk with Red Surcoat and Yellow Stripes 2",
       "item.zweihanderrp.french_tunic_leggings": "Hauberk with French Surcoat",
+      "item.zweihanderrp.cilicia_tunic_leggings": "Hauberk with Cilician Surcoat",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
@@ -3066,6 +3115,7 @@
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.nordic_helmet_3_helmet": "Viking Helmet ",
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
+      "item.zweihanderrp.byz_segmented_leggings": "Hauberk with Polish Surcoat",
       "subtitles.udar_po_kolchuge": "",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",

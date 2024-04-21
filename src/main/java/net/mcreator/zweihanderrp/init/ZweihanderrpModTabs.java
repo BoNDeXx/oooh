@@ -128,6 +128,9 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.YELLOW_TUNIC_3_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.BASCINETKLAPPHEV_HELMET.get());
 				tabData.accept(ZweihanderrpModItems.HELMETINTER_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.CILICIA_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.POLISH_TUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.BYZ_SEGMENTED_LEGGINGS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
