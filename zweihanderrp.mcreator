@@ -126,9 +126,9 @@
       "registry_name": "stone_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
         ]
       },
       "path": "~/Scripts/GUI"
@@ -2709,6 +2709,42 @@
         ]
       },
       "path": "~/Items/Armors"
+    },
+    {
+      "name": "Stonecraft6knife",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraft_6knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Stonecraft6knifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [

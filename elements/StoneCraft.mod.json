@@ -106,6 +106,9 @@
           "name": "button_knife",
           "text": "Knife",
           "isUndecorated": false,
+          "onClick": {
+            "name": "Stonecraft6knife"
+          },
           "width": 61,
           "height": 20,
           "x": 214,

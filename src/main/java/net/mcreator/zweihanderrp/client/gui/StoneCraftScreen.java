@@ -139,6 +139,10 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 		guistate.put("button:button_arrowhead", button_arrowhead);
 		this.addRenderableWidget(button_arrowhead);
 		button_knife = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_knife"), e -> {
+			if (true) {
+				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(5, x, y, z));
+				StoneCraftButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}).bounds(this.leftPos + 92, this.topPos + 76, 61, 20).build();
 		guistate.put("button:button_knife", button_knife);
 		this.addRenderableWidget(button_knife);
