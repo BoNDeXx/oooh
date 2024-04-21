@@ -1,0 +1,7 @@
+{
+  "parent": "zweihanderrp:custom/heater_plain_blocking",
+  "textures": {
+    "1": "zweihanderrp:block/heater_base",
+    "particle": "zweihanderrp:item/heater_base"
+  }
+}

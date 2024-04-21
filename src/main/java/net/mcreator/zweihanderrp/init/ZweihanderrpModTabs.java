@@ -131,6 +131,8 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.CILICIA_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.POLISH_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.BYZ_SEGMENTED_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.SHIELD_1.get());
+				tabData.accept(ZweihanderrpModItems.BUCKLER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

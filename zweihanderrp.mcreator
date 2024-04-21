@@ -2745,6 +2745,38 @@
         ]
       },
       "path": "~/Items/Blocks"
+    },
+    {
+      "name": "Shield1",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/Shield1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/shield_1.json",
+          "src/main/resources/assets/zweihanderrp/models/item/shield_1_0.json"
+        ]
+      },
+      "path": "~/Items/Weapons"
+    },
+    {
+      "name": "Buckler",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buckler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/buckler.json",
+          "src/main/resources/assets/zweihanderrp/models/item/buckler_0.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BucklerItem.java"
+        ]
+      },
+      "path": "~/Items/Weapons"
     }
   ],
   "variable_elements": [
@@ -2753,6 +2785,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "10.0"
+    },
+    {
+      "name": "modidshieldtimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -2865,11 +2903,11 @@
     "ru_ru": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Cilician Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -2909,6 +2947,7 @@
       "item.zweihanderrp.templarkit_leggings": "Templar Mail And Tunic",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Tophelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
+      "item.zweihanderrp.shield_1": "Shield 1",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
@@ -3005,6 +3044,7 @@
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "item.zweihanderrp.byz_segmented_leggings": "Hauberk with Polish Surcoat",
       "subtitles.udar_po_kolchuge": "",
+      "item.zweihanderrp.buckler": "Buckler",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Маленькая сыродутная печь",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",
@@ -3014,11 +3054,11 @@
     "en_us": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Polish Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat 2",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -3058,6 +3098,7 @@
       "item.zweihanderrp.templarkit_leggings": "Templar Mail And Tunic",
       "item.zweihanderrp.redtophelm_helmet": "Red Painted Topfhelm ",
       "item.zweihanderrp.rich_cuirass_chestplate": "Rich Cuirass With Pauldrons",
+      "item.zweihanderrp.shield_1": "Heater Shield",
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
@@ -3154,6 +3195,7 @@
       "item.zweihanderrp.cheap_armor_iron_helmet": "Cheap Iron Helmet",
       "item.zweihanderrp.byz_segmented_leggings": "Byzantine Scale Hauberk",
       "subtitles.udar_po_kolchuge": "",
+      "item.zweihanderrp.buckler": "Buckler",
       "item_group.zweihanderrp.equipment": "Equipment",
       "block.zweihander_test.syrodut": "Rennofen",
       "item.zweihanderrp.crude_govno_cuirass_chestplate": "Crude Cuirass",

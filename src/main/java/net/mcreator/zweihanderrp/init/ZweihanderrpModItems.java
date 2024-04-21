@@ -13,6 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
@@ -36,6 +37,7 @@ import net.mcreator.zweihanderrp.item.StoneHoeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneAxeHeadItem;
 import net.mcreator.zweihanderrp.item.StoneArrowHeadItem;
 import net.mcreator.zweihanderrp.item.SimpleCuirassItem;
+import net.mcreator.zweihanderrp.item.Shield1Item;
 import net.mcreator.zweihanderrp.item.ScottishtunicItem;
 import net.mcreator.zweihanderrp.item.SchichtItem;
 import net.mcreator.zweihanderrp.item.SalletItem;
@@ -97,6 +99,7 @@ import net.mcreator.zweihanderrp.item.ChainmailshirtredItem;
 import net.mcreator.zweihanderrp.item.ChainmailshirtpurpItem;
 import net.mcreator.zweihanderrp.item.ChainmailshirtdefaultItem;
 import net.mcreator.zweihanderrp.item.ByzSegmentedItem;
+import net.mcreator.zweihanderrp.item.BucklerItem;
 import net.mcreator.zweihanderrp.item.BluedsalletItem;
 import net.mcreator.zweihanderrp.item.BluedPauldronsItem;
 import net.mcreator.zweihanderrp.item.BluedKlapvisorItem;
@@ -223,6 +226,8 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> CILICIA_TUNIC_LEGGINGS = REGISTRY.register("cilicia_tunic_leggings", () -> new CiliciaTunicItem.Leggings());
 	public static final RegistryObject<Item> POLISH_TUNIC_LEGGINGS = REGISTRY.register("polish_tunic_leggings", () -> new PolishTunicItem.Leggings());
 	public static final RegistryObject<Item> BYZ_SEGMENTED_LEGGINGS = REGISTRY.register("byz_segmented_leggings", () -> new ByzSegmentedItem.Leggings());
+	public static final RegistryObject<Item> SHIELD_1 = REGISTRY.register("shield_1", () -> new Shield1Item());
+	public static final RegistryObject<Item> BUCKLER = REGISTRY.register("buckler", () -> new BucklerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
@@ -233,6 +238,8 @@ public class ZweihanderrpModItems {
 		event.enqueueWork(() -> {
 			ItemProperties.register(KRICA.get(), new ResourceLocation("zweihanderrp:krica_krica_temperature"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) KricaPropertyTemperatureProcedure
 					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0, entity));
+			ItemProperties.register(SHIELD_1.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
+			ItemProperties.register(BUCKLER.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
 		});
 	}
 }

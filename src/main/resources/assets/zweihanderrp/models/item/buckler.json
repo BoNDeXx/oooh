@@ -1,0 +1,16 @@
+{
+  "parent": "zweihanderrp:custom/buckler",
+  "textures": {
+    "1": "zweihanderrp:block/buckler",
+    "missing": "zweihanderrp:block/buckler",
+    "particle": "zweihanderrp:item/buckler"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "zweihanderrp:item/buckler_0"
+    }
+  ]
+}
