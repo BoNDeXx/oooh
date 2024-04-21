@@ -106,6 +106,28 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModItems.FRENCH_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.JERUS_TUNIC_LEGGINGS.get());
 				tabData.accept(ZweihanderrpModItems.GREENHOODANIM_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.NASALHELMET_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.CHAINMAILSHIRTRED_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.CHAINMAILSHIRTDEFAULT_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.CHAINMAILSHIRTDEFAULT_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.NORWEGIANTUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.SCOTTISHTUNIC_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.RED_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.RED_TUNIC_2_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.RED_TUNIC_3_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.RED_TUNIC_4_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.GREEN_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.GREEN_TUNIC_2_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.GREEN_TUNIC_3_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.PURPLE_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.PURPLE_TUNIC_2_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.PURPLE_TUNIC_3_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.BLACK_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.YELLOW_TUNIC_1_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.YELLOW_TUNIC_2_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.YELLOW_TUNIC_3_LEGGINGS.get());
+				tabData.accept(ZweihanderrpModItems.BASCINETKLAPPHEV_HELMET.get());
+				tabData.accept(ZweihanderrpModItems.HELMETINTER_HELMET.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -113,6 +135,7 @@ public class ZweihanderrpModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ZweihanderrpModItems.TEUTON_TUNIC_LEGGINGS.get());
+			tabData.accept(ZweihanderrpModItems.CHAINMAILSHIRTPURP_LEGGINGS.get());
 		}
 	}
 }

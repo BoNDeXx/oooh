@@ -16,7 +16,7 @@
     "armorTextureFile": "arb1_",
     "helmetName": "Blue Tunik 3 Helmet",
     "bodyName": "Blue Tunik 3 Body",
-    "leggingsName": "Chainmail With Blue Surcoat With Red Stripes",
+    "leggingsName": "Hauberk With Blue Surcoat With Red Stripes",
     "bootsName": "Blue Tunik 3 Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
@@ -58,6 +58,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 2,
     "damageValueBody": 6,

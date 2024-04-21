@@ -16,7 +16,7 @@
     "armorTextureFile": "eseta_",
     "helmetName": "Blue Tunik 1 Helmet",
     "bodyName": "Blue Tunik 1 Body",
-    "leggingsName": "Blue Tunik ",
+    "leggingsName": "Hauberk with Blue Surcoat",
     "bootsName": "Blue Tunik 1 Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
@@ -58,6 +58,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 2,
     "damageValueBody": 6,

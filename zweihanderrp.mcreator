@@ -1763,8 +1763,8 @@
       "registry_name": "hospitaller_tunic_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1778,8 +1778,8 @@
       "registry_name": "hospitaller_tunic_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2333,6 +2333,337 @@
         ]
       },
       "path": "~/Scripts/GUI/helmetoverlay/armorsound"
+    },
+    {
+      "name": "Nasalhelmet",
+      "type": "armor",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasalhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NasalhelmetItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nasalhelmet_helmet.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Chainmailshirtred",
+      "type": "armor",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailshirtred",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtredItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtred_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Chainmailshirtdefault",
+      "type": "armor",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailshirtdefault",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtdefaultItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json",
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Chainmailshirtpurp",
+      "type": "armor",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailshirtpurp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtpurp_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtpurpItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Norwegiantunic",
+      "type": "armor",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "norwegiantunic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/NorwegiantunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/norwegiantunic_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Scottishtunic",
+      "type": "armor",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scottishtunic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/scottishtunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ScottishtunicItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "RedTunic1",
+      "type": "armor",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tunic_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/RedTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/red_tunic_1_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "RedTunic2",
+      "type": "armor",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tunic_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/red_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RedTunic2Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "RedTunic3",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tunic_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/RedTunic3Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/red_tunic_3_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "RedTunic4",
+      "type": "armor",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_tunic_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/red_tunic_4_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RedTunic4Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "GreenTunic1",
+      "type": "armor",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_tunic_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic1Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "GreenTunic2",
+      "type": "armor",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_tunic_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic2Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "GreenTunic3",
+      "type": "armor",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_tunic_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic3Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_3_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "PurpleTunic1",
+      "type": "armor",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_tunic_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic1Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "PurpleTunic2",
+      "type": "armor",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_tunic_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_2_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "PurpleTunic3",
+      "type": "armor",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_tunic_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic3Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_3_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "BlackTunic1",
+      "type": "armor",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tunic_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/black_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BlackTunic1Item.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "YellowTunic1",
+      "type": "armor",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_tunic_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_1_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "YellowTunic2",
+      "type": "armor",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_tunic_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_2_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "YellowTunic3",
+      "type": "armor",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_tunic_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic3Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_3_leggings.json"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Bascinetklapphev",
+      "type": "armor",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bascinetklapphev",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/bascinetklapphev_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BascinetklapphevItem.java"
+        ]
+      },
+      "path": "~/Items/Armors"
+    },
+    {
+      "name": "Helmetinter",
+      "type": "armor",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetinter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/item/HelmetinterItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/helmetinter_helmet.json"
+        ]
+      },
+      "path": "~/Items/Armors"
     }
   ],
   "variable_elements": [
@@ -2457,9 +2788,13 @@
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
       "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat",
+      "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
+      "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
+      "item.zweihanderrp.red_tunic_4_leggings": "Hauberk with Red Surcoat and Yellow Stripes 2",
       "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
@@ -2473,12 +2808,15 @@
       "subtitles.kolchuga": "",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Основа",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
+      "item.zweihanderrp.nasalhelmet_helmet": "Nasal Helmet",
       "itemGroup.tabequipment": "Equipment",
+      "item.zweihanderrp.red_tunic_3_leggings": "Hauberk with Red Surcoat and Yellow Stripes 1",
       "item.zweihanderrp.french_tunic_leggings": "French Tunic ",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
       "gui.zweihanderrp.smithing_craft.button_1": "1",
+      "item.zweihanderrp.purple_tunic_3_leggings": "Hauberk with Purple Surcoat and White Stripes 2",
       "item.zweihander_test.schicht": "Шихта",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.krica": "Krica",
@@ -2491,11 +2829,13 @@
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
+      "item.zweihanderrp.chainmailshirtdefault_leggings": "Hauberk",
       "subtitles.plate_legs_walk_1": "",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
       "subtitles.plate_legs_walk_2": "",
       "subtitles.plate_legs_walk_3": "",
       "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
+      "item.zweihanderrp.yellow_tunic_2_leggings": "Hauberk with Yellow Surcoat",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
@@ -2510,6 +2850,7 @@
       "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
       "item.zweihanderrp.cheap_armor_iron_leggings": "Cheap Iron Leggings",
       "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
+      "item.zweihanderrp.green_tunic_2_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Nordic Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
       "gui.zweihanderrp.stone_craft.button_arrowhead": "Arrowhead",
@@ -2532,29 +2873,42 @@
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihanderrp.bascinetwithklappvisor_helmet": "Bascinet With Klappvisor ",
       "item.zweihanderrp.blued_cuirass_chestplate": "Blued Cuirass ",
+      "item.zweihanderrp.purple_tunic_1_leggings": "Hauberk with Green Surcoat 3",
+      "item.zweihanderrp.chainmailshirtred_leggings": "Hauberk with Red Belt",
       "item.zweihanderrp.greenhoodanim_helmet": "Greenhoodanim Helmet",
+      "item.zweihanderrp.red_tunic_1_leggings": "Hauberk with Red Surcoat 1",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Klappvisor ",
+      "item.zweihanderrp.norwegiantunic_leggings": "Hauberk with Norwegian Surcoat",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Tophelm ",
+      "item.zweihanderrp.chainmailshirtpurp_leggings": "Hauberk with Purple Belt",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
+      "item.zweihanderrp.purple_tunic_2_leggings": "Hauberk with Purple Surcoat and White Stripes 1",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Tophelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
       "gui.zweihanderrp.stone_craft.button_shovel": "Shovel",
+      "item.zweihanderrp.red_tunic_2_leggings": "Hauberk with Red Surcoat 1",
       "item.zweihanderrp.koife_helmet": "Coif",
       "item.zweihanderrp.blue_tunik_1_leggings": "Blue Tunik ",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
+      "item.zweihanderrp.yellow_tunic_1_leggings": "Hauberk with Yellow Surcoat",
       "item.zweihanderrp.turban_helmet": "Turban ",
+      "item.zweihanderrp.helmetinter_helmet": "Bascinet with Klappvisor 2",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
+      "item.zweihanderrp.scottishtunic_leggings": "Hauberk with Scottish Surcoat",
       "item.zweihanderrp.sallet_helmet": "Sallet",
       "block.zweihanderrp.vstu_plenie": "VSTU Plenie",
+      "item.zweihanderrp.black_tunic_1_leggings": "Hauberk with Purple Surcoat",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallat With Bevor",
+      "item.zweihanderrp.chainmailshirtdefault_helmet": "Blued Topfhelm",
       "item.zweihanderrp.stone_arrow_head": "Knife Head",
       "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
       "subtitles.helmet_sound1m": "",
+      "item.zweihanderrp.green_tunic_3_leggings": "Hauberk with Green Surcoat 2",
       "item.zweihanderrp.bacinet_helmet": "Bacinet",
       "subtitles.plate_chest_walk_1": "",
       "subtitles.plate_chest_walk_2": "",
@@ -2576,13 +2930,17 @@
     "en_us": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
+      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
       "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat 2",
+      "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
+      "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
       "item.zweihanderrp.stone_axe_head": "Axe Head",
       "item.zweihander_test.stone_knife_head": "Knife Head",
       "gui.zweihanderrp.stone_craft.button_knife": "Knife",
+      "item.zweihanderrp.red_tunic_4_leggings": "Hauberk with Red Surcoat and Yellow Stripes 3",
       "item.zweihanderrp.cheap_armor_iron_chestplate": "Cheap Iron Chestplate",
       "item.zweihanderrp.stone_shovel_head": "Stone Shovel Head",
       "item.zweihander_test.stone_hoe_head": "Hoe Head",
@@ -2596,12 +2954,15 @@
       "subtitles.kolchuga": "",
       "itemGroup.tabzweihander_rp_core": "ZweihanderRP Core",
       "item.zweihanderrp.engravedbarbute_helmet": "Engraved Barbute ",
+      "item.zweihanderrp.nasalhelmet_helmet": "Nasal Helmet",
       "itemGroup.tabequipment": "Equipment",
-      "item.zweihanderrp.french_tunic_leggings": "French Tunic ",
+      "item.zweihanderrp.red_tunic_3_leggings": "Hauberk with Red Surcoat and Yellow Stripes 2",
+      "item.zweihanderrp.french_tunic_leggings": "Hauberk with French Surcoat",
       "item.zweihanderrp.red_painted_pauldrons_chestplate": "Red Painted Pauldrons ",
       "gui.zweihanderrp.smithing_craft.button_2": "2",
       "item.zweihanderrp.leather_brigandine_chestplate": "Leather Brigandine ",
       "gui.zweihanderrp.smithing_craft.button_1": "1",
+      "item.zweihanderrp.purple_tunic_3_leggings": "Hauberk with Purple Surcoat",
       "item.zweihander_test.schicht": "Schicht",
       "item.zweihanderrp.stone_pickaxe_head": "Pickaxe Head",
       "item.zweihanderrp.krica": "Krica",
@@ -2614,11 +2975,13 @@
       "item.zweihanderrp.iberian_helmet_helmet": "Iberian Helmet ",
       "item.zweihander_test.rope": "Rope",
       "item.zweihanderrp.engraved_cuirass_chestplate": "Engraved Cuirass",
+      "item.zweihanderrp.chainmailshirtdefault_leggings": "Hauberk",
       "subtitles.plate_legs_walk_1": "",
       "gui.zweihanderrp.stone_craft.label_pebble_carving": "Pebble Carving",
       "subtitles.plate_legs_walk_2": "",
       "subtitles.plate_legs_walk_3": "",
       "item.zweihanderrp.templarkit_helmet": "Templar Topfhelm",
+      "item.zweihanderrp.yellow_tunic_2_leggings": "Hauberk with Yellow and Black Surcoat 1",
       "gui.zweihanderrp.stone_craft.button_axe": "Axe",
       "gui.zweihanderrp.smithing_craft.button_forging": "Forging",
       "item.zweihanderrp.crude_cuirass_chestplate": "Crude Cuirass",
@@ -2630,14 +2993,15 @@
       "block.zweihanderrp.land_rock": "Land Rock",
       "subtitles.mortarpestesound": "",
       "item.zweihanderrp.nodic_helmet_6_helmet": "Anglo-Saxon Helmet ",
-      "item.zweihanderrp.blue_tunik_3_leggings": "Chainmail With Blue Surcoat With Red Stripes",
+      "item.zweihanderrp.blue_tunik_3_leggings": "Hauberk With Blue Surcoat With Red Stripes",
       "item.zweihanderrp.cheap_armor_iron_leggings": "Cheap Iron Leggings",
       "gui.zweihanderrp.stone_craft.button_hoe": "Hoe",
+      "item.zweihanderrp.green_tunic_2_leggings": "Hauberk with Green Surcoat 2",
       "item.zweihanderrp.nordic_helmet_5_helmet": "Leather Reinforced Viking Helmet ",
       "item.zweihanderrp.stone_hoe_head": "Hoe Head",
       "gui.zweihanderrp.stone_craft.button_arrowhead": "Arrowhead",
       "block.zweihanderrp.govno_small_anvil": "Small Anvil",
-      "item.zweihanderrp.hospitaller_tunic_1_leggings": "Hospitaller Black Tunic",
+      "item.zweihanderrp.hospitaller_tunic_1_leggings": "Hauberk with Hospitaller Surcoat",
       "item.zweihanderrp.blued_pauldrons_chestplate": "Blued Pauldrons ",
       "item.zweihanderrp.pauldrons_standard_leather_chestplate": "Leather Covered Pauldrons Standard ",
       "item_group.zweihanderrp.zweihander_rp_core": "ZweihanderRP Core",
@@ -2655,35 +3019,48 @@
       "item.zweihanderrp.coal_dust": "Coal Dust",
       "item.zweihanderrp.bascinetwithklappvisor_helmet": "Bascinet With Klappvisor ",
       "item.zweihanderrp.blued_cuirass_chestplate": "Painted Cuirass ",
+      "item.zweihanderrp.purple_tunic_1_leggings": "Hauberk with Purple Surcoat and White Stripes 1",
+      "item.zweihanderrp.chainmailshirtred_leggings": "Hauberk with Red Belt",
       "item.zweihanderrp.greenhoodanim_helmet": "Greenhoodanim Helmet",
+      "item.zweihanderrp.red_tunic_1_leggings": "Hauberk with Red Surcoat 1",
       "subtitles.carve_pebble_sound": "",
       "item.zweihanderrp.rich_klappviser_helmet": "Bascinet With Engraved Klappvisor ",
+      "item.zweihanderrp.norwegiantunic_leggings": "Hauberk with Norwegian Surcoat",
       "item.zweihanderrp.arabic_tunik_leggings": "Arabic Tunik ",
       "item.zweihanderrp.rope": "Rope",
       "item.zweihanderrp.engraved_tophelm_helmet": "Engraved Topfhelm ",
+      "item.zweihanderrp.chainmailshirtpurp_leggings": "Hauberk with Purple Belt",
       "item.zweihanderrp.barbute_helmet": "Barbute ",
+      "item.zweihanderrp.purple_tunic_2_leggings": "Hauberk with Purple Surcoat and White Stripes 2",
       "item.zweihanderrp.templarkit_chestplate": "Large Mail Standard",
       "block.zweihanderrp.syrodut": "Rennofen",
       "item.zweihanderrp.tophelm_helmet": "Topfhelm ",
       "item.zweihanderrp.full_cuirass_chestplate": "Full Cuirass ",
       "gui.zweihanderrp.stone_craft.button_shovel": "Shovel",
+      "item.zweihanderrp.red_tunic_2_leggings": "Hauberk with Red Surcoat and Yellow Stripes 1",
       "item.zweihanderrp.koife_helmet": "Mail Coif",
-      "item.zweihanderrp.blue_tunik_1_leggings": "Blue Tunik ",
+      "item.zweihanderrp.blue_tunik_1_leggings": "Hauberk with Blue Surcoat",
       "item.zweihanderrp.bluedsallet_helmet": "Blued Sallet ",
+      "item.zweihanderrp.yellow_tunic_1_leggings": "Hauberk with Yellow Surcoat",
       "item.zweihanderrp.turban_helmet": "Turban ",
+      "item.zweihanderrp.helmetinter_helmet": "Topfhelm with Visor",
       "item.zweihanderrp.romanarmor_helmet": "Roman Helmet",
+      "item.zweihanderrp.scottishtunic_leggings": "Hauberk with Scottish Surcoat",
       "item.zweihanderrp.sallet_helmet": "Sallet",
       "block.zweihanderrp.vstu_plenie": "Mortar and Pestle",
+      "item.zweihanderrp.black_tunic_1_leggings": "Hauberk with Black Surcoat",
       "item.zweihanderrp.h_zhelmete_helmet": "Sallet With Bevor",
+      "item.zweihanderrp.chainmailshirtdefault_helmet": "Blued Topfhelm",
       "item.zweihanderrp.stone_arrow_head": "Stone Arrow Head",
-      "item.zweihanderrp.english_tunic_leggings": "English Tunic ",
+      "item.zweihanderrp.english_tunic_leggings": "Hauberk with English Surcoat",
       "subtitles.helmet_sound1m": "",
+      "item.zweihanderrp.green_tunic_3_leggings": "Hauberk with Green Surcoat 3",
       "item.zweihanderrp.bacinet_helmet": "Bascinet",
       "subtitles.plate_chest_walk_1": "",
       "subtitles.plate_chest_walk_2": "",
-      "item.zweihanderrp.blue_tunik_2_leggings": "Chainmail With Blue Surcoat",
+      "item.zweihanderrp.blue_tunik_2_leggings": "Hauberk With Blue Surcoat 2",
       "subtitles.plate_chest_walk_3": "",
-      "item.zweihanderrp.hospitaller_tunic_2_leggings": "Hospitaller Red Tunic",
+      "item.zweihanderrp.hospitaller_tunic_2_leggings": "Hauberk with Red Hospitaller Tunic",
       "item.zweihander_test.stone_axe_head": "Axe Head",
       "item.zweihanderrp.treated_critz": "Treated Critz",
       "item.zweihander_test.stone_pickaxe_head": "Pickaxe Head",
