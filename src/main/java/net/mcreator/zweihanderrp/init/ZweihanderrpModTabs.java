@@ -40,6 +40,7 @@ public class ZweihanderrpModTabs {
 				tabData.accept(ZweihanderrpModBlocks.GOVNO_SMALL_ANVIL.get().asItem());
 				tabData.accept(ZweihanderrpModItems.TREATED_CRITZ.get());
 				tabData.accept(ZweihanderrpModItems.STONE_ARROW_HEAD.get());
+				tabData.accept(ZweihanderrpModItems.IRON_FORGING_HAMMER.get());
 			})
 
 					.build());

@@ -1,0 +1,7 @@
+{
+  "parent": "zweihanderrp:custom/forginghammer",
+  "textures": {
+    "0": "zweihanderrp:block/metalsword1",
+    "particle": "zweihanderrp:item/battleaxe"
+  }
+}

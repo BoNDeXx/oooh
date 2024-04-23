@@ -71,6 +71,7 @@ import net.mcreator.zweihanderrp.item.LeatherBrigandineItem;
 import net.mcreator.zweihanderrp.item.KricaItem;
 import net.mcreator.zweihanderrp.item.KoifeItem;
 import net.mcreator.zweihanderrp.item.JerusTunicItem;
+import net.mcreator.zweihanderrp.item.IronForgingHammerItem;
 import net.mcreator.zweihanderrp.item.IberianHelmetItem;
 import net.mcreator.zweihanderrp.item.HungarianTunicItem;
 import net.mcreator.zweihanderrp.item.HospitallerTunic2Item;
@@ -228,6 +229,7 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> BYZ_SEGMENTED_LEGGINGS = REGISTRY.register("byz_segmented_leggings", () -> new ByzSegmentedItem.Leggings());
 	public static final RegistryObject<Item> SHIELD_1 = REGISTRY.register("shield_1", () -> new Shield1Item());
 	public static final RegistryObject<Item> BUCKLER = REGISTRY.register("buckler", () -> new BucklerItem());
+	public static final RegistryObject<Item> IRON_FORGING_HAMMER = REGISTRY.register("iron_forging_hammer", () -> new IronForgingHammerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
