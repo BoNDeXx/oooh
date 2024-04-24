@@ -126,9 +126,9 @@
       "registry_name": "stone_craft",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java"
         ]
       },
       "path": "~/Scripts/GUI"
@@ -915,8 +915,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1313,6 +1313,10 @@
           "src/main/java/net/mcreator/zweihanderrp/procedures/WoodstupkaOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -1763,8 +1767,8 @@
       "registry_name": "hospitaller_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1778,8 +1782,8 @@
       "registry_name": "hospitaller_tunic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1825,8 +1829,8 @@
       "registry_name": "french_tunic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2373,9 +2377,9 @@
       "registry_name": "chainmailshirtdefault",
       "metadata": {
         "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json",
           "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtdefaultItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json",
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2509,8 +2513,8 @@
       "registry_name": "green_tunic_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_2_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic2Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_2_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2539,8 +2543,8 @@
       "registry_name": "purple_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2554,8 +2558,8 @@
       "registry_name": "purple_tunic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic2Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_2_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic2Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2569,8 +2573,8 @@
       "registry_name": "purple_tunic_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic3Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_3_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_3_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic3Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2584,8 +2588,8 @@
       "registry_name": "black_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/black_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BlackTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/BlackTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/black_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2599,8 +2603,8 @@
       "registry_name": "yellow_tunic_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic1Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_1_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic1Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2629,8 +2633,8 @@
       "registry_name": "yellow_tunic_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic3Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_3_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_3_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic3Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2674,8 +2678,8 @@
       "registry_name": "cilicia_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/cilicia_tunic_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/CiliciaTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/CiliciaTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/cilicia_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2755,9 +2759,9 @@
       "registry_name": "shield_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/Shield1Item.java",
           "src/main/resources/assets/zweihanderrp/models/item/shield_1.json",
-          "src/main/resources/assets/zweihanderrp/models/item/shield_1_0.json"
+          "src/main/resources/assets/zweihanderrp/models/item/shield_1_0.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/Shield1Item.java"
         ]
       },
       "path": "~/Items/Weapons"
@@ -2771,9 +2775,9 @@
       "registry_name": "buckler",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/buckler.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BucklerItem.java",
           "src/main/resources/assets/zweihanderrp/models/item/buckler_0.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BucklerItem.java"
+          "src/main/resources/assets/zweihanderrp/models/item/buckler.json"
         ]
       },
       "path": "~/Items/Weapons"
@@ -2918,11 +2922,11 @@
     "ru_ru": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Cilician Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -3070,11 +3074,11 @@
     "en_us": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Polish Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat 2",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -3321,7 +3325,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "geckolib"
+      "mcreator_link",
+      "geckolib",
+      "playeranimator"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

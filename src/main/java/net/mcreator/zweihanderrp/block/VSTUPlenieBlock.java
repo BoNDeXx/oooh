@@ -122,7 +122,7 @@ public class VSTUPlenieBlock extends BaseEntityBlock implements EntityBlock {
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		WoodstupkaOnBlockRightClickedProcedure.execute(world, x, y, z);
+		WoodstupkaOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
