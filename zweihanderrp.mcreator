@@ -838,8 +838,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/blued_klapvisor_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BluedKlapvisorItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedKlapvisorItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/blued_klapvisor_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
