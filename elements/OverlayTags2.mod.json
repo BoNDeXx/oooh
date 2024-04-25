@@ -24,6 +24,15 @@
       },
       {
         "value": "CUSTOM:Templarkit.helmet"
+      },
+      {
+        "value": "CUSTOM:CheapArmorIron.helmet"
+      },
+      {
+        "value": "CUSTOM:Chainmailshirtdefault.helmet"
+      },
+      {
+        "value": "CUSTOM:Helmetinter.helmet"
       }
     ],
     "blocks": [],
