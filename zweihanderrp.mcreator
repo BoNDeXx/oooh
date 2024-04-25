@@ -2824,6 +2824,27 @@
         ]
       },
       "path": "~/Scripts/GUI/helmetoverlay"
+    },
+    {
+      "name": "Overlaystuff3",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlaystuff_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/Overlaystuff3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts/GUI/helmetoverlay"
     }
   ],
   "variable_elements": [
