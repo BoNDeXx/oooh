@@ -2,243 +2,90 @@
   "_fv": 57,
   "_type": "gui",
   "definition": {
-    "type": 1,
-    "width": 183,
-    "height": 185,
+    "type": 0,
+    "width": 50,
+    "height": 70,
     "inventoryOffsetX": 1,
     "inventoryOffsetY": 10,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
-        "type": "label",
+        "type": "imagebutton",
         "data": {
-          "name": "label_pebble_carving",
-          "text": {
-            "fixedValue": "Pebble Carving"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 177,
-          "y": 35
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_pickaxe",
-          "text": "Pickaxe",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Stonecraft4Pixcale"
-          },
-          "width": 61,
-          "height": 20,
-          "x": 133,
-          "y": 104
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_hoe",
-          "text": "Hoe",
-          "isUndecorated": false,
+          "name": "imagebutton_stone_hoe_baza",
+          "image": "stone_hoe_baza.png",
+          "hoveredImage": "stone_hoe_baza_how.png",
           "onClick": {
             "name": "Stonecraft3Hoe"
           },
-          "width": 61,
-          "height": 20,
-          "x": 133,
-          "y": 77
+          "x": 194,
+          "y": 130
         }
       },
       {
-        "type": "button",
+        "type": "imagebutton",
         "data": {
-          "name": "button_axe",
-          "text": "Axe",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Stonecraft1click"
-          },
-          "width": 61,
-          "height": 20,
-          "x": 133,
-          "y": 50
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_shovel",
-          "text": "Shovel",
-          "isUndecorated": false,
+          "name": "imagebutton_stone_shovel_baza",
+          "image": "stone_shovel_baza.png",
+          "hoveredImage": "stone_shovel_baza_how.png",
           "onClick": {
             "name": "Stonecraft2Shoveclick"
           },
-          "width": 61,
-          "height": 20,
           "x": 214,
-          "y": 50
+          "y": 130
         }
       },
       {
-        "type": "button",
+        "type": "imagebutton",
         "data": {
-          "name": "button_arrowhead",
-          "text": "Arrowhead",
-          "isUndecorated": false,
+          "name": "imagebutton_arrow_baza",
+          "image": "arrow_baza.png",
+          "hoveredImage": "arrow_baza_how.png",
           "onClick": {
             "name": "Stonecraft5arrowhedus"
           },
-          "width": 61,
-          "height": 20,
-          "x": 214,
-          "y": 77
+          "x": 194,
+          "y": 110
         }
       },
       {
-        "type": "button",
+        "type": "imagebutton",
         "data": {
-          "name": "button_knife",
-          "text": "Knife",
-          "isUndecorated": false,
+          "name": "imagebutton_stone_axe_baza",
+          "image": "stone_axe_baza.png",
+          "hoveredImage": "stone_axe_baza_how.png",
+          "onClick": {
+            "name": "Stonecraft1click"
+          },
+          "x": 214,
+          "y": 110
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_stone_pickaxe_baza",
+          "image": "stone_pickaxe_baza.png",
+          "hoveredImage": "stone_pickaxe_baza_how.png",
+          "onClick": {
+            "name": "Stonecraft4Pixcale"
+          },
+          "x": 194,
+          "y": 90
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_stone_sword_baza",
+          "image": "stone_sword_baza.png",
+          "hoveredImage": "stone_sword_baza_how.png",
           "onClick": {
             "name": "Stonecraft6knife"
           },
-          "width": 61,
-          "height": 20,
           "x": 214,
-          "y": 104
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 196,
-          "y": 50
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "stone_axe_baza.png",
-          "use1Xscale": false,
-          "x": 196,
-          "y": 50
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 1,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 196,
-          "y": 77
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 2,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 196,
-          "y": 104
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 3,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 277,
-          "y": 104
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "stone_hoe_baza.png",
-          "use1Xscale": false,
-          "x": 196,
-          "y": 77
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "stone_pickaxe_baza.png",
-          "use1Xscale": false,
-          "x": 196,
-          "y": 104
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 4,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 277,
-          "y": 50
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 277,
-          "y": 77
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "stone_shovel_baza.png",
-          "use1Xscale": false,
-          "x": 277,
-          "y": 50
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "stone_sword_baza.png",
-          "use1Xscale": false,
-          "x": 277,
-          "y": 104
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "arrow_head.png",
-          "use1Xscale": false,
-          "x": 277,
-          "y": 77
+          "y": 90
         }
       }
     ],
@@ -247,7 +94,7 @@
       "sy": 18,
       "ox": 12,
       "oy": 9,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

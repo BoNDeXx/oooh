@@ -6,7 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.zweihanderrp.world.inventory.StoneCraftMenu;
@@ -22,12 +22,12 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_pickaxe;
-	Button button_hoe;
-	Button button_axe;
-	Button button_shovel;
-	Button button_arrowhead;
-	Button button_knife;
+	ImageButton imagebutton_stone_hoe_baza;
+	ImageButton imagebutton_stone_shovel_baza;
+	ImageButton imagebutton_arrow_baza;
+	ImageButton imagebutton_stone_axe_baza;
+	ImageButton imagebutton_stone_pickaxe_baza;
+	ImageButton imagebutton_stone_sword_baza;
 
 	public StoneCraftScreen(StoneCraftMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -36,8 +36,8 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 183;
-		this.imageHeight = 185;
+		this.imageWidth = 50;
+		this.imageHeight = 70;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("zweihanderrp:textures/screens/stone_craft.png");
@@ -55,19 +55,6 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_axe_baza.png"), this.leftPos + 74, this.topPos + 22, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_hoe_baza.png"), this.leftPos + 74, this.topPos + 49, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_pickaxe_baza.png"), this.leftPos + 74, this.topPos + 76, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_shovel_baza.png"), this.leftPos + 155, this.topPos + 22, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/stone_sword_baza.png"), this.leftPos + 155, this.topPos + 76, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/arrow_head.png"), this.leftPos + 155, this.topPos + 49, 0, 0, 16, 16, 16, 16);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -87,7 +74,6 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.zweihanderrp.stone_craft.label_pebble_carving"), 55, 7, -12829636, false);
 	}
 
 	@Override
@@ -98,53 +84,53 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 	@Override
 	public void init() {
 		super.init();
-		button_pickaxe = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_pickaxe"), e -> {
+		imagebutton_stone_hoe_baza = new ImageButton(this.leftPos + 5, this.topPos + 45, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_hoe_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(0, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 11, this.topPos + 76, 61, 20).build();
-		guistate.put("button:button_pickaxe", button_pickaxe);
-		this.addRenderableWidget(button_pickaxe);
-		button_hoe = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_hoe"), e -> {
+		});
+		guistate.put("button:imagebutton_stone_hoe_baza", imagebutton_stone_hoe_baza);
+		this.addRenderableWidget(imagebutton_stone_hoe_baza);
+		imagebutton_stone_shovel_baza = new ImageButton(this.leftPos + 25, this.topPos + 45, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_shovel_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(1, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 11, this.topPos + 49, 61, 20).build();
-		guistate.put("button:button_hoe", button_hoe);
-		this.addRenderableWidget(button_hoe);
-		button_axe = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_axe"), e -> {
+		});
+		guistate.put("button:imagebutton_stone_shovel_baza", imagebutton_stone_shovel_baza);
+		this.addRenderableWidget(imagebutton_stone_shovel_baza);
+		imagebutton_arrow_baza = new ImageButton(this.leftPos + 5, this.topPos + 25, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_arrow_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(2, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 11, this.topPos + 22, 61, 20).build();
-		guistate.put("button:button_axe", button_axe);
-		this.addRenderableWidget(button_axe);
-		button_shovel = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_shovel"), e -> {
+		});
+		guistate.put("button:imagebutton_arrow_baza", imagebutton_arrow_baza);
+		this.addRenderableWidget(imagebutton_arrow_baza);
+		imagebutton_stone_axe_baza = new ImageButton(this.leftPos + 25, this.topPos + 25, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_axe_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(3, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 92, this.topPos + 22, 61, 20).build();
-		guistate.put("button:button_shovel", button_shovel);
-		this.addRenderableWidget(button_shovel);
-		button_arrowhead = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_arrowhead"), e -> {
+		});
+		guistate.put("button:imagebutton_stone_axe_baza", imagebutton_stone_axe_baza);
+		this.addRenderableWidget(imagebutton_stone_axe_baza);
+		imagebutton_stone_pickaxe_baza = new ImageButton(this.leftPos + 5, this.topPos + 5, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_pickaxe_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(4, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
-		}).bounds(this.leftPos + 92, this.topPos + 49, 61, 20).build();
-		guistate.put("button:button_arrowhead", button_arrowhead);
-		this.addRenderableWidget(button_arrowhead);
-		button_knife = Button.builder(Component.translatable("gui.zweihanderrp.stone_craft.button_knife"), e -> {
+		});
+		guistate.put("button:imagebutton_stone_pickaxe_baza", imagebutton_stone_pickaxe_baza);
+		this.addRenderableWidget(imagebutton_stone_pickaxe_baza);
+		imagebutton_stone_sword_baza = new ImageButton(this.leftPos + 25, this.topPos + 5, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_sword_baza.png"), 20, 40, e -> {
 			if (true) {
 				ZweihanderrpMod.PACKET_HANDLER.sendToServer(new StoneCraftButtonMessage(5, x, y, z));
 				StoneCraftButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
-		}).bounds(this.leftPos + 92, this.topPos + 76, 61, 20).build();
-		guistate.put("button:button_knife", button_knife);
-		this.addRenderableWidget(button_knife);
+		});
+		guistate.put("button:imagebutton_stone_sword_baza", imagebutton_stone_sword_baza);
+		this.addRenderableWidget(imagebutton_stone_sword_baza);
 	}
 }

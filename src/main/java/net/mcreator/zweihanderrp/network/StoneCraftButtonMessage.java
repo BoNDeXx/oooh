@@ -69,23 +69,23 @@ public class StoneCraftButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			Stonecraft4PixcaleProcedure.execute(world, x, y, z, entity);
+			Stonecraft3HoeProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 
-			Stonecraft3HoeProcedure.execute(world, x, y, z, entity);
+			Stonecraft2ShoveclickProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 2) {
 
-			Stonecraft1clickProcedure.execute(world, x, y, z, entity);
+			Stonecraft5arrowhedusProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 3) {
 
-			Stonecraft2ShoveclickProcedure.execute(world, x, y, z, entity);
+			Stonecraft1clickProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
-			Stonecraft5arrowhedusProcedure.execute(world, x, y, z, entity);
+			Stonecraft4PixcaleProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 

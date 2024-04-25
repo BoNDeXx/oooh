@@ -126,9 +126,9 @@
       "registry_name": "stone_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
         ]
       },
       "path": "~/Scripts/GUI"
