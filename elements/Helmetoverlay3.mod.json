@@ -7,7 +7,7 @@
     "baseTexture": "helmetblur3.png",
     "overlayTarget": "Ingame",
     "displayCondition": {
-      "name": "Overlaystuff2"
+      "name": "Overlaystuff3"
     },
     "gridSettings": {
       "sx": 18,

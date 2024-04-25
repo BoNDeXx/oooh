@@ -15,7 +15,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.zweihanderrp.procedures.Overlaystuff2Procedure;
+import net.mcreator.zweihanderrp.procedures.Overlaystuff3Procedure;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.platform.GlStateManager;
@@ -43,7 +43,7 @@ public class Helmetoverlay3Overlay {
 		RenderSystem.setShader(GameRenderer::getPositionTexShader);
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
-		if (Overlaystuff2Procedure.execute(entity)) {
+		if (Overlaystuff3Procedure.execute(entity)) {
 			event.getGuiGraphics().blit(new ResourceLocation("zweihanderrp:textures/screens/helmetblur3.png"), 0, 0, 0, 0, w, h, w, h);
 		}
 		RenderSystem.depthMask(true);
