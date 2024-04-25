@@ -10,6 +10,9 @@
     "textureLeggings": "cheap_leggings",
     "enableBoots": false,
     "textureBoots": "",
+    "onHelmetTick": {
+      "name": "Overlaystuff2"
+    },
     "creativeTab": {
       "value": "CUSTOM:Equipment"
     },

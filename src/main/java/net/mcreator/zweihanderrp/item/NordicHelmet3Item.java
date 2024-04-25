@@ -18,7 +18,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.zweihanderrp.procedures.OverlaystuffProcedure;
+import net.mcreator.zweihanderrp.procedures.Overlaystuff3Procedure;
 
 import java.util.List;
 
@@ -93,7 +93,7 @@ public abstract class NordicHelmet3Item extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				OverlaystuffProcedure.execute(entity);
+				Overlaystuff3Procedure.execute(entity);
 			}
 		}
 	}

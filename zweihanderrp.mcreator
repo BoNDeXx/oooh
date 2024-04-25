@@ -501,8 +501,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_4_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet4Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet4Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_4_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -539,8 +539,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/nodic_helmet_6_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/NodicHelmet6Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/NodicHelmet6Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/nodic_helmet_6_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -686,8 +686,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/tophelm_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/TophelmItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/TophelmItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/tophelm_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -705,8 +705,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/RedtophelmItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/redtophelm_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/redtophelm_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RedtophelmItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1797,10 +1797,10 @@
       "registry_name": "cheap_armor_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json",
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json",
           "src/main/java/net/mcreator/zweihanderrp/item/CheapArmorIronItem.java",
           "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_chestplate.json",
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2377,9 +2377,9 @@
       "registry_name": "chainmailshirtdefault",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json",
           "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtdefaultItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json",
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json"
         ]
       },
       "path": "~/Items/Armors"

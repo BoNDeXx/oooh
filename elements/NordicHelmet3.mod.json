@@ -11,7 +11,7 @@
     "enableBoots": false,
     "textureBoots": "",
     "onHelmetTick": {
-      "name": "Overlaystuff"
+      "name": "Overlaystuff3"
     },
     "creativeTab": {
       "value": "CUSTOM:Equipment"
