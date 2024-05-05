@@ -27,6 +27,12 @@ description="FOR ERIKUNI BECOUSE MCREATOR IS SHIT!!"
     side="BOTH"
 
 [[dependencies.zweihanderrp]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.zweihanderrp]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"
