@@ -21,6 +21,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/zweihanderrp/models/item/krica.json",
+          "src/main/resources/assets/zweihanderrp/models/item/krica_0.json",
           "src/main/java/net/mcreator/zweihanderrp/item/KricaItem.java"
         ]
       },
@@ -2043,10 +2044,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -2758,6 +2755,42 @@
         ]
       },
       "path": "~/Scripts/GUI/CustomInvrt"
+    },
+    {
+      "name": "SyrodutOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syrodut_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zweihanderrp/procedures/SyrodutOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Blocks"
     }
   ],
   "variable_elements": [

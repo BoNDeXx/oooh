@@ -240,8 +240,8 @@ public class ZweihanderrpModItems {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			ItemProperties.register(KRICA.get(), new ResourceLocation("zweihanderrp:krica_krica_temperature"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) KricaPropertyTemperatureProcedure
-					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0, entity));
+			ItemProperties.register(KRICA.get(), new ResourceLocation("zweihanderrp:krica_krica_temperature"), (itemStackToRender, clientWorld, entity,
+					itemEntityId) -> (float) KricaPropertyTemperatureProcedure.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0));
 			ItemProperties.register(SHIELD_1.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
 			ItemProperties.register(BUCKLER.get(), new ResourceLocation("blocking"), ItemProperties.getProperty(Items.SHIELD, new ResourceLocation("blocking")));
 		});

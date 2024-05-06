@@ -2,5 +2,13 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "zweihanderrp:item/krica"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "zweihanderrp:krica_krica_temperature": 1
+      },
+      "model": "zweihanderrp:item/krica_0"
+    }
+  ]
 }

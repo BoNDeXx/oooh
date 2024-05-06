@@ -28,7 +28,7 @@ public class RennOfenGUIScreen extends AbstractContainerScreen<RennOfenGUIMenu> 
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageHeight = 187;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("zweihanderrp:textures/screens/renn_ofen_gui.png");
@@ -46,6 +46,9 @@ public class RennOfenGUIScreen extends AbstractContainerScreen<RennOfenGUIMenu> 
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("zweihanderrp:textures/screens/rennofengfxdebug.png"), this.leftPos + 38, this.topPos + 6, 0, 0, 94, 91, 94, 91);
+
 		RenderSystem.disableBlend();
 	}
 

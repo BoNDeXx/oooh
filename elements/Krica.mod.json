@@ -10,7 +10,24 @@
         "name": "KricaPropertyTemperature"
       }
     },
-    "states": [],
+    "states": [
+      {
+        "renderType": 1,
+        "texture": "eng_leggings",
+        "customModelName": "buckler:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:krica_temperature",
+              "type": "number"
+            },
+            "value": 1.0
+          }
+        ]
+      }
+    ],
     "name": "Krica",
     "rarity": "COMMON",
     "creativeTab": {
