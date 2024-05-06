@@ -34,7 +34,7 @@ public class Stonecraft6knifeProcedure {
 			}
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(ZweihanderrpModItems.STONE_KNIFE_HEAD.get());
+				ItemStack _setstack = new ItemStack(ZweihanderrpModItems.STONE_KNIFE_HEAD.get()).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}

@@ -231,6 +231,8 @@ public class ZweihanderrpModItems {
 	public static final RegistryObject<Item> BUCKLER = REGISTRY.register("buckler", () -> new BucklerItem());
 	public static final RegistryObject<Item> IRON_FORGING_HAMMER = REGISTRY.register("iron_forging_hammer", () -> new IronForgingHammerItem());
 
+	// Start of user code block custom items
+	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}

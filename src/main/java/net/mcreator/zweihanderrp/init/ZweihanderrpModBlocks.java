@@ -27,6 +27,8 @@ public class ZweihanderrpModBlocks {
 	public static final RegistryObject<Block> VSTU_PLENIE = REGISTRY.register("vstu_plenie", () -> new VSTUPlenieBlock());
 	public static final RegistryObject<Block> GOVNO_SMALL_ANVIL = REGISTRY.register("govno_small_anvil", () -> new GovnoSmallAnvilBlock());
 
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent

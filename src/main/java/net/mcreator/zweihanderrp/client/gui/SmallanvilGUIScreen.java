@@ -96,11 +96,6 @@ public class SmallanvilGUIScreen extends AbstractContainerScreen<SmallanvilGUIMe
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 		imagebutton_button_smith = new ImageButton(this.leftPos + 78, this.topPos + 43, 54, 18, 0, 0, 18, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_button_smith.png"), 54, 36, e -> {

@@ -77,11 +77,6 @@ public class StoneCraftScreen extends AbstractContainerScreen<StoneCraftMenu> {
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 		imagebutton_stone_hoe_baza = new ImageButton(this.leftPos + 5, this.topPos + 45, 20, 20, 0, 0, 20, new ResourceLocation("zweihanderrp:textures/screens/atlas/imagebutton_stone_hoe_baza.png"), 20, 40, e -> {

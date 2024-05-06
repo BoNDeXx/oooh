@@ -119,8 +119,8 @@ public class ZweihanderrpModVariables {
 			return nbt;
 		}
 
-		public void readNBT(Tag Tag) {
-			CompoundTag nbt = (CompoundTag) Tag;
+		public void readNBT(Tag tag) {
+			CompoundTag nbt = (CompoundTag) tag;
 			water_amount = nbt.getDouble("water_amount");
 			modidshieldtimer = nbt.getDouble("modidshieldtimer");
 		}

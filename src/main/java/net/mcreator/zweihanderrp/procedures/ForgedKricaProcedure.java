@@ -31,7 +31,7 @@ public class ForgedKricaProcedure {
 				slot = slot + 1;
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(ZweihanderrpModItems.SCHICHT.get());
+				ItemStack _setstack = new ItemStack(ZweihanderrpModItems.SCHICHT.get()).copy();
 				_setstack.setCount((int) (new Object() {
 					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 						AtomicInteger _retval = new AtomicInteger(0);

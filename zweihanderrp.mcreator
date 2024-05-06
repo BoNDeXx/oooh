@@ -20,8 +20,8 @@
       "registry_name": "krica",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/KricaItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/krica.json"
+          "src/main/resources/assets/zweihanderrp/models/item/krica.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/KricaItem.java"
         ]
       },
       "path": "~/Items/Materials"
@@ -35,11 +35,12 @@
       "registry_name": "syrodut",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/block/SyrodutBlock.java",
+          "src/main/resources/assets/zweihanderrp/models/block/syrodut.json",
+          "src/main/resources/data/zweihanderrp/loot_tables/blocks/syrodut.json",
           "src/main/resources/assets/zweihanderrp/blockstates/syrodut.json",
-          "src/main/resources/assets/zweihanderrp/models/item/syrodut.json",
           "src/main/java/net/mcreator/zweihanderrp/block/entity/SyrodutBlockEntity.java",
-          "src/main/resources/assets/zweihanderrp/models/block/syrodut.json"
+          "src/main/resources/assets/zweihanderrp/models/item/syrodut.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/SyrodutBlock.java"
         ]
       },
       "path": "~/Items/Blocks"
@@ -68,8 +69,8 @@
       "registry_name": "chugunok",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/ChugunokItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/chugunok.json"
+          "src/main/resources/assets/zweihanderrp/models/item/chugunok.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ChugunokItem.java"
         ]
       },
       "path": "~/Items/Materials"
@@ -83,8 +84,8 @@
       "registry_name": "coal_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/CoalDustItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/coal_dust.json"
+          "src/main/resources/assets/zweihanderrp/models/item/coal_dust.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/CoalDustItem.java"
         ]
       },
       "path": "~/Items/Materials"
@@ -98,10 +99,11 @@
       "registry_name": "land_rock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/land_rock.json",
+          "src/main/resources/data/zweihanderrp/loot_tables/blocks/land_rock.json",
           "src/main/resources/assets/zweihanderrp/blockstates/land_rock.json",
+          "src/main/resources/assets/zweihanderrp/models/block/land_rock.json",
           "src/main/java/net/mcreator/zweihanderrp/block/LandRockBlock.java",
-          "src/main/resources/assets/zweihanderrp/models/block/land_rock.json"
+          "src/main/resources/assets/zweihanderrp/models/item/land_rock.json"
         ]
       },
       "path": "~/Items/Blocks"
@@ -126,9 +128,9 @@
       "registry_name": "stone_craft",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java",
           "src/main/java/net/mcreator/zweihanderrp/world/inventory/StoneCraftMenu.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/client/gui/StoneCraftScreen.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/StoneCraftButtonMessage.java"
         ]
       },
       "path": "~/Scripts/GUI"
@@ -229,8 +231,8 @@
       "registry_name": "stone_axe_head",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/StoneAxeHeadItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/stone_axe_head.json"
+          "src/main/resources/assets/zweihanderrp/models/item/stone_axe_head.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneAxeHeadItem.java"
         ]
       },
       "path": "~/Items/Tools"
@@ -244,8 +246,8 @@
       "registry_name": "stone_hoe_head",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/stone_hoe_head.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/StoneHoeHeadItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneHoeHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_hoe_head.json"
         ]
       },
       "path": "~/Items/Tools"
@@ -274,8 +276,8 @@
       "registry_name": "stone_knife_head",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/stone_knife_head.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/StoneKnifeHeadItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneKnifeHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_knife_head.json"
         ]
       },
       "path": "~/Items/Tools"
@@ -289,8 +291,8 @@
       "registry_name": "rope",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/RopeItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/rope.json"
+          "src/main/resources/assets/zweihanderrp/models/item/rope.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RopeItem.java"
         ]
       },
       "path": "~/Items/Tools"
@@ -444,8 +446,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet1Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_1_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_1_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet1Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -501,8 +503,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet4Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_4_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/nordic_helmet_4_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/NordicHelmet4Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -539,8 +541,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/NodicHelmet6Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/nodic_helmet_6_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/nodic_helmet_6_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/NodicHelmet6Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -572,8 +574,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/bacinet_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BacinetItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/BacinetItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/bacinet_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -591,8 +593,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/BarbuteItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/barbute_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/barbute_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BarbuteItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -610,8 +612,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/SalletItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/sallet_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/sallet_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/SalletItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -667,8 +669,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/engraved_tophelm_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/EngravedTophelmItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedTophelmItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_tophelm_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -686,8 +688,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/TophelmItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/tophelm_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/tophelm_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/TophelmItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -705,8 +707,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/redtophelm_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/RedtophelmItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/RedtophelmItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/redtophelm_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -800,8 +802,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/PaintedBarbuteItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/painted_barbute_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/painted_barbute_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PaintedBarbuteItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -838,8 +840,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/BluedKlapvisorItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/blued_klapvisor_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/blued_klapvisor_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedKlapvisorItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -877,8 +879,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/mail_standard_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/MailStandardItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/MailStandardItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/mail_standard_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -896,8 +898,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/KoifeItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/koife_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/koife_helmet.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/KoifeItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -915,8 +917,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/SimpleCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/simple_cuirass_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -934,8 +936,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/full_cuirass_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/FullCuirassItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/FullCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/full_cuirass_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1067,8 +1069,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/EngravedPauldronsItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/engraved_pauldrons_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_pauldrons_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedPauldronsItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1086,8 +1088,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/EngravedCuirassItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/engraved_cuirass_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/engraved_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/EngravedCuirassItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1105,8 +1107,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/RichCuirassItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/rich_cuirass_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/rich_cuirass_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/RichCuirassItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1143,8 +1145,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/black_blued_cuirass_chestplate.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BlackBluedCuirassItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/BlackBluedCuirassItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/black_blued_cuirass_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1162,8 +1164,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/BluedPauldronsItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/blued_pauldrons_chestplate.json"
+          "src/main/resources/assets/zweihanderrp/models/item/blued_pauldrons_chestplate.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BluedPauldronsItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1200,8 +1202,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/turban_helmet.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/TurbanItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/TurbanItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/turban_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1238,8 +1240,8 @@
         "eb": false,
         "ec": false,
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/ArabicTunikItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/arabic_tunik_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/arabic_tunik_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/ArabicTunikItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1346,15 +1348,15 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/block/model/VSTUPlenieDisplayModel.java",
-          "src/main/resources/assets/zweihanderrp/models/custom/vstu_plenie_particle.json",
-          "src/main/java/net/mcreator/zweihanderrp/block/entity/VSTUPlenieTileEntity.java",
-          "src/main/java/net/mcreator/zweihanderrp/block/VSTUPlenieBlock.java",
-          "src/main/resources/assets/zweihanderrp/blockstates/vstu_plenie.json",
-          "src/main/java/net/mcreator/zweihanderrp/block/model/VSTUPlenieBlockModel.java",
-          "src/main/java/net/mcreator/zweihanderrp/block/renderer/VSTUPlenieDisplayItemRenderer.java",
           "src/main/java/net/mcreator/zweihanderrp/block/renderer/VSTUPlenieTileRenderer.java",
           "src/main/java/net/mcreator/zweihanderrp/block/display/VSTUPlenieDisplayItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/vstu_plenie.json"
+          "src/main/resources/assets/zweihanderrp/models/custom/vstu_plenie_particle.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/model/VSTUPlenieBlockModel.java",
+          "src/main/java/net/mcreator/zweihanderrp/block/entity/VSTUPlenieTileEntity.java",
+          "src/main/resources/assets/zweihanderrp/models/item/vstu_plenie.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/VSTUPlenieBlock.java",
+          "src/main/resources/assets/zweihanderrp/blockstates/vstu_plenie.json",
+          "src/main/java/net/mcreator/zweihanderrp/block/renderer/VSTUPlenieDisplayItemRenderer.java"
         ]
       },
       "path": "~/Items/Blocks/ToolsBlocks"
@@ -1368,11 +1370,12 @@
       "registry_name": "govno_small_anvil",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/govno_small_anvil.json",
+          "src/main/resources/assets/zweihanderrp/blockstates/govno_small_anvil.json",
           "src/main/java/net/mcreator/zweihanderrp/block/GovnoSmallAnvilBlock.java",
+          "src/main/resources/data/zweihanderrp/loot_tables/blocks/govno_small_anvil.json",
+          "src/main/resources/assets/zweihanderrp/models/item/govno_small_anvil.json",
           "src/main/resources/assets/zweihanderrp/models/block/govno_small_anvil.json",
-          "src/main/java/net/mcreator/zweihanderrp/block/entity/GovnoSmallAnvilBlockEntity.java",
-          "src/main/resources/assets/zweihanderrp/blockstates/govno_small_anvil.json"
+          "src/main/java/net/mcreator/zweihanderrp/block/entity/GovnoSmallAnvilBlockEntity.java"
         ]
       },
       "path": "~/Items/Blocks/ToolsBlocks"
@@ -1386,10 +1389,10 @@
       "registry_name": "smallanvil_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUISlotMessage.java",
-          "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUIButtonMessage.java",
           "src/main/java/net/mcreator/zweihanderrp/client/gui/SmallanvilGUIScreen.java",
-          "src/main/java/net/mcreator/zweihanderrp/world/inventory/SmallanvilGUIMenu.java"
+          "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUIButtonMessage.java",
+          "src/main/java/net/mcreator/zweihanderrp/world/inventory/SmallanvilGUIMenu.java",
+          "src/main/java/net/mcreator/zweihanderrp/network/SmallanvilGUISlotMessage.java"
         ]
       },
       "path": "~/Scripts/GUI"
@@ -1583,8 +1586,8 @@
       "registry_name": "stone_arrow_head",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/stone_arrow_head.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/StoneArrowHeadItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/StoneArrowHeadItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/stone_arrow_head.json"
         ]
       },
       "path": "~/Items/Tools"
@@ -1691,8 +1694,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/zweihanderrp/item/TemplarkitItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/templarkit_helmet.json",
           "src/main/resources/assets/zweihanderrp/models/item/templarkit_leggings.json",
+          "src/main/resources/assets/zweihanderrp/models/item/templarkit_helmet.json",
           "src/main/resources/assets/zweihanderrp/models/item/templarkit_chestplate.json"
         ]
       },
@@ -1722,8 +1725,8 @@
       "registry_name": "antiochian_tunic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/AntiochianTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/antiochian_tunic_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/antiochian_tunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/AntiochianTunicItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1752,8 +1755,8 @@
       "registry_name": "templar_alt_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/templar_alt_tunic_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/TemplarAltTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/TemplarAltTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/templar_alt_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1767,8 +1770,8 @@
       "registry_name": "hospitaller_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1782,8 +1785,8 @@
       "registry_name": "hospitaller_tunic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/hospitaller_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/HospitallerTunic2Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -1797,10 +1800,10 @@
       "registry_name": "cheap_armor_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json",
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json",
           "src/main/java/net/mcreator/zweihanderrp/item/CheapArmorIronItem.java",
           "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_chestplate.json",
-          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_helmet.json"
+          "src/main/resources/assets/zweihanderrp/models/item/cheap_armor_iron_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -1829,8 +1832,8 @@
       "registry_name": "french_tunic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/french_tunic_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/FrenchTunicItem.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2012,40 +2015,6 @@
       "path": "~/Scripts/Recipes/Forging"
     },
     {
-      "name": "TestTag",
-      "type": "tag",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/test_tag.json"
-        ]
-      },
-      "path": "~/Scripts"
-    },
-    {
-      "name": "KricaTemperature",
-      "type": "procedure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "krica_temperature",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zweihanderrp/procedures/KricaTemperatureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Scripts/ItemScripts"
-    },
-    {
       "name": "RennOfenGUI",
       "type": "gui",
       "sortid": 135,
@@ -2059,20 +2028,6 @@
         ]
       },
       "path": "~/Scripts/GUI"
-    },
-    {
-      "name": "KricaTag",
-      "type": "tag",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "krica_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/krica_tag.json"
-        ]
-      },
-      "path": "~/Scripts/CustomTags"
     },
     {
       "name": "KricaPropertyTemperature",
@@ -2226,34 +2181,6 @@
       "path": "~/Scripts/GUI/helmetoverlay"
     },
     {
-      "name": "OverlayTagsSimple",
-      "type": "tag",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlay_tags_simple",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/overlay_tags_simple.json"
-        ]
-      },
-      "path": "~/Scripts/GUI/helmetoverlay"
-    },
-    {
-      "name": "OverlayTags2",
-      "type": "tag",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlay_tags_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/overlay_tags_2.json"
-        ]
-      },
-      "path": "~/Scripts/GUI/helmetoverlay"
-    },
-    {
       "name": "Overlaystuff2",
       "type": "procedure",
       "sortid": 145,
@@ -2287,20 +2214,6 @@
         ]
       },
       "path": "~/Scripts/GUI/helmetoverlay"
-    },
-    {
-      "name": "Platechestsound",
-      "type": "tag",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "platechestsound",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/platechestsound.json"
-        ]
-      },
-      "path": "~/Scripts/GUI/helmetoverlay/armorsound"
     },
     {
       "name": "Chestsoundproc",
@@ -2377,9 +2290,9 @@
       "registry_name": "chainmailshirtdefault",
       "metadata": {
         "files": [
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json",
           "src/main/java/net/mcreator/zweihanderrp/item/ChainmailshirtdefaultItem.java",
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json",
-          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/chainmailshirtdefault_helmet.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2513,8 +2426,8 @@
       "registry_name": "green_tunic_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_2_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic2Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/GreenTunic2Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/green_tunic_2_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2543,8 +2456,8 @@
       "registry_name": "purple_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2558,8 +2471,8 @@
       "registry_name": "purple_tunic_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic2Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_2_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_2_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic2Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2573,8 +2486,8 @@
       "registry_name": "purple_tunic_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic3Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_3_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/purple_tunic_3_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/PurpleTunic3Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2588,8 +2501,8 @@
       "registry_name": "black_tunic_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/black_tunic_1_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BlackTunic1Item.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/BlackTunic1Item.java",
+          "src/main/resources/assets/zweihanderrp/models/item/black_tunic_1_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2603,8 +2516,8 @@
       "registry_name": "yellow_tunic_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic1Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_1_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_1_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic1Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2633,8 +2546,8 @@
       "registry_name": "yellow_tunic_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic3Item.java",
-          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_3_leggings.json"
+          "src/main/resources/assets/zweihanderrp/models/item/yellow_tunic_3_leggings.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/YellowTunic3Item.java"
         ]
       },
       "path": "~/Items/Armors"
@@ -2678,8 +2591,8 @@
       "registry_name": "cilicia_tunic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/cilicia_tunic_leggings.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/CiliciaTunicItem.java"
+          "src/main/java/net/mcreator/zweihanderrp/item/CiliciaTunicItem.java",
+          "src/main/resources/assets/zweihanderrp/models/item/cilicia_tunic_leggings.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -2759,9 +2672,9 @@
       "registry_name": "shield_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/zweihanderrp/item/Shield1Item.java",
           "src/main/resources/assets/zweihanderrp/models/item/shield_1.json",
-          "src/main/resources/assets/zweihanderrp/models/item/shield_1_0.json"
+          "src/main/resources/assets/zweihanderrp/models/item/shield_1_0.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/Shield1Item.java"
         ]
       },
       "path": "~/Items/Weapons"
@@ -2775,9 +2688,9 @@
       "registry_name": "buckler",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zweihanderrp/models/item/buckler.json",
+          "src/main/java/net/mcreator/zweihanderrp/item/BucklerItem.java",
           "src/main/resources/assets/zweihanderrp/models/item/buckler_0.json",
-          "src/main/java/net/mcreator/zweihanderrp/item/BucklerItem.java"
+          "src/main/resources/assets/zweihanderrp/models/item/buckler.json"
         ]
       },
       "path": "~/Items/Weapons"
@@ -2796,20 +2709,6 @@
         ]
       },
       "path": "~/Items/Tools"
-    },
-    {
-      "name": "OverlayTags3",
-      "type": "tag",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "overlay_tags_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zweihanderrp/tags/items/overlay_tags_3.json"
-        ]
-      },
-      "path": "~/Scripts/GUI/helmetoverlay"
     },
     {
       "name": "Helmetoverlay3",
@@ -2981,15 +2880,70 @@
       "subtitle": ""
     }
   ],
+  "tag_elements": {
+    "ITEMS:mod:overlay_tags_3": [
+      "CUSTOM:NordicHelmet2.helmet",
+      "CUSTOM:NordicHelmet3.helmet",
+      "CUSTOM:NordicHelmet5.helmet",
+      "CUSTOM:NodicHelmet6.helmet",
+      "CUSTOM:Nasalhelmet.helmet"
+    ],
+    "ITEMS:mod:overlay_tags_2": [
+      "CUSTOM:Tophelm.helmet",
+      "CUSTOM:EngravedTophelm.helmet",
+      "CUSTOM:Redtophelm.helmet",
+      "CUSTOM:RichKlappviser.helmet",
+      "CUSTOM:Bascinetwithklappvisor.helmet",
+      "CUSTOM:BluedKlapvisor.helmet",
+      "CUSTOM:Templarkit.helmet",
+      "CUSTOM:CheapArmorIron.helmet",
+      "CUSTOM:Chainmailshirtdefault.helmet",
+      "CUSTOM:Helmetinter.helmet"
+    ],
+    "ITEMS:mod:platechestsound": [
+      "CUSTOM:Romanarmor.body",
+      "CUSTOM:SimpleCuirass.body",
+      "CUSTOM:FullCuirass.body",
+      "CUSTOM:CrudeCuirass.body",
+      "CUSTOM:CrudeGovnoCuirass.body",
+      "CUSTOM:LeatherBrigandine.body",
+      "CUSTOM:EngravedCuirass.body",
+      "CUSTOM:RichCuirass.body",
+      "CUSTOM:BluedCuirass.body",
+      "CUSTOM:BlackBluedCuirass.body",
+      "CUSTOM:CheapArmorIron.body"
+    ],
+    "ITEMS:mod:krica_tag": [
+      "CUSTOM:Krica"
+    ],
+    "ITEMS:mod:overlay_tags_simple": [
+      "CUSTOM:NordicHelmet3.helmet",
+      "CUSTOM:NordicHelmet4.helmet",
+      "CUSTOM:NordicHelmet5.helmet",
+      "CUSTOM:NodicHelmet6.helmet",
+      "CUSTOM:Sallet.helmet",
+      "CUSTOM:Barbute.helmet",
+      "CUSTOM:HZhelmete.helmet",
+      "CUSTOM:HZhelmeteRich.helmet",
+      "CUSTOM:Engravedbarbute.helmet",
+      "CUSTOM:PaintedBarbute.helmet",
+      "CUSTOM:Turban.helmet",
+      "CUSTOM:Bluedsallet.helmet",
+      "CUSTOM:CheapArmorIron.helmet"
+    ],
+    "ITEMS:mod:test_tag": [
+      "CUSTOM:CoalDust"
+    ]
+  },
   "language_map": {
     "ru_ru": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Cilician Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Jerusalem Tunic ",
       "item.zweihanderrp.painted_barbute_helmet": "Barbute ",
-      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Измельченный древесный уголь",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -3138,11 +3092,11 @@
     "en_us": {
       "item.zweihanderrp.stone_knife_head": "Knife Head",
       "item.zweihanderrp.arabic_standard_pauldrons_chestplate": "Arabic Mail Standard ",
-      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.polish_tunic_leggings": "Hauberk with Polish Surcoat",
+      "item.zweihanderrp.jerus_tunic_leggings": "Hauberk with Jerusalem Surcoat",
       "item.zweihanderrp.painted_barbute_helmet": "Painted Barbute ",
-      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.mail_standard_chestplate": "Mail Standard ",
+      "item.zweihander_test.coal_dust": "Coal Dust",
       "item.zweihanderrp.yellow_tunic_3_leggings": "Hauberk with Yellow and Black Surcoat 2",
       "item.zweihanderrp.green_tunic_1_leggings": "Hauberk with Green Surcoat 1",
       "item.zweihanderrp.bascinetklapphev_helmet": "Bascinet with Klappvisor 2",
@@ -3392,7 +3346,6 @@
     "author": "BoNDeX, FGR_UNN, Cerbin",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
@@ -3405,8 +3358,7 @@
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.zweihanderrp",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.zweihanderrp"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400118518
 }

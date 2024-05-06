@@ -18,7 +18,7 @@ public class VSTUPlenieBlockModel extends GeoModel<VSTUPlenieTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(VSTUPlenieTileEntity entity) {
+	public ResourceLocation getTextureResource(VSTUPlenieTileEntity animatable) {
 		return new ResourceLocation("zweihanderrp", "textures/block/birch_planks.png");
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "animatedblock",
   "definition": {
     "texture": "birch_planks",
@@ -101,13 +101,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -137,6 +130,7 @@
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
     "normal": "stupipestikw_-_converted_-_converted.geo_-_converted.geo.json",
-    "displaySettings": "stupipestikw_-_converted_-_converted.item_-_converted.geo.json"
+    "displaySettings": "stupipestikw_-_converted_-_converted.item_-_converted.geo.json",
+    "blockstateList": []
   }
 }
